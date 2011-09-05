@@ -1,0 +1,41 @@
+<div style="color:black; margin-top:10px; margin-left:10px; margin-right:10px; height:400px; overflow:auto">
+  <table class="table">
+    <tr>
+      <th class="first"><%= I18n.t('operation') %></th>
+      <th><%= I18n.t('evaluation') %></th>
+      <th><%= I18n.t('evaluator') %></th>
+      <th><%= I18n.t('eval_targets') %></th>
+      <th class="last"><%= I18n.t('evaluated_scores') %></th>
+    </tr>
+    <% @evaluations.each do |evaluation| -%>
+      <tr>
+        <td>
+          <%= case evaluation.modification
+              when :destroyed
+                %(<span style="color:red">#{ I18n.t('delete') }</span>).html_safe
+              when :created
+                %(<span style="color:green">#{ I18n.t('create') }</span>).html_safe
+              else
+                evaluation.modification
+              end %>
+        </td>
+        <td>
+          <%= evaluation.evaluation_order.name %>
+        </td>
+        <td>
+          <%= evaluation.user.name %>
+        </td>
+        <td>
+          <%= evaluation.object_user.name %>
+        </td>
+        <td>
+          <% if evaluation.scores.empty? -%>
+            <span style="color:green"><%= I18n.t('condition_no') %></span>
+          <% else -%>
+            <span style="color:red"><%= I18n.t('condition_yes') %></span>
+          <% end -%>
+        </td>
+      </tr>
+    <% end -%>
+  </table>
+</div>

@@ -1,0 +1,18 @@
+<p>
+  <b>Name:</b>
+  <%=h @qualification.name %>
+</p>
+
+<p>
+  <b>Created at:</b>
+  <%=h @qualification.created_at %>
+</p>
+
+<p>
+  <b>Updated at:</b>
+  <%=h @qualification.updated_at %>
+</p>
+
+
+<%= link_to 'Edit', edit_qualification_path(@qualification) %> |
+<%= link_to 'Back', qualifications_path %>

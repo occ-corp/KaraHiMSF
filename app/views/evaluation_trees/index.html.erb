@@ -1,0 +1,464 @@
+<% javascript_tag do -%>
+function build_sexp_recursively(id) {
+  return [id, $A($('sortable_list_' + id).children).collect(function(e){
+    return build_sexp_recursively(e.id.gsub(/sortable_item_/, ''));
+  })];
+}
+
+function confirm_evaluation_trees() {
+  new Ajax.Request('/evaluation_trees/confirm',
+                   {
+                     method: 'put',
+                     onFailure: function (response) {
+                       Dialog.confirm(response.responseText,
+                                      {
+                                        id: "myDialogId",
+                                        okLabel: "<%= I18n.t('apply') %>",
+                                        cancelLabel: "<%= I18n.t('cancel') %>",
+                                        width:600,
+                                        cancel:function(win) {
+                                        },
+                                        ok:function (win) {
+                                          $('evaluation_trees').value = Object.toJSON($A($('sortable_list_0').children).collect(function (e) {return build_sexp_recursively(e.id.gsub(/sortable_item_/, ''))}));
+                                          $('deleted_evaluation_trees').value = Object.toJSON(deleted_items);
+                                          $('evaluation_trees_submit').submit();
+                                        }
+                                      });
+                     },
+                     parameters:{
+                       evaluation_trees:Object.toJSON($A($('sortable_list_0').children).collect(function (e) {return build_sexp_recursively(e.id.gsub(/sortable_item_/, ''))})),
+                       deleted_evaluation_trees:Object.toJSON(deleted_items),
+                       type:'<%= params[:type] %>'
+                     }
+                   });
+}
+
+function shrink_tree(id) {
+  $('sortable_list_' + id).hide('');
+  $('expand_and_shrink_icon_' + id).replace('<img src="/images/expand.gif" onclick="expand_tree(' + id + ')" id="expand_and_shrink_icon_' + id + '" class="expand_and_shrink_icon" />');
+}
+
+var evaluation_tree_struct = $H({});
+
+
+function expand_tree(id) {
+  if (evaluation_tree_struct.get(id)) {
+    $('sortable_list_' + id).show();
+  } else {
+    new Ajax.Request('/evaluation_trees/' + id + '.json',
+                     {
+                       method: 'get',
+                       asynchronous: false,
+                       onSuccess: function (response) {
+                         evaluation_tree_struct.set(id, response.responseJSON.collect(function(e){
+                           return e.first().id;
+                         }));
+
+                         response.responseJSON.each(function(e){
+                           evaluation_tree_struct.set(e.first().id, (e.first().has_children ? null : $A()));
+                         })
+
+                         $('sortable_list_' + id).replace(build_evaluation_tree_items(response.responseJSON, id));
+                         $('sortable_list_' + id).show();
+                         make_all_lists_sortable();
+                       }
+                     });
+  }
+  var shrink_icon_tag = '<img src="/images/shrink.gif" onclick="shrink_tree(' + id + ')" id="expand_and_shrink_icon_' + id + '" class="expand_and_shrink_icon" />';
+  $('expand_and_shrink_icon_' + id).replace(shrink_icon_tag);
+}
+
+function build_evaluation_tree_items(json, id) {
+  var buf = ''
+    + '<ul id="sortable_list_' + (id ? (typeof(id) == 'object' ? id.id : id) : 0) + '"'
+    + '    class="dragEnabled sortable_list ' + (id ? '' : 'sortable_container') + '"'
+    + '    style="' + (id ? (typeof(id) == 'object' && !id.has_children ? '' : 'display:none') : '') + '" >'
+    + json.collect(function (e) {
+      if (!deleted_items.include(e.first().id)) {
+        return ''
+          + '<li id="sortable_item_' + e.first().id + '" class="dragEnabled selected ' + (e.first().user_name ?  '' : 'folder') + '">'
+          + '  <div style="width:100%">'
+          + '    <div style="float:left; width:20px">'
+          +        (e.first().has_children ? '<img src="/images/expand.gif" onclick="expand_tree(' + e.first().id + ')" id="expand_and_shrink_icon_' + e.first().id + '" class="expand_and_shrink_icon" />' : '')
+          + '    </div>'
+          + '    <div style="float:left; width:100px">'
+          +        (e.first().user_name ?  e.first().user_name : '<%= I18n.t('multifaceted_eval_group') %>')
+          + '    </div>'
+          + '    <div style="float:left; width:50px">'
+          +        (e.first().user_code ? e.first().user_code : '&nbsp;')
+          + '    </div>'
+          + '    <div style="clear:both"></div>'
+          + '  </div>'
+          +    build_evaluation_tree_items(e.last(), e.first())
+          + '</li>';
+      }
+    }).join('')
+    + '</ul>';
+  return buf;
+}
+
+function build_evaluation_tree_data(json) {
+  json.each(function (e) {
+    evaluation_tree_struct.set(e.first().id, (e.first().has_children ? null : $A()));
+  });
+}
+
+function all_sortable_lists() {
+  // return $$('ul.sortable_list').select(function (e) {
+  //   return e.visible();
+  // });
+  return $$('ul.sortable_list');
+}
+
+var deleted_items = $A([]);
+
+function remove_recursively(e, tree) {
+  if (evaluation_tree_struct.get(e)) {
+    tree.get(e).each(function (f) {
+      remove_recursively(f, tree);
+      deleted_items.push(f);
+      evaluation_tree_struct.set(f, $A());
+    });
+  } else {
+    new Ajax.Request('/evaluation_trees/' + e + '.json',
+                     {
+                       asynchronous: false,
+                       method: 'get',
+                       parameters: { recursively:true, flatten:true },
+                       onSuccess: function (response) {
+                         response.responseJSON.each(function (f) {
+                            deleted_items.push(f.id);
+                            evaluation_tree_struct.set(f.id, $A());
+                         });
+                       }
+                     });
+  }
+}
+
+function make_all_lists_sortable() {
+  <% if params[:editing_enabled] -%>
+  var containers = $A(['sortable_list_0', 'select_list']);
+  Position.includeScrollOffsets = true;
+  containers.each(function (e) {
+    Sortable.create(e,
+                    {
+                      constraint: false,
+                      tree: true,
+                      containment: all_sortable_lists(),
+                      dropOnEmpty: true,
+                      only: "dragEnabled",
+                      onUpdate: function (sortable_list) {
+                        if (sortable_list.id == 'select_list') {
+                          Sortable.sequence(sortable_list).each(function (e) {
+                            var e2 = $('sortable_item_' + e);
+                             if (e2 && e2.classNames().detect(function (v) {return (v=='selected')})) {
+                               e2.hide(); // <- remove() ?
+                               deleted_items.push(e);
+                               remove_recursively(e, $H(evaluation_tree_struct.toObject()));
+                               evaluation_tree_struct.set(e, $A());
+                             }
+                          });
+                        } else {
+                          id = sortable_list.id.replace('sortable_list_', '');
+                          if (id != 0) {
+                            evaluation_tree_struct.set(id, Sortable.sequence(sortable_list));
+                          }
+                          Sortable.sequence(sortable_list).each(function (e) {
+                            deleted_items = deleted_items.without(e);
+                            if (!evaluation_tree_struct.keys().include(e)) {
+                              evaluation_tree_struct.set(e, $A());
+                            }
+                            if (!$('sortable_item_' + e).classNames().detect(function (v) {return (v=='selected')})) {
+                              $('sortable_item_' + e).classNames().add('selected');
+                              // $('sortable_item_' + e).classNames().add('dragEnabled');
+                              // alert('hel');
+                              $('sortable_list_' + e).show();
+                              $('evaluation_tree_' + e + '_excluded_show').hide();
+                              $('evaluation_tree_' + e + '_note_edit').hide();
+                              $('evaluation_tree_' + e + '_note').hide();
+                            }
+                          });
+                          make_all_lists_sortable();
+                        }
+                      }
+                    });
+  });
+  <% end -%>
+}
+
+function update_selected_list() {
+  new Ajax.Request('/evaluation_trees.json',
+                   {
+                     method: 'get',
+                     onLoading:function () {
+                       $('evaluation_tree').update('<%= loading_icon_tag %>');
+                     },
+                     onSuccess:function (response) {
+                       $('selected_list').update(build_evaluation_tree_items(response.responseJSON));
+                       build_evaluation_tree_data(response.responseJSON);
+                       update_select_list({phrase:$F('phrase'), disabled_only:$F('disabled_only')});
+                     }
+                   });
+}
+
+function show_path(id) {
+  $$('img.expand_and_shrink_icon').each(function(e){
+    shrink_tree(e.id.gsub(/expand_and_shrink_icon_/, ''));
+  });
+  new Ajax.Request('/evaluation_trees/' + id + '.json',
+                   {
+                     method: 'get',
+                     parameters:{path:'true'},
+                     onSuccess: function (response) {
+                       response.responseJSON.each(function(e){
+                         expand_tree(e.id);
+                       });
+                      $$('li.highlighted').each(function(e){
+                        e.classNames().remove('highlighted');
+                      });
+                       $('sortable_item_' + id).classNames().add('highlighted');
+                       // new Effect.Highlight('sortable_list_0');
+                     }
+                   });
+}
+
+function update_select_list(parameters) {
+  if (typeof(parameters) == 'undefined') {
+    parameters = {}
+  }
+
+  parameters['pending_disablings'] = Object.toJSON(deleted_items);
+
+  new Ajax.Request('/evaluation_trees.json?flatten=true',
+                   {
+                     method: 'put',
+                     asynchronous: false,
+                     parameters:parameters,
+                     onSuccess: function (response) {
+                       var buf = '';
+                       response.responseJSON.evaluation_trees.each(function (e) {
+                         if ((e.selected && !deleted_items.include(e.id)) || (evaluation_tree_struct.keys().include(e.id) && !deleted_items.include(e.id))) {
+                           if (!parameters['disabled_only']) {
+                             buf += ''
+                               + '<li class="dragDisabled">'
+                               + '  <div style="width:100%">'
+                               + '    <div style="float:left; width:20px">&nbsp;</div>'
+                               + '    <div style="float:left; width:100px">'
+                               + '      <a href="#" onclick="show_path(' + e.id + '); return false">' + e.user_name + '</a>'
+                               + '    </div>'
+                               + '    <div style="float:left; width:50px">'
+                               +        e.user_code
+                               + '    </div>'
+                               + '    <div style="clear:both"></div>'
+                               + '  </div>';
+                             if (!e.selected || deleted_items.include(e.id)) {
+                               buf += ''
+                                 + '<ul id="sortable_list_' + e.id + '" class="dragEnabled sortable_list" style="display:none">'
+                                 + '</ul>';
+                             }
+                             buf += ''
+                               + '</li>';
+                           }
+                         } else {
+                           buf += ''
+                             + '<li id="sortable_item_' + e.id + '" class="dragEnabled">'
+                             + '  <div style="width:100%">'
+                             + '    <div style="width:20px; float:left">&nbsp;</div>'
+                             + '    <div style="width:100px; float:left">'
+                             +        e.user_name
+                             + '    </div>'
+                             + '    <div style="width:50px; float:left">'
+                             +        e.user_code
+                             + '    </div>'
+                             + '    <div style="float:left; width:100px" id="evaluation_tree_' + e.id + '_excluded_show">'
+                             +        (e.excluded ? '<%= I18n.t('eval_excluded') %>' : '')
+                             + '    </div>'
+                             + '    <div style="clear:both"></div>'
+                             + '  </div>'
+    <% if setting_modification_enabled? -%>
+                             + '  <div style="width:100%" id="evaluation_tree_' + e.id + '_note_edit">'
+                             + '    <div style="width:320px; float:left; font-size:90%; margin-left:60px"'
+                             + '         id="evaluation_tree_' + e.id + '_note_show">'
+                             +        (e.note ? e.note.escapeHTML() : '')
+                             + '    </div>'
+                             + '    <div style="width:20px; float:right">'
+                             + '      <img src="/images/edit.png"'
+                             + '           onclick="'
+                             + '                    $(\'evaluation_tree_' + e.id + '_excluded_show\').hide();'
+                             + '                    $(\'evaluation_tree_' + e.id + '_note_edit\').hide();'
+                             + '                    $(\'evaluation_tree_' + e.id + '_note\').show();" />'
+                             + '    </div>'
+                             + '    <div style="clear:both"></div>'
+                             + '  </div>'
+                             + '  <form onsubmit="new Ajax.Request(\'/evaluation_trees/' + e.id + '.json\', '
+                             + '                                   {'
+                             + '                                     method:\'put\','
+                             + '                                     parameters:Form.serialize(this),'
+                             + '                                     onLoading:function(){'
+                             + '                                     },'
+                             + '                                     onSuccess:function(response){'
+                             + '                                     }'
+                             + '                                   });'
+                             + '                  return false">'
+                             + '    <div style="width:100%; display:none" id="evaluation_tree_' + e.id + '_note">'
+                             + '      <input type="hidden" name="type" value="<%= params[:type] %>" />'
+                             + '      <input type="hidden" name="evaluation_tree[user_attributes][id]" value="' + e.user_id + '" />'
+                             + '      <input type="checkbox" id="evaluation_tree_' + e.id + '_excluded" name="evaluation_tree[user_attributes][excluded]" style="width:10px; float:left" value="true" ' + (e.excluded ? 'checked="checked"' : '') + ' />'
+                             + '      <label for="evaluation_tree_' + e.id + '_excluded" style="width:60px; float:left"><%= I18n.t('excluded') %></label>'
+                             + '      <input type="text" id="evaluation_tree_' + e.id + '_note_input" name="evaluation_tree[user_attributes][note]" style="width:290px; float:left" value="' + (e.note ? e.note.escapeHTML() : '') + '" />'
+                             + '      <button class="button" type="submit"'
+                             + '              style="padding:0px; width:30px; float:left"'
+                             + '              onclick="'
+                             + '                       $(\'evaluation_tree_' + e.id + '_note_show\').update($F(\'evaluation_tree_' + e.id + '_note_input\').escapeHTML());'
+                             + '                       $(\'evaluation_tree_' + e.id + '_excluded_show\').update($F(\'evaluation_tree_' + e.id + '_excluded\')==\'true\' ? \'<%= I18n.t('eval_excluded') %>\' : \'\');'
+                             + '                       $(\'evaluation_tree_' + e.id + '_excluded_show\').show();'
+                             + '                       $(\'evaluation_tree_' + e.id + '_note_edit\').show();'
+                             + '                       $(\'evaluation_tree_' + e.id + '_note\').hide();">'
+                             + '        <span style="font-size:70%"><%= I18n.t('submit') %></span>'
+                             + '      </button>'
+                             + '      <img src="/images/close.png" style="width:10px; margin-right:5px; float:right"'
+                             + '           onclick="'
+                             + '                    $(\'evaluation_tree_' + e.id + '_excluded_show\').show();'
+                             + '                    $(\'evaluation_tree_' + e.id + '_note_edit\').show();'
+                             + '                    $(\'evaluation_tree_' + e.id + '_note\').hide();" />'
+                             + '      <div style="clear:both"></div>'
+                             + '    </div>'
+                             + '  </form>'
+    <% end -%>
+                             + '  ';
+                           if (!e.selected || deleted_items.include(e.id)) {
+                             buf += ''
+                               + '<ul id="sortable_list_' + e.id + '" class="dragEnabled sortable_list" style="display:none">'
+                               + '</ul>';
+                           }
+                           buf += ''
+                             + '</li>';
+                         }
+                       });
+
+                       $('pagination').update('');
+                       if (response.responseJSON.pages.previous_page) {
+                         $('pagination').insert({bottom:'<a href="#" onclick="update_select_list({page:' + response.responseJSON.pages.previous_page + '}); return false"><%= I18n.t('previous_page') %></a>'});
+                       }
+                       if (response.responseJSON.pages.next_page) {
+                         $('pagination').insert({bottom:'<a href="#" onclick="update_select_list({page:' + response.responseJSON.pages.next_page + '}); return false"><%= I18n.t('next_page') %></a>'});
+                       }
+                       $('select_list').update(buf); // IE だと li がエフェクト中のとき container ul を .update, .replace できない
+
+                       make_all_lists_sortable();
+                     }
+                   });
+}
+
+var folder_count = <%= EvaluationTree.maximum(:id) %> + 1;
+
+function add_folder() {
+  folder_count++;
+  var buf = ''
+    + '<li id="sortable_item_' + folder_count + '" class="dragEnabled selected folder" >'
+    + '  <div style="float:left; width:20px">&nbsp;</div>'
+    + '  <div style="float:left; width:100px">'
+    + '    <%= I18n.t('multifaceted_eval_group') %>'
+    + '  </div>'
+    + '  <div style="float:left; width:50px">&nbsp;</div>'
+    + '  <div style="clear:both"></div>'
+    + '  <ul id="sortable_list_' + folder_count + '" class="dragEnabled sortable_list"></ul>'
+    + '</li>';
+  $('sortable_list_0').insert({top:buf});
+  make_all_lists_sortable();
+}
+
+Event.observe(window,
+              'load',
+              function (event) {
+                update_selected_list();
+              });
+<% end -%>
+
+<div class="pagination" style="width:100%; font-size:90%">
+  <%= I18n.t('press_f5_key_and_reload_browser_to_reset_operation') %>
+
+  <% if params[:editing_enabled] -%>
+    <!--[if IE 6]>
+    &nbsp;&nbsp;&nbsp;
+    <%= I18n.t('drag_drop_does_not_work_in_ie6') %>
+
+    <![endif]-->
+  <% end -%>
+</div>
+
+<div style="width:100%">
+  <div style="width:42%; float:left; margin-right:30px">
+    <div class="actions-bar wat-cf" style="padding-bottom:0px">
+      <div class="actions">
+        <%= form_tag evaluation_trees_path, :id => :evaluation_order_switcher, :method => :get do %>
+          <%= label_tag :type, "#{I18n.t('select_evaluation_type')} : " %>
+          <%= select_tag 'type',
+              options_for_select([EvaluationTree::TopDown,
+                                  EvaluationTree::Multifaceted].collect { |e|
+                                   [e.description, e.to_s.downcase]
+                                 },
+                                 params[:type]),
+              :onchange => "$('evaluation_order_switcher').submit()",
+              :id => 'evaluation_order_select_id',
+              :style=>'width:120px; margin-right:5px' %>
+        <% end -%>
+      </div>
+      <div class="actions" style="float:right">
+        <%= link_to csv_icon_tag + I18n.t('csv_export'), evaluation_trees_path(:format => :csv, :evaluation_order_id => params[:evaluation_order_id]) %>
+      </div>
+    </div>
+    <div class="actions-bar wat-cf">
+      <div class="actions">
+        <% if setting_modification_enabled? -%>
+          <%= button_tag I18n.t('submit'), :onclick => 'confirm_evaluation_trees()' %>
+        <% else -%>
+          <div style="height:25px"></div>
+        <% end -%>
+      </div>
+      <div class="pagination" style="font-size:90%">
+        <% if setting_modification_enabled? -%>
+          <% if @klass == EvaluationTree::Multifaceted -%>
+            <%= link_to_function add_icon_tag + I18n.t('add_multifaceted_eval_group'), "add_folder()" %>
+          <% end -%>
+        <% else -%>
+          <div style="height:25px"></div>
+        <% end -%>
+      </div>
+    </div>
+    <div class="" style="border:1px solid #cccccc; height:540px">
+      <div id="selected_list"></div>
+    </div>
+  </div>
+
+  <div style="width:51%; float:left">
+    <form onsubmit="update_select_list({phrase:$F('phrase'), disabled_only:$F('disabled_only'), with_excluded:$F('with_excluded'), page:1}); return false"> <!-- Form.serialize(this) does not perform -->
+      <div class="actions-bar wat-cf" style="padding-bottom:0px">
+        <%= text_field_tag 'phrase', params[:phrase], :style => "width:260px" %>
+      </div>
+      <div class="actions-bar wat-cf">
+        <div class="actions">
+          <%= button_tag I18n.t('search_or_update') %>
+        </div>
+        <div class="actions" style="margin-right:5px">
+          <%= check_box_tag 'disabled_only', 'true', params[:disabled_only].to_s=='true' ? true : false %>
+          <%= label_tag 'disabled_only', I18n.t('incomplete_only'), :style => "font-size:80%" %>
+        </div>
+        <div class="actions" style="margin-right:5px">
+          <%= check_box_tag 'with_excluded', 'true', params[:with_excluded].to_s=='true' ? true : false %>
+          <%= label_tag 'with_excluded', I18n.t('include_excluded_targets'), :style => "font-size:80%" %>
+        </div>
+        <div class="pagination" id="pagination"></div>
+      </div>
+    </form>
+    <ul id="select_list" class="sortable_list sortable_container" style="border:1px solid #cccccc">
+    </ul>
+  </div>
+  <div style="clear:both"></div>
+</div>
+
+<%= form_tag '/evaluation_trees/0', :id => 'evaluation_trees_submit', :method => :put do %>
+  <%= hidden_field_tag 'evaluation_trees', '' %>
+  <%= hidden_field_tag 'deleted_evaluation_trees', '' %>
+  <%= hidden_field_tag 'type', params[:type] %>
+<% end -%>

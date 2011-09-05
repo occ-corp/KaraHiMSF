@@ -1,0 +1,123 @@
+<table class="table">
+  <tbody>
+    <% if with_qualification -%>
+      <tr>
+        <th rowspan="2" class="first"></th>
+        <th rowspan="2" style="width:8%">
+          <%= I18n.t('fullname') %>
+        </th>
+        <th rowspan="2" style="width:5%">
+          <%= I18n.t('employee_no') %>.
+        </th>
+        <th rowspan="2">
+          <%= I18n.t('affiliation') %>
+        </th>
+        <th rowspan="2" style="width:10%">
+          <%= I18n.t('qualification') %>
+        </th>
+        <th rowspan="2" style="width:15%">
+          <%= I18n.t('job_title') %>
+        </th>
+        <th rowspan="2" style="width:8%">
+          <%= I18n.t('multifaceted_eval') %>
+        </th>
+        <th colspan="2" class="last">
+          <%= I18n.t('fixed_score') %>(<%= I18n.t('fixed_score') %>+<%= I18n.t('multifaceted_eval') %>)
+        </th>
+      </tr>
+    <% else -%>
+      <tr>
+        <th class="first"></th>
+        <th style="width:8%">
+          <%= I18n.t('fullname') %>
+        </th>
+        <th style="width:5%">
+          <%= I18n.t('employee_no') %>
+        </th>
+        <th>
+          <%= I18n.t('affiliation') %>
+        </th>
+        <th style="width:15%">
+          <%= I18n.t('job_title') %>
+        </th>
+      </tr>
+    <% end -%>
+    <% if with_qualification -%>
+      <tr>
+        <th style="width:15%">
+          <%= I18n.t('first_step') %>
+        </th>
+        <th style="width:15%">
+          <%= I18n.t('second_step') %>
+        </th>
+      </tr>
+    <% end -%>
+    <% object_users.each do |user| -%>
+      <tr class="<%= odd_or_even %>" id="object_user_<%= user.id %>">
+        <td>
+          <%= radio_button_tag(:object_user_id,
+                               user.id,
+                               (params[:object_user_id].to_i == user.id ? true : false),
+                               :onclick => "show_score_table(#{user.id})") %>
+          <% label_name = "object_user_id_#{user.id}" -%>
+        </td>
+        <td>
+          <%= label_tag label_name, user.name %>
+        </td>
+        <td>
+          <%= label_tag label_name, user.code %>
+        </td>
+        <td>
+          <span style="font-size:80%">
+            <%= label_tag label_name, user.division_name_paths.collect {|name| h(name)}.join('<br />').html_safe %>
+          </span>
+        </td>
+        <% if with_qualification -%>
+          <td>
+            <span style="font-size:80%">
+              <%= label_tag label_name, user.qualification.name %>
+            </span>
+          </td>
+        <% end -%>
+        <td>
+          <span style="font-size:80%">
+            <%= label_tag(label_name, user.belongs.collect { |belong|
+                            if belong.job_title
+                              belong.division.name + ' ' + belong.job_title.name
+                            end
+                          }.compact.join('<br />').html_safe) %>
+          </span>
+        </td>
+        <% if with_qualification -%>
+          <td style="text-align:right">
+            <span id="total_multifaceted_evaluation_<%= user.id %>">
+              <%= user.scores.total_multifaceted_evaluation.to_s %>
+            </span>
+          </td>
+          <td style="text-align:right">
+            <span id="total_first_topdown_evaluation_<%= user.id %>">
+              <%= user.scores.total_first_topdown_evaluation.to_s %>
+            </span>
+            (<span id="total_first_topdown_plus_multifaceted_<%= user.id %>">
+              <%= user.scores.total_first_topdown_plus_multifaceted.to_s %>
+            </span>
+            <span id="total_first_topdown_plus_multifaceted_rank_<%= user.id %>" class="strong">
+              <%= Rank.find_by_score(user.scores.total_first_topdown_plus_multifaceted).name %>
+            </span>)
+          </td>
+          <td style="text-align:right">
+            <span id="total_second_topdown_evaluation_<%= user.id %>">
+              <%= user.scores.total_second_topdown_evaluation.to_s %>
+            </span>
+            (<span id="total_second_topdown_plus_multifaceted_<%= user.id %>">
+              <%= user.scores.total_second_topdown_plus_multifaceted.to_s %>
+            </span>
+            <span id="total_second_topdown_plus_multifaceted_rank_<%= user.id %>" class="strong">
+              <%= Rank.find_by_score(user.scores.total_second_topdown_plus_multifaceted).name %>
+            </span>)
+          </td>
+        <% end -%>
+      </tr>
+    <% end -%>
+  </tbody>
+</table>

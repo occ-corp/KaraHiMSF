@@ -1,0 +1,38 @@
+<p>
+  <b>Name:</b>
+  <%=h @division.name %>
+</p>
+
+<p>
+  <b>Code:</b>
+  <%=h @division.code %>
+</p>
+
+<p>
+  <b>Parent:</b>
+  <%=h @division.parent_id %>
+</p>
+
+<p>
+  <b>Lft:</b>
+  <%=h @division.lft %>
+</p>
+
+<p>
+  <b>Rgt:</b>
+  <%=h @division.rgt %>
+</p>
+
+<p>
+  <b>Created at:</b>
+  <%=h @division.created_at %>
+</p>
+
+<p>
+  <b>Updated at:</b>
+  <%=h @division.updated_at %>
+</p>
+
+
+<%= link_to 'Edit', edit_division_path(@division) %> |
+<%= link_to 'Back', divisions_path %>

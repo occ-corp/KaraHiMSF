@@ -1,0 +1,78 @@
+<h1><%= I18n.t('system_settings') %></h1>
+
+<%= link_to edit_icon_tag + I18n.t('eidt'), edit_system_path(@system) %>
+
+<table class="table">
+  <tr>
+    <td>
+      <%= I18n.t('target_period') %>
+    </td>
+    <td>
+      <%= @system.describe_evaluation_term %>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <%= I18n.t('implementation period') %>
+    </td>
+    <td>
+      <%= @system.describe_implementation_term %>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <%= I18n.t('implementation period') %>
+    </td>
+    <td>
+      <%= @system.describe_implementation_term %>
+    </td>
+  </tr>
+    <tr>
+      <td>
+        <%= I18n.t('eval_close') %>
+      </td>
+      <td>
+        <%= if @system.evaluation_closed
+              I18n.t('close')
+            else
+              I18n.t('unclosed')
+            end %>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <%= I18n.t('open_results_to_top') %>
+      </td>
+      <td>
+        <%= if @system.evaluation_published_managers
+              I18n.t('be_available')
+            else
+              I18n.t('closed')
+            end %>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <%= I18n.t('open_results_to_all') %>
+      </td>
+      <td>
+        <%= if @system.evaluation_published_employees
+              I18n.t('be_available')
+            else
+              I18n.t('closed')
+            end %>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <%= I18n.t('show_interview_check') %>
+      </td>
+      <td>
+        <%= if @system.questionnaire_executed?
+              I18n.t('show')
+            else
+              I18n.t('hidden')
+            end %>
+      </td>
+    </tr>
+</table>

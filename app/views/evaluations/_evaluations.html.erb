@@ -1,0 +1,30 @@
+<% unless defined?(on_passive_evaluations) -%>
+  <%= link_to_prototype_window(edit_icon_tag,
+                               "Link_#{@user.id}",
+                               :width => 580,
+                               :height => 380,
+                               :url => edit_evaluation_path(@user, :evaluation_order_id => evaluation_order),
+                               :close_call_back => <<-EOS)
+
+        new Ajax.Updater('evaluations_field_#{@user.id}_#{evaluation_order.id}',
+                         '#{ evaluation_path(@user.id) }',
+                         {
+                           method:'get',
+                           onComplete:function(){new Effect.Highlight('evaluations_field_#{@user.id}_#{evaluation_order.id}')},
+                           parameters:{evaluation_order_id:'#{evaluation_order.id}'}
+                         });
+      EOS
+   %>
+<% end -%>
+
+<ul style="list-style-type:none">
+  <% if defined?(on_passive_evaluations) -%>
+    <% @user.passive_evaluations.scoped_by_evaluation_order_id(evaluation_order).each do |evaluation| -%>
+      <li><%=h evaluation.user.name %></li>
+    <% end -%>
+  <% else -%>
+    <% @user.evaluations.scoped_by_evaluation_order_id(evaluation_order).each do |evaluation| -%>
+      <li><%=h evaluation.object_user.name %></li>
+    <% end -%>
+  <% end -%>
+</ul>

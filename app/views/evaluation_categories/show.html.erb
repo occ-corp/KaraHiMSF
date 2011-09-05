@@ -1,0 +1,23 @@
+<p>
+  <b>Type:</b>
+  <%=h @evaluation_category.type %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%=h @evaluation_category.name %>
+</p>
+
+<p>
+  <b>Created at:</b>
+  <%=h @evaluation_category.created_at %>
+</p>
+
+<p>
+  <b>Updated at:</b>
+  <%=h @evaluation_category.updated_at %>
+</p>
+
+
+<%= link_to 'Edit', edit_evaluation_category_path(@evaluation_category) %> |
+<%= link_to 'Back', evaluation_categories_path %>

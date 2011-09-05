@@ -1,0 +1,12 @@
+<%= form_tag item_groups_path, :method => :get do -%>
+  <div class="actions-bar wat-cf">
+    <div class="actions">
+      <%= select_tag('id',
+                     options_for_select(ItemGroup.all.collect{ |g|
+                                          [g.name, g.id]
+                                        }),
+                     :onchange => 'submit') %>
+      <%= link_to edit_icon_tag + I18n.t('copy'), new_item_group_path(:item_group_id => @item_group.id) %>
+    </div>
+  </div>
+<% end -%>

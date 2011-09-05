@@ -1,0 +1,38 @@
+<p>
+  <b>Type:</b>
+  <%=h @score.type %>
+</p>
+
+<p>
+  <b>Score:</b>
+  <%=h @score.score %>
+</p>
+
+<p>
+  <b>Object user:</b>
+  <%=h @score.object_user_id %>
+</p>
+
+<p>
+  <b>Created user:</b>
+  <%=h @score.created_user_id %>
+</p>
+
+<p>
+  <b>Weight:</b>
+  <%=h @score.weight %>
+</p>
+
+<p>
+  <b>Created at:</b>
+  <%=h @score.created_at %>
+</p>
+
+<p>
+  <b>Updated at:</b>
+  <%=h @score.updated_at %>
+</p>
+
+
+<%= link_to 'Edit', edit_score_path(@score) %> |
+<%= link_to 'Back', scores_path %>

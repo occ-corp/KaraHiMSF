@@ -1,0 +1,58 @@
+<h1><%= I18n.t('check_unevaluated_targets') %></h1>
+
+<div class="actions-bar wat-cf">
+  <div class="actions">
+    <ul style="list-style-type:none">
+      <li>
+        <%= I18n.t('you_can_check_whether_people_have_completed_the_evaluation').html_safe %>
+
+      </li>
+      <li>
+        <%= I18n.t('select_your_name_the_list') %>
+
+      </li>
+      <li>
+        <%= I18n.t('no_evaluated_will_be_displayed') %>
+
+      </li>
+    </ul>
+  </div>
+  <div class="actions" style="float:right">
+    <%= link_to csv_icon_tag + I18n.t('csv_export_incompletes'), incompletes_path(:format => :csv) %>
+  </div>
+</div>
+
+<table class="table">
+  <tr>
+    <th class="first" style="width:60%"><%= I18n.t('evaluator') %></th>
+    <th style="width:20%"><%= I18n.t('progress') %></th>
+    <th class="last"><%= I18n.t('description') %></th>
+  </tr>
+  <% odd_or_even -%>
+  <% @users.each do |user| -%>
+    <tr class="<%= odd_or_even %>">
+      <td><%= user.name %>
+      </td>
+      <td>
+        <% if user.done == true -%>
+          <span class="strong" style="color:green">
+            <%= I18n.t('completion') %>
+          </span>
+        <% elsif user.done == false -%>
+          <span class="strong" style="color:red">
+            <%= I18n.t('incomplete') %>
+          </span>
+        <% else -%>
+          <span class="strong" style="color:gray">
+            <%= I18n.t('no_target') %>
+          </span>
+        <% end -%>
+      </td>
+      <td>
+        <% if user.done == false -%>
+          <%= link_to edit_icon_tag + I18n.t('confirm'), incomplete_path(:id => user) %>
+        <% end -%>
+      </td>
+    </tr>
+  <% end -%>
+</table>

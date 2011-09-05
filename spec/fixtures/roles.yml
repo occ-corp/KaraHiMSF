@@ -1,0 +1,9 @@
+---
+roles_001:
+  id: 1
+  type: Role::Admin
+  name: "管理者"
+roles_002:
+  id: 2
+  type: Role::Decider
+  name: "評価決裁者"

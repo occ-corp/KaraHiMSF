@@ -1,0 +1,46 @@
+---
+points_001:
+  abbrev: "5"
+  created_at:
+  id: 1
+  name: "大変良い"
+  point: 5.0
+  seq: 1
+  is_default: false
+  updated_at:
+points_002:
+  abbrev: "4"
+  created_at:
+  id: 2
+  name: "良い"
+  point: 4.0
+  seq: 2
+  is_default: false
+  updated_at:
+points_003:
+  abbrev: "3"
+  created_at:
+  id: 3
+  name: "期待した水準"
+  point: 3.0
+  seq: 3
+  is_default: true
+  updated_at:
+points_004:
+  abbrev: "2"
+  created_at:
+  id: 4
+  name: "やや劣る"
+  point: 2.0
+  seq: 4
+  is_default: false
+  updated_at:
+points_005:
+  abbrev: "1"
+  created_at:
+  id: 5
+  name: "劣る"
+  point: 1.0
+  seq: 5
+  is_default: false
+  updated_at:

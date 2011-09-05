@@ -1,0 +1,26 @@
+<div class="actions-bar wat-cf">
+  <div class="actions">
+  </div>
+</div>
+
+<ul>
+  <li><%= I18n.t('copy_employee_score_sheet') %></li>
+</ul>
+
+<table class="table">
+  <tr>
+    <th class="first"><%= I18n.t('employee_score_sheet_name') %></th>
+    <th class="last"><%= I18n.t('operation') %></th>
+  </tr>
+
+<% @item_groups.each do |item_group| %>
+  <tr class="<%= odd_or_even %>">
+    <td><%=h item_group.name %></td>
+    <td>
+      <%= link_to edit_icon_tag + I18n.t('eidt'), item_group %>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <%= link_to delete_icon_tag + I18n.t('delete'), item_group, :confirm => I18n.t('are_you_sure'), :method => :delete %>
+    </td>
+  </tr>
+<% end %>
+</table>

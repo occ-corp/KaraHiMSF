@@ -1,0 +1,452 @@
+# Japanese translations for Ruby on Rails
+# by Akira Matsuda (ronnie@dio.jp)
+# AR error messages are basically taken from Ruby-GetText-Package. Thanks to Masao Mutoh.
+# contributors:
+#  - Tsutomu Kuroda (t-kuroda@oiax.jp)
+
+ja:
+  date:
+    formats:
+      default: "%Y/%m/%d"
+      short: "%m/%d"
+      long: "%Y年%m月%d日(%a)"
+
+    day_names:
+      - 日曜日
+      - 月曜日
+      - 火曜日
+      - 水曜日
+      - 木曜日
+      - 金曜日
+      - 土曜日
+    abbr_day_names:
+      - 日
+      - 月
+      - 火
+      - 水
+      - 木
+      - 金
+      - 土
+
+    month_names:
+      - ~
+      - 1月
+      - 2月
+      - 3月
+      - 4月
+      - 5月
+      - 6月
+      - 7月
+      - 8月
+      - 9月
+      - 10月
+      - 11月
+      - 12月
+    abbr_month_names:
+      - ~
+      - 1月
+      - 2月
+      - 3月
+      - 4月
+      - 5月
+      - 6月
+      - 7月
+      - 8月
+      - 9月
+      - 10月
+      - 11月
+      - 12月
+
+    order:
+      - :year
+      - :month
+      - :day
+
+  time:
+    formats:
+      default: "%Y/%m/%d %H:%M:%S"
+      short: "%y/%m/%d %H:%M"
+      long: "%Y年%m月%d日(%a) %H時%M分%S秒 %Z"
+    am: "午前"
+    pm: "午後"
+
+  support:
+    array:
+      sentence_connector: "と"
+      skip_last_comma: true
+      words_connector: "と"
+      two_words_connector: "と"
+      last_word_connector: "と"
+
+    select:
+      prompt: "選択してください。"
+
+  number:
+    format:
+      separator: "."
+      delimiter: ","
+      precision: 3
+      significant: false
+      strip_insignificant_zeros: false
+
+    currency:
+      format:
+        format: "%n%u"
+        unit: "円"
+        separator: "."
+        delimiter: ","
+        precision: 3
+        significant: false
+        strip_insignificant_zeros: false
+
+    percentage:
+      format:
+        delimiter: ""
+
+    precision:
+      format:
+        delimiter: ""
+
+    human:
+      format:
+        delimiter: ""
+        precision: 3
+        significant: true
+        strip_insignificant_zeros: true
+
+      storage_units:
+        format: "%n%u"
+        units:
+          byte: "バイト"
+          kb: "キロバイト"
+          mb: "メガバイト"
+          gb: "ギガバイト"
+          tb: "テラバイト"
+
+      decimal_units:
+        format: "%n %u"
+        units:
+          unit: ""
+          thousand: "千"
+          million: "百万"
+          billion: "十億"
+          trillion: "兆"
+          quadrillion: "千兆"
+
+  datetime:
+    distance_in_words:
+      half_a_minute: "30秒前後"
+      less_than_x_seconds:
+        one:   "1秒以内"
+        other: "%{count}秒以内"
+      x_seconds:
+        one:   "1秒"
+        other: "%{count}秒"
+      less_than_x_minutes:
+        one:   "1分以内"
+        other: "%{count}分以内"
+      x_minutes:
+        one:   "1分"
+        other: "%{count}分"
+      about_x_hours:
+        one:   "約1時間"
+        other: "約%{count}時間"
+      x_days:
+        one:   "1日"
+        other: "%{count}日"
+      about_x_months:
+        one:   "約1ヶ月"
+        other: "約%{count}ヶ月"
+      x_months:
+        one:   "1ヶ月"
+        other: "%{count}ヶ月"
+      about_x_years:
+        one:   "約1年"
+        other: "約%{count}年"
+      over_x_years:
+        one:   "1年以上"
+        other: "%{count}年以上"
+      almost_x_years:
+        one:   "1年弱"
+        other: "%{count}年弱"
+
+    prompts:
+      year:   "年"
+      month:  "月"
+      day:    "日"
+      hour:   "時"
+      minute: "分"
+      second: "秒"
+
+  helpers:
+    select:
+      prompt: "選択してください。"
+
+    submit:
+      create: "登録"
+      update: "更新"
+      submit: "保存"
+
+  errors:
+    format: "%{attribute} %{message}"
+
+    messages: &errors_messages
+      inclusion: "は一覧にありません。"
+      exclusion: "は予約されています。"
+      invalid: "は不正な値です。"
+      confirmation: "が一致しません。"
+      accepted: "を受諾してください。"
+      empty: "を入力してください。"
+      blank: "を入力してください。"
+      too_long: "は%{count}文字以内で入力してください。"
+      too_short: "は%{count}文字以上で入力してください。"
+      wrong_length: "は%{count}文字で入力してください。"
+      not_a_number: "は数値で入力してください。"
+      not_an_integer: "は整数で入力してください。"
+      greater_than: "は%{count}より大きい値にしてください。"
+      greater_than_or_equal_to: "は%{count}以上の値にしてください。"
+      equal_to: "は%{count}にしてください。"
+      less_than: "は%{count}より小さい値にしてください。"
+      less_than_or_equal_to: "は%{count}以下の値にしてください。"
+      odd: "は奇数にしてください。"
+      even: "は偶数にしてください。"
+
+  activerecord:
+    errors:
+      template:
+        header:
+          one:   "%{model}にエラーが発生しました。"
+          other: "%{model}に%{count}つのエラーが発生しました。"
+        body: "次の項目を確認してください。"
+
+      messages:
+        taken: "はすでに存在します。"
+        record_invalid: "バリデーションに失敗しました。 %{errors}"
+        <<: *errors_messages
+
+      full_messages:
+        format: "%{attribute}%{message}"
+
+  first_eval: "1次評価"
+  second_eval: "2次評価"
+  rank_e_cond_label: "36未満"
+  rank_d_lower_cond_label: "40未満, 36以上"
+  rank_d_middle_cond_label: "48未満, 40以上"
+  rank_d_upper_cond_label: "52未満, 48以上"
+  rank_c_lower_cond_label: "56未満, 52以上"
+  rank_c_middle_cond_label: "64未満, 56以上"
+  rank_c_upper_cond_label: "68未満, 64以上"
+  rank_b_lower_cond_label: "72未満, 68以上"
+  rank_b_middle_cond_label: "80未満, 72以上"
+  rank_b_upper_cond_label: "84未満, 80以上"
+  rank_a_cond_label: "84以上"
+  rank_b_lower_label: "B・下"
+  rank_b_upper_label: "B・上"
+  rank_b_middle_label: "B・中"
+  rank_c_lower_label: "C・下"
+  rank_c_upper_label: "C・上"
+  rank_c_middle_label: "C・中"
+  rank_d_lower_label: "D・下"
+  rank_d_upper_label: "D・上"
+  rank_d_middle_label: "D・中"
+  rank_a_label: "A"
+  rank_e_label: "E"
+  multifaceted_eval_group: "【多面グループ】"
+  answer_no: "いいえ"
+  answer_yes: "はい"
+  access_denied: "アクセスは許可されておりません"
+  managerial_position: "管理職"
+  updated_successfully: "更新しました"
+  filename_affiliation_list: "所属リスト.csv"
+  filename_result_pdf: "評価結果.pdf"
+  topdown_eval: "上長評価"
+  multifaceted_eval: "多面評価"
+  note: "備考"
+  no_notes: "備考欄がありません"
+  filename_eval_result_list: "評価結果リスト.csv"
+  unevaluated_item: "評価項目(評価漏れ)"
+  unevaluated_item_checksheet: "評価未入力チェックシート"
+  filename_unevaluated_item_checksheet: "評価未入力チェックシート.csv"
+  save: "保存"
+  saved_successfully: "保存しました"
+  saved_successfully_and_close_the_window: "保存しました。このウィンドウを閉じると反映されます。"
+  save_failed: "保存できません"
+  yet: "未"
+  interviewed_check: "面談チェック"
+  save_failed_by_some_issues: "問題があったため保存されませんでした"
+  officer: "役員"
+  rank: "ランク"
+  desc_eval_score: "*  多面評価対象外のため評価平均値を評定値とする"
+  desc_weight: "*  評価満点の計算は評価ウエイトのみを考慮した点数。資格ウエイトは1.0とする"
+  score_total: "合計"
+  adjustment_point: "最終調整点"
+  fullname: "氏名"
+  qualification: "資格"
+  topdown_eval_result: "上司からの評価結果"
+  topdown_eval_perfect_score: "上司からの評価満点"
+  overall_eval: "総合評価"
+  overall_fixed_score: "総合評定"
+  multifaceted_eval_score: "多面評価(態度のみ)"
+  multifaceted_eval_perfect_score: "多面評価満点"
+  period: "評価期間"
+  eval_score: "評価点"
+  fixed_score: "評定"
+  fixed_score_avg: "評定平均"
+  done: "済"
+  eval_result: "評価結果"
+  affiliation: "所属"
+  category: "分類"
+  eval_item: "評価項目"
+
+  filename_group_list: "%{description}グループリスト.csv"
+  division_name_label: "【%{name}】"
+  multifaceted_evaluators_number: "*  評価した人数:%{multifaceted_evaluators_number} "
+  eval_expression: "*  評価式：(上司からの評価合計)/(上司からの評価満点)x%{topdown_evaluation_weight} + (多面評価合計)/(多面評価満点)x%{multifaceted_evaluation_weight} = 総合評価点"
+
+  draft_paper: "* 職種別人事考課表と多面評価チェックシートは文書管理システムの人事企画部に保存されています"
+  copy_employee_score_sheet: "人事考課表を追加するには、他の人事考課表を開いて「コピー」してください"
+  only_administrator_can_enter_on_behalf: "ログイン変更することで代理入力が可能です(管理者のみ)"
+  access_timed_out: "アクセスが集中しているためサーバへの接続がタイムアウトしました。"
+  not_updated_until_you_press_save_button: "保存ボタンをクリックするまで更新は反映されません"
+  desc_cancel_editing: "* 変更を元に戻すには上部「最終調整」タブをクリックして下さい"
+  reload_page_to_discard_changes: "更新を破棄したい場合はブラウザをリロードして下さい"
+  select_user_by_drag_drop: "* ドラッグドロップでユーザ選択してください"
+  result_csv_export_admin_only: "全評価結果をCSVエクスポート(管理者のみ)"
+  system_admin_only: "システム管理者のみ全件アクセス可"
+  open_results_to_top: "評価結果を公開(上長評価者のみ)"
+  system_settings_editing: "人事評価システム設定 - 編集"
+  result_pdf_export: "評価結果リストをPDFエクスポート"
+  result_csv_export: "評価結果リストをCSVエクスポート"
+  check_unevaluated_targets_all: "評価漏れチェック(全体)"
+  press_enter: "* フリーワードを入力してエンター"
+  csv_export_incompletes: "未完了者をCSVエクスポート"
+  show_uninterview_only: "面接がまだの方のみ表示"
+  show_interview_check: "面談チェックを表示する"
+  evaluated_scores: "入力済評価(削除されます)"
+  add_multifaceted_eval_group: "多面グループ追加"
+  show_incomplete_only: "未評価対象者のみ表示"
+  fixed_score_expression: "評定(評定+多面評価)"
+  check_unevaluated_targets: "評価漏れチェック"
+  open_results_to_all: "評価結果を公開(全員)"
+  include_excluded_targets: "評価対象外を含む"
+  excluded_flag: "対象外フラグ(TRUE=対象外)"
+  system_settings: "人事評価システム設定"
+  back_to_your_login: "元のログインへ戻る"
+  select_user: "ユーザを選択して下さい"
+  employee_score_sheet_name: "人事考課表名"
+  users_eval_targets: "ユーザの評価対象"
+  peple_eval_user: "ユーザを評価する人"
+  eval_flag: "評価フラグ(FALSE=未評価)"
+  load_template: "雛形として読み込む"
+  show_eval_sheet: "評価シートを表示"
+  implementation period: "評価実施期間"
+  csv_download: "CSV一括ダウンロード"
+  selectable_users: "選択可能ユーザ"
+  eval_close: "上長多面評価の締め"
+  max_showable_items: "最大表示件数"
+  eval_group_id: "評価組システムID"
+  system_name: "人事評価システム"
+  employee_score_sheet: "人事考課表"
+  change_page: "ページの切り替え"
+  evaluation_group: "評価グループ"
+  are_you_sure: "よろしいですか?"
+  search_or_update: "抽出/更新"
+  overall_eval_point: "総合評価点"
+  interview_check: "面接チェック"
+  incomplete_only: "未評価者のみ"
+  change_page2: "ページ切り替え"
+  selected_users: "選択済ユーザ"
+  target_period: "評価対象期間"
+  eval_excluded: "* 評価対象外"
+  csv_export: "CSVエクスポート"
+  change_login: "ログイン変更"
+  search_targets: "対象者抽出"
+  final_adjustment: "最終調整"
+  employee_code: "社員コード"
+  no_target: "評価対象なし"
+  eval_targets: "評価対象者"
+  employee_number: "社員番号"
+  settings: "システム設定"
+  job_category: "職務形態"
+  adjusted_point: "調整点"
+  showing_items: "件表示"
+  employee_no2: "社員No. "
+  employee_name: "社員名"
+  department: "所属部課"
+  create_new: "新規作成"
+  import: "インポート"
+  department_name: "部門"
+  department_id: "部課id"
+  current_user: "ユーザ"
+  close_window: "閉じる"
+  cancel: "キャンセル"
+  progress: "評価状況"
+  login: "ログイン"
+  employee_id2: "社員id"
+  unselected: "未選択"
+  incomplete: "未完了"
+  employee_no: "社員No"
+  employee_id: "社員ID"
+  corresponding: "該当"
+  configuration: "設定"
+  condition_yes: "あり"
+  weight: "ウェイト"
+  previous_page: "«前"
+  number_of_items: "件"
+  evaluator: "評価者"
+  condition_no: "なし"
+  be_available: "公開"
+  unclosed: "未締め"
+  point: "ポイント"
+  excluded: "対象外"
+  double_star: "★★"
+  description: "詳細"
+  apply: "適用する"
+  targets: "対象者"
+  evaluation: "評価"
+  completion: "完了"
+  second_step: "2次"
+  operation: "操作"
+  multiface: "多面"
+  job_title: "役職"
+  hidden: "非表示"
+  closed: "非公開"
+  single_star: "★"
+  of_items: "件中"
+  next_page: "次»"
+  first_step: "1次"
+
+  copy: "コピー"
+  confirm: "確認"
+  submit: "保存"
+  search: "抽出"
+  delete: "削除"
+  create: "作成"
+  close: "締め"
+  show: "表示"
+  from: "から"
+  eidt: "編集"
+  top: "上長"
+  job: "職種"
+  add: "追加"
+  to: "まで"
+
+  freeword: "フリーワード"
+  save_adjusted_point: "調整点を保存"
+  select_eval_target: "評価対象者を選択してください"
+  you_can_print_this_page_directly: "* そのまま印刷してご利用いただけます"
+  use_average_as_fixed_score: "* 多面評価対象外のため評価平均値を評定値とする"
+  you_can_check_whether_people_have_completed_the_evaluation: "* <span class=\"strong\">現在のログイン者、及びログイン者の配下メンバーが評価を完了しているかどうか</span>を確認できます"
+  select_your_name_the_list: "* 自身の行うべき評価が完了しているかどうかは、自身の名前を「評価者」から探し「評価状況」を確認して下さい"
+  no_evaluated_will_be_displayed: "* 上長評価対象者および多面評価対象者のいないメンバーには「評価対象なし」と表示されます"
+  unevaluated_targets_exist: "評価漏れがあります"
+  no_unevaluated_targets_exist: "評価漏れがあります"
+  narrow_by_division: "部署で絞り込み"
+  current_users_people_will_be_listed: "* 現在のログイン者およびログイン者の配下メンバーがリストされます"
+  all_items_will_be_listed_for_admin: "(管理者は全件表示されます)"
+  interview_checks_will_be_entered_by_1st_or_2nd_evaluator: "* <span class=\"strong\">一次もしくは二次の評価者</span>が面接チェックを入力します"
+  will_be_saved_as_soon_as_you_check: "* チェックを入れると自動的に保存されます"
+  interview_checks_will_be_exported_into_result_csv: "* 面接チェックの結果は評価結果リストCSVへ出力されます"
+  press_f5_key_and_reload_browser_to_reset_operation: "* 操作を元へ戻すにはブラウザを再読み込み(F5ボタン)します"
+  drag_drop_does_not_work_in_ie6: "* ドラッグドロップ操作はInternet Explorer 6未対応です"
+  select_evaluation_type: "評価を選択"

@@ -1,0 +1,55 @@
+h1 {
+    font-size:21px;
+    margin-top:68px;
+    margin-bottom:23px;
+}
+
+h2 {
+    font-size:18px;
+    margin-top:82px;
+    margin-bottom:18px;
+}
+
+body {
+  font-size: 14px;
+}
+
+div#header {
+    display:none;
+}
+
+div#footer {
+    display:none;
+}
+
+.flash {
+    display:none;
+}
+
+div#wrapper {
+    padding:0px;
+}
+
+#main .block {
+    margin:0px;
+}
+
+#main .content {
+    border:0px;
+}
+
+.secondary-navigation {
+    display:none;
+}
+
+div#topdown-evaluation-result {
+    height:auto;
+}
+
+.table tr, .table th, .table td {
+    border-bottom:1px solid black;
+}
+
+.without-print {
+    display:none;
+}

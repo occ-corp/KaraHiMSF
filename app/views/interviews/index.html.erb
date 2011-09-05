@@ -1,0 +1,153 @@
+<%= javascript_tag do %>
+  function interview_form_request(form) {
+    form = $(form);
+    form.request({
+      onSuccess:function(response) {
+        var json = response.responseJSON;
+        if (json) {
+          form.action = '/interviews/' + json.interview.id;
+          form.method = 'put';
+        }
+      }
+    });
+  }
+
+<% end -%>
+
+<div class="actions-bar wat-cf">
+
+  <%= form_tag :interviews, :method => :get do %>
+    <div class="actions" style="margin-right:30px">
+      <%= check_box_tag "uninterviewed_only",
+                        "true",
+                        (params[:uninterviewed_only] == "true" ? true : false) %>
+      <span class="strong">
+        <%= label_tag "uninterviewed_only", I18n.t('show_uninterview_only') %>
+      </span>
+      <%= text_field_tag "phrase", params[:phrase], :style => "margin-left:10px" %>
+    </div>
+    <div class="actions">
+      <%= hidden_field_tag "session_save", "true" %>
+      <%= hidden_field_tag "evaluation_category_id", params[:evaluation_category_id] %>
+      <%= button_tag I18n.t('search') %>
+    </div>
+    <div class="actions" style="margin-left:10px">
+      <% if @object_users.total_pages < 2 -%>
+        <%= I18n.t('corresponding') %>
+      <% end -%>
+      <% if @object_users.total_entries.zero? -%>
+        <%= I18n.t('condition_no') %>
+      <% else -%>
+        <span class="strong"><%= @object_users.total_entries %></span>
+        <% if @object_users.total_pages > 1 -%>
+          <%= I18n.t('of_items') %>
+          <span class="strong"><%= ScoresController::PAGINATE_PER_PAGE %></span><%= I18n.t('showing_items') %>
+        <% else -%>
+          <%= I18n.t('number_of_items') %>
+        <% end -%>
+      <% end -%>
+    </div>
+  <% end -%>
+
+  <% if @object_users.total_pages > 1 -%>
+    <div class="actions" style="margin-left:15px">
+      <%= I18n.t('change_page2') %>&nbsp; : &nbsp;
+    </div>
+    <div class="pagination">
+      <%= will_paginate @object_users, :prev_label => "&laquo;", :next_label => "&raquo;" %>
+    </div>
+  <% end -%>
+</div>
+
+<ul style="list-style-type:none">
+  <li>
+    <%= I18n.t('current_users_people_will_be_listed') %>
+
+    <% if current_user.roles.admin? -%>
+      <%= I18n.t('all_items_will_be_listed_for_admin') %>
+    <% end -%>
+  </li>
+  <li>
+    <%= I18n.t('interview_checks_will_be_entered_by_1st_or_2nd_evaluator').html_safe %>
+
+  </li>
+  <li>
+    <%= I18n.t('will_be_saved_as_soon_as_you_check') %>
+
+  </li>
+  <li>
+    <%= I18n.t('interview_checks_will_be_exported_into_result_csv') %>&nbsp;&nbsp;&nbsp;
+
+    <%= link_to csv_icon_tag + I18n.t('result_csv_export'), users_results_path(:format => :csv) %>
+  </li>
+</ul>
+
+<table class="table">
+  <tr>
+    <th class="first" style="width:8%">
+      <%= I18n.t('eval_targets') %>
+    </th>
+    <th style="width:8%">
+      <%= I18n.t('employee_no') %>
+    </th>
+    <th>
+      <%= I18n.t('affiliation') %>
+    </th>
+    <% EvaluationOrder::TopDown.all.each do |evaluation_order| -%>
+      <th style="width:8%">
+        <%= evaluation_order.name %>
+      </th>
+    <% end -%>
+    <th class="last" style="width:8%">
+      <%= I18n.t('interviewed_check') %>
+    </th>
+  </tr>
+
+  <% evaluation_orders = EvaluationOrder::TopDown.all -%>
+
+  <% evaluation_group = EvaluationGroup::TopDown.first -%>
+
+  <% odd_or_even -%>
+  <% @object_users.inject(0) do |n, object_user| -%>
+    <tr class="<%= odd_or_even %>">
+      <td>
+        <%= object_user.name %>
+      </td>
+      <td>
+        <%= object_user.code %>
+      </td>
+      <td>
+        <%= object_user.division_name_paths.collect {|name| h(name)}.join('<br />').html_safe %>
+      </td>
+      <% evaluation_orders.each do |evaluation_order| -%>
+        <td>
+          <%= object_user.evaluators.evaluation_order_only(evaluation_order).collect {|user| user.name}.join %>
+        </td>
+      <% end -%>
+      <td style="text-align:center">
+        <% evaluation = object_user.passive_evaluations.joins(:evaluation_order => :evaluation_group).where("evaluation_groups.id = ?", evaluation_group).where("evaluations.user_id = ?", current_user).first -%>
+        <% if evaluation -%>
+          <% interview = evaluation.interview || Interview.new(:evaluation => evaluation) -%>
+          <%= form_for interview, :remote => true, :html => {:id => "interview_#{n}"} do |f| %>
+            <%= check_box_tag :done, true, object_user.interviews.done?, :id => "interview_#{n}_done", :onclick => <<-EOS
+                  $('interview_#{n}_done_at').value = this.checked ? new Date().toString() : null;
+                  interview_form_request('interview_#{n}');
+                EOS
+                %>
+            <%= f.hidden_field(:evaluation_id) %>
+            <%= f.hidden_field(:done_at, :id => "interview_#{n}_done_at") %>
+          <% end -%>
+        <% else -%>
+          <% if object_user.interviews.done? -%>
+            <%= weak_check_icon_tag %>
+          <% else -%>
+            <%= weak_bullet_icon_tag %>
+          <% end -%>
+        <% end -%>
+      </td>
+    </tr>
+
+    <% n += 1 -%>
+  <% end -%>
+
+</table>

@@ -1,0 +1,274 @@
+<h1><%= I18n.t('eval_result') %></h1>
+
+<% if current_user.roles.admin?
+     object_users = User.order("users.kana")
+   elsif current_user.roles.decider? or current_user.has_topdown_evaluations?
+     object_users = User.under_division_tree_full_set(*current_user.divisions)
+   else
+     object_users = []
+   end -%>
+
+<% if System.evaluation_published_employees?
+     if !object_users.include?(current_user)
+       object_users << current_user
+     end
+   else
+     object_users.delete_if { |object_user| object_user == current_user }
+   end -%>
+
+<% if @evaluation_item_map.empty? -%>
+  <div class="flash" style="margin-top:10px">
+    <% if object_users.any? -%>
+      <div class="message warning">
+        <p><%= I18n.t('select_eval_target') %></p>
+      </div>
+    <% else -%>
+      <div class="message error">
+        <p><%= I18n.t('access_denied') %></p>
+      </div>
+    <% end -%>
+  </div>
+<% end -%>
+
+<% if current_user.roles.admin? -%>
+  <div class="notice">
+    * <%= I18n.t('system_admin_only') %>
+
+  </div>
+<% end -%>
+
+<div class="actions-bar wat-cf without-print">
+  <% if object_users.any? -%>
+    <%= form_tag({:controller => :users, :action => :result}, {:method => :get}) do -%>
+      <div class="actions">
+        <%= select_tag(:id,
+                       options_for_select(object_users.collect{|u|
+                                            [u.name, u.id]
+                                          }, @user ? @user.id : nil),
+                       :style => 'float:left') %>
+      </div>
+      <div class="actions" style="margin-left:40px">
+        <%= button_tag I18n.t('show_eval_sheet') %>
+      </div>
+      <% if object_users.count > 1 -%>
+        <div class="actions" style="margin-left:40px">
+          <% if current_user.roles.admin? -%>
+            <%= link_to csv_icon_tag + I18n.t('result_csv_export_admin_only'), users_results_path(:format => :csv) %>
+          <% else -%>
+            <%= link_to csv_icon_tag + I18n.t('result_csv_export'), users_results_path(:format => :csv) %>
+          <% end -%>
+        </div>
+        <div class="actions" style="margin-left:40px">
+          <%= link_to pdf_icon_tag + I18n.t('result_pdf_export'), users_results_path(:format => :pdf) %>
+        </div>
+      <% end -%>
+    <% end -%>
+  <% end -%>
+</div>
+
+<% if @evaluation_item_map.any? -%>
+  <ul class="note without-print" style="margin-bottom:10px">
+    <li> <%= I18n.t('you_can_print_this_page_directly') %>
+
+    </li>
+  </ul>
+  <table class="table">
+    <tr>
+      <td style="width:20%"><%= I18n.t('period') %></td>
+      <td>
+        <%= System.describe_evaluation_term %>
+      </td>
+    </tr>
+    <tr>
+      <td><%= I18n.t('affiliation') %></td>
+      <td>
+        <%= @user.division_name_paths.collect {|name| h(name)}.join('<br />') %>
+      </td>
+    </tr>
+    <tr>
+      <td><%= I18n.t('fullname') %></td>
+      <td>
+        <%=h @user.name %>
+      </td>
+    </tr>
+    <tr>
+      <td><%= I18n.t('qualification') %></td>
+      <td>
+        <%=h @user.qualification.abbrev %>
+      </td>
+    </tr>
+  </table>
+
+  <h2 style="font-weight:bold"><%= I18n.t('topdown_eval_result') %></h2>
+
+  <% topdown_evaluation_orders = EvaluationOrder::TopDown.all -%>
+
+  <% topdown_evaluation_score_total = 0 -%>
+
+  <% topdown_evaluation_perfect_score = 0 -%>
+
+  <table class="table" style="margin-bottom:0">
+    <tr>
+      <th class="first" style="width:10%; text-align:center">
+        <%= I18n.t('category') %>
+      </th>
+      <th style="text-align:center">
+        <%= I18n.t('eval_item') %>
+      </th>
+      <th style="text-align:center">
+        <%= I18n.t('fixed_score') %>
+      </th>
+    </tr>
+  </table>
+
+  <% init_odd_or_even -%>
+
+  <div id="topdown-evaluation-result">
+    <table class="table topdown-evaluation-result-table" style="margin:0">
+      <% @evaluation_item_map.each do |category, items| -%>
+        <% if category.is_a?(EvaluationCategory::TopDown) -%>
+          <% init_row_span items.length -%>
+          <% odd_or_even -%>
+          <% items.each do |item| -%>
+            <tr class="<%= odd_or_even false %>">
+              <% if row_spannable? -%>
+                <td rowspan="<%= row_span %>" style="width:10%; text-align:center">
+                  <%=h category.name %>
+                </td>
+              <% end -%>
+              <td>
+                <%= item.name %>
+              </td>
+              <td style="text-align:right">
+                <%=
+                   @user.scores.to_custom_hash[EvaluationGroup::TopDown.first.id][item.id][:score]
+                     %>
+              </td>
+            </tr>
+          <% end -%>
+        <% end -%>
+      <% end -%>
+      <tr>
+        <td>
+        </td>
+        <td style="text-align:right">
+          <span class="strong"><%= I18n.t('score_total') %></span>
+        </td>
+        <td style="text-align:right">
+          <span class="strong">
+            <%= @user.scores.topdown_evaluation_total %>
+          </span>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <h2 style="font-weight:bold"><%= I18n.t('multifaceted_eval_score') %></h2>
+
+  <% multifaceted_evaluators_num = @user.passive_evaluations.scoped_by_evaluation_order_type(EvaluationOrder::Multifaceted).count -%>
+
+  <ul class="note">
+    <% if multifaceted_evaluators_num.zero? -%>
+      <li><%= I18n.t('use_average_as_fixed_score') %>
+
+      </li>
+    <% else -%>
+      <li><%= I18n.t('multifaceted_evaluators_number', :multifaceted_evaluators_number => multifaceted_evaluators_num) %>
+
+      </li>
+    <% end -%>
+  </ul>
+
+  <table class="table" style="width:320px">
+    <tr>
+      <th class="first" style="width:50%"><%= I18n.t('eval_item') %></th>
+      <th class="last"><%= I18n.t('fixed_score_avg') %></th>
+    </tr>
+
+    <% init_odd_or_even -%>
+    <% @user.item_group.items.find(:all,
+                                  :joins => <<-EOS,
+        inner join evaluation_categories on evaluation_categories.id = items.evaluation_category_id
+        inner join evaluation_groups on evaluation_groups.id = evaluation_categories.evaluation_group_id
+EOS
+                                  :conditions => ["evaluation_groups.type = ?", EvaluationGroup::Multifaceted.to_s]).each do |item| -%>
+
+          <tr class="<%= odd_or_even %>">
+            <td>
+              <%= item.name %>
+            </td>
+            <td>
+              <% if multifaceted_evaluators_num.zero? -%>
+                -
+              <% else -%>
+                <%= @user.scores.to_custom_hash[EvaluationGroup::Multifaceted.first.id][item.evaluation_item.id][:average] %>
+              <% end -%>
+            </td>
+          </tr>
+
+    <% end -%>
+
+    <tr>
+      <td><span class="strong"><%= I18n.t('score_total') %></span></td>
+      <td>
+        <span class="strong">
+          <%= @user.scores.multifaceted_evaluation_total %>
+        </span>
+      </td>
+    </tr>
+  </table>
+
+  <h2 style="font-weight:bold"><%= I18n.t('overall_eval') %></h2>
+
+  <ul class="note" style="margin-bottom:10px">
+    <li><%= I18n.t('eval_expression', :topdown_evaluation_weight => (EvaluationGroup::TopDown.first.weight * 100), :multifaceted_evaluation_weight => (EvaluationGroup::Multifaceted.first.weight * 100)) %></li>
+    <li><%= I18n.t('desc_weight') %></li>
+  </ul>
+
+  <div class="form">
+    <div class="columns wat-cf">
+      <div class="column left">
+        <table class="table">
+          <tr>
+            <th class="first" style="width:40%"><%= I18n.t('rank') %></th>
+            <th class="last"><%= I18n.t('overall_eval') %></th>
+          </tr>
+          <% init_odd_or_even -%>
+          <% Rank.all.each do |rank| -%>
+            <tr class="<%= odd_or_even %>">
+              <td style="padding:0px 20px">
+                <span>
+                  <%=h rank.name %>
+                </span>
+              </td>
+              <td style="padding:0px 20px">
+                <span>
+                  <%=h rank.description %>
+                </span>
+              </td>
+            </tr>
+          <% end -%>
+        </table>
+      </div>
+
+      <div class="column right">
+        <ul class="note note-alignment-for-ie">
+          <li><%= I18n.t('topdown_eval_perfect_score') %>  :  <%= @user.scores.topdown_evaluation_perfect_score %></li>
+          <li><%= I18n.t('multifaceted_eval_perfect_score') %>  :  <%= @user.scores.multifaceted_evaluation_perfect_score %></li>
+          <li><%= I18n.t('eval_score') %>  :  <%= @user.scores.total.to_s %></li>
+          <li><%= I18n.t('adjustment_point') %>  :  <%= @user.adjustment_value.to_s %></li>
+        </ul>
+        <ul class="note more-strong">
+          <li>
+            <%= I18n.t('overall_eval_point') %>  :  <%= @user.adjusted_total.to_s %>
+          </li>
+          <li>
+            <%= I18n.t('overall_eval') %>  :  <%= Rank.find_by_score(@user.adjusted_total).name %>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+<% end -%>

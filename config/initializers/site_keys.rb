@@ -1,0 +1,3 @@
+# key of 40 chars length
+REST_AUTH_SITE_KEY         = '93c3083da301990b58e1c679e8ffd22328a1fe9a'
+REST_AUTH_DIGEST_STRETCHES = 10

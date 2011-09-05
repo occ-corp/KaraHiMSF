@@ -1,0 +1,108 @@
+<%= javascript_tag <<-EOS
+      var count = #{ @user.evaluations.count };
+
+      function request_users() {
+        new Ajax.Request('#{users_path(:json)}',
+                         {
+                          method:'get',
+                          asynchronous:true,
+                          evalScripts:true,
+                          parameters:{division_id:$F('division_id'), phrase:$F('phrase')},
+                          onComplete:function(response){
+                            // clear srcs-box
+                            $('srcs').update();
+
+                            // collect selected user ids
+                            var selected_user_ids = $('dests').select('li').collect(function(e){
+                              return e.id;
+                            });
+
+                            // insert user item
+                            response.responseJSON.collect(function (e) {
+                              return e.user;
+                            }).each(function (user) {
+                              if (!selected_user_ids.include('user_' + user.id)) {
+                                ++count;
+                                $('srcs').insert(new Element('li', {id:'user_' + user.id})
+                                  .update(user.name)
+                                  .insert(new Element('input', {type:'hidden', id:'user_evaluations_attributes_' + count + '_user_id', name:'user[evaluations_attributes][' + count + '][user_id]', value:'#{@user.id}'}))
+                                  .insert(new Element('input', {type:'hidden', id:'user_evaluations_attributes_' + count + '_object_user_id', name:'user[evaluations_attributes][' + count + '][object_user_id]', value:user.id}))
+                                  .insert(new Element('input', {type:'hidden', id:'user_evaluations_attributes_' + count + '_evaluation_order_id', name:'user[evaluations_attributes][' + count + '][evaluation_order_id]', value:'#{params[:evaluation_order_id]}'})));
+                              }
+                            })
+
+                            // re-initialize srcs-box
+                            Sortable.create('srcs',
+                                            {
+                                              constraint: false,
+                                              containment: ['dests', 'srcs'],
+                                              dropOnEmpty: true
+                                            });
+                            Sortable.create('dests',
+                                            {
+                                              constraint: false,
+                                              containment: ['dests', 'srcs'],
+                                              dropOnEmpty: true
+                                            });
+                          }
+                         });
+      }
+
+      function disable_src_items() {
+        $('srcs').select('input').each(function(e){e.disable()});
+      }
+
+      document.observe('dom:loaded',
+                       function () {
+                         request_users();
+                         Sortable.create('dests',
+                                         {
+                                           constraint: false,
+                                           containment: ['dests', 'srcs'],
+                                           dropOnEmpty: true
+                                         });
+                       });
+    EOS
+    %>
+
+<%= division_select_tag('division_id',
+                        @user.divisions.primary,
+                        :onchange => 'request_users();') %>
+
+<%= text_field_tag 'phrase', '', :onchange => 'request_users();' %>
+
+<div>
+<%= I18n.t('select_user_by_drag_drop') %>
+</div>
+
+<%= form_for @user, :url => {:controller => :evaluations, :action => :update, :evaluation_order_id => params[:evaluation_order_id]} do |user_form| -%>
+  <table class="table">
+    <tr>
+      <th class="first"><%= I18n.t('selectable_users') %></th>
+      <th class="last"><%= I18n.t('selected_users') %></th>
+    </tr>
+    <tr class="odd">
+      <td>
+        <ul id="srcs" style="width:200px; ; height:200px; border: 1px solid #ccc; overflow:auto; background:white;">
+        </ul>
+      </td>
+      <td>
+        <ul id="dests" style="width:200px; ; height:200px; border: 1px solid #ccc;  overflow:auto; background:white;">
+          <% user_form.fields_for :evaluations do |evaluation_form| %>
+            <li id="user_<%= evaluation_form.object.object_user.id -%>">
+              <%=h evaluation_form.object.object_user.name %>
+              <%= evaluation_form.hidden_field :user_id %>
+              <%= evaluation_form.hidden_field :object_user_id %>
+              <%= evaluation_form.hidden_field :evaluation_order_id %>
+              <%= evaluation_form.hidden_field :id %>
+            </li>
+          <% end -%>
+        </ul>
+      </td>
+    </tr>
+  </table>
+
+  <div class="group navform wat-cf">
+    <%= save_button_tag I18n.t('submit'), :onclick => 'disable_src_items();' %>
+  </div>
+<% end -%>

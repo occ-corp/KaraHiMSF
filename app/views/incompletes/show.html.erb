@@ -1,0 +1,53 @@
+<h1><%= I18n.t('check_unevaluated_targets') %></h1>
+
+<% if @incompletes.is_a?(Array) -%>
+  <div class="flash">
+    <% if @incompletes.any? -%>
+      <div class="message error">
+        <p><%= I18n.t('unevaluated_targets_exist') %></p>
+      </div>
+    <% else -%>
+      <div class="message notice">
+        <p><%= I18n.t('no_unevaluated_targets_exist') %></p>
+      </div>
+    <% end -%>
+  </div>
+<% end -%>
+
+<% if @incompletes.nil? -%>
+  <div class="actions-bar wat-cf">
+    <div class="actions">
+      <%= form_tag({:controller => :users, :action => :incompletes, :id => params[:id]}) do -%>
+        <%= button_tag I18n.t('csv_download') %>
+      <% end -%>
+    </div>
+  </div>
+<% end -%>
+
+<% if @incompletes.is_a?(Array) and @incompletes.any? -%>
+  <table class="table">
+    <tr>
+      <th class="first" style="width:20%"><%= I18n.t('evaluator') %></th>
+      <th style="width:20%"><%= I18n.t('eval_targets') %></th>
+      <th style="width:20%"><%= I18n.t('category') %></th>
+      <th class="last"><%= I18n.t('unevaluated_item') %></th>
+    </tr>
+    <% odd_or_even -%>
+    <% @incompletes.each do |unfilling| -%>
+      <tr class="<%= odd_or_even %>">
+        <td>
+          <%=h unfilling.user_name %>
+        </td>
+        <td>
+          <%=h unfilling.object_user_name %>
+        </td>
+        <td>
+          <%=h unfilling.evaluation_order_name %>
+        </td>
+        <td>
+          <%= unfilling.evaluation_item_name %>
+        </td>
+      </tr>
+    <% end -%>
+  </table>
+<% end -%>

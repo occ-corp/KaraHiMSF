@@ -1,0 +1,25 @@
+---
+evaluation_orders_001:
+  created_at:
+  id: 1
+  name: "1次評価"
+  type: EvaluationOrder::TopDown
+  updated_at:
+  weight: 0.4
+  evaluation_group_id: 1
+evaluation_orders_002:
+  created_at:
+  id: 2
+  name: "2次評価"
+  type: EvaluationOrder::TopDown
+  updated_at:
+  weight: 0.6
+  evaluation_group_id: 1
+evaluation_orders_003:
+  created_at:
+  id: 3
+  name: "多面評価"
+  type: EvaluationOrder::Multifaceted
+  updated_at:
+  weight: 1.0
+  evaluation_group_id: 2

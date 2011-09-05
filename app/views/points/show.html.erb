@@ -1,0 +1,13 @@
+<p>
+  <b>Name:</b>
+  <%=h @point.name %>
+</p>
+
+<p>
+  <b>Point:</b>
+  <%=h @point.point %>
+</p>
+
+
+<%= link_to 'Edit', edit_point_path(@point) %> |
+<%= link_to 'Back', points_path %>

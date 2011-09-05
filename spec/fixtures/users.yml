@@ -1,0 +1,301 @@
+--- 
+users_003: 
+  belong_code: "9999"
+  code: "1011"
+  created_at: 2010-05-25 14:11:09.931234 Z
+  crypted_password: a622c6897e37038c5eeaf2e4583a93da4d4d4f87
+  current_belong_code: "9999"
+  division_code: "9000"
+  email: iwamichi@example.mail.com
+  excluded: false
+  id: 3
+  item_group_id: 1
+  kana: "いわみちひかる"
+  login: iwamichi
+  name: "岩道光"
+  note: 
+  qualification_id: 20
+  remember_token: 
+  remember_token_expires_at: 
+  salt: 805d05e353a7ddb244948e4c66a34c9bc7778f98
+  updated_at: 2011-08-18 06:27:43.463159 Z
+users_375: 
+  belong_code: "1200"
+  code: "7218"
+  created_at: 2010-05-25 14:11:11.638707 Z
+  crypted_password: 4f45827827fe3844519faca006ad6c4778840036
+  current_belong_code: "1200"
+  division_code: "1000"
+  email: ueno@example.mail.com
+  excluded: false
+  id: 375
+  item_group_id: 16
+  kana: "うえのやかつひろ"
+  login: ueno
+  name: "上之屋克洋"
+  note: 
+  qualification_id: 13
+  remember_token: 
+  remember_token_expires_at: 
+  salt: 48c9f581443b4aa6e01082f990bb2876c66ea9a5
+  updated_at: 2011-08-18 06:27:43.516047 Z
+users_373: 
+  belong_code: "1200"
+  code: "7253"
+  created_at: 2010-05-25 14:11:11.630534 Z
+  crypted_password: 97e3aa5d701ac4a3b1d2551fb8e68d0cff753703
+  current_belong_code: "1200"
+  division_code: "1000"
+  email: ueyonabaru@example.mail.com
+  excluded: false
+  id: 373
+  item_group_id: 16
+  kana: "うえよなばるひろあき"
+  login: ueyonabaru
+  name: "上與那原寛明"
+  note: 
+  qualification_id: 14
+  remember_token: 
+  remember_token_expires_at: 
+  salt: 027ff30fd08709e9adb7c0b4ba732292ded47978
+  updated_at: 2011-08-18 06:27:43.521086 Z
+users_376: 
+  belong_code: "1200"
+  code: "588"
+  created_at: 2010-05-25 14:11:11.642699 Z
+  crypted_password: 29a22f26b258c63b1e5ad90e5f8a51474c959549
+  current_belong_code: "1200"
+  division_code: "1000"
+  email: ueunten@example.mail.com
+  excluded: false
+  id: 376
+  item_group_id: 1
+  kana: "うえうんてんかずのり"
+  login: ueunten
+  name: "上運天嘉則"
+  note: 
+  qualification_id: 10
+  remember_token: 
+  remember_token_expires_at: 
+  salt: 7310a1bf9b9d3ee0ed496f922071ce8d052e062c
+  updated_at: 2011-08-18 06:27:43.526177 Z
+users_012: 
+  belong_code: "9920"
+  code: "1245"
+  created_at: 2010-05-25 14:11:09.965744 Z
+  crypted_password: b907af10c181a496674329a087eda5ccbe1bd411
+  current_belong_code: "9920"
+  division_code: "9920"
+  email: urasaki@example.mail.com
+  excluded: false
+  id: 12
+  item_group_id: 31
+  kana: "うらさきよしひこ"
+  login: urasaki
+  name: "浦崎吉彦"
+  note: 
+  qualification_id: 7
+  remember_token: 
+  remember_token_expires_at: 
+  salt: 5c726209220478ac256d815c5e4ec0416baeba2e
+  updated_at: 2011-08-18 06:27:43.531194 Z
+users_046: 
+  belong_code: "1900"
+  code: "513"
+  created_at: 2010-05-25 14:11:10.129578 Z
+  crypted_password: 03f13036973c0f9ed6ba72023c2e19ce9542baf5
+  current_belong_code: "1920"
+  division_code: "1000"
+  email: ushiduka@example.mail.com
+  excluded: false
+  id: 46
+  item_group_id: 14
+  kana: "うしづかくにひろ"
+  login: ushiduka
+  name: "牛塚国廣"
+  note: 
+  qualification_id: 7
+  remember_token: 
+  remember_token_expires_at: 
+  salt: bc2a3326d680b4baf1a94cc059ae123f8488c840
+  updated_at: 2011-08-18 06:27:43.536717 Z
+users_004: 
+  belong_code: "1900"
+  code: "212"
+  created_at: 2010-05-25 14:11:09.935086 Z
+  crypted_password: fc71d230fb37f5b502a57d8eb836113db857b49c
+  current_belong_code: "1910"
+  division_code: "1000"
+  email: ura@example.mail.com
+  excluded: false
+  id: 4
+  item_group_id: 13
+  kana: "うらりゅうた"
+  login: ura
+  name: "宇良竜多"
+  note: 
+  qualification_id: 20
+  remember_token: 
+  remember_token_expires_at: 
+  salt: 03d685f42ff0554a9adea3a8aac620abe503eef9
+  updated_at: 2011-08-18 06:27:43.541836 Z
+users_255: 
+  belong_code: "1900"
+  code: "297"
+  created_at: 2010-05-25 14:11:11.080542 Z
+  crypted_password: 7dc7a7bcd1d0109799a23a448eff04120d7118ee
+  current_belong_code: "1910"
+  division_code: "1000"
+  email: uchizato@example.mail.com
+  excluded: false
+  id: 255
+  item_group_id: 13
+  kana: "うちざとまこと"
+  login: uchizato
+  name: "内里真人"
+  note: 
+  qualification_id: 7
+  remember_token: 
+  remember_token_expires_at: 
+  salt: 97ec1646bdbc330f06f31e0cb1db8097e999459c
+  updated_at: 2011-08-18 06:27:43.548276 Z
+users_047: 
+  belong_code: "1900"
+  code: "556"
+  created_at: 2010-05-25 14:11:10.133378 Z
+  crypted_password: e50c2d30483a03431c7b955d24745c3ae757b809
+  current_belong_code: "1910"
+  division_code: "1000"
+  email: omotegawa@example.mail.com
+  excluded: false
+  id: 47
+  item_group_id: 13
+  kana: "おもてかわまなぶ"
+  login: omotegawa
+  name: "面川覚"
+  note: 
+  qualification_id: 7
+  remember_token: 
+  remember_token_expires_at: 
+  salt: 3b68c8a5eca663328bf870e12df367fbd5d5ab97
+  updated_at: 2011-08-18 06:27:43.553323 Z
+users_084: 
+  belong_code: "9100"
+  code: CS-028
+  created_at: 2010-05-25 14:11:10.320092 Z
+  crypted_password: 11606a074be722835dcfa4cfeb30f568004a6340
+  current_belong_code: "9100"
+  division_code: "9000"
+  email: kaneuchi@example.mail.com
+  excluded: false
+  id: 84
+  item_group_id: 13
+  kana: "かねうちおさむ"
+  login: kaneuchi
+  name: "金内修"
+  note: 
+  qualification_id: 20
+  remember_token: 
+  remember_token_expires_at: 
+  salt: 8db5b65461605b2bbdc8246d61e71fa888c7b6de
+  updated_at: 2011-08-18 06:27:43.558289 Z
+users_215: 
+  belong_code: "1900"
+  code: "7286"
+  created_at: 2010-05-25 14:11:10.910163 Z
+  crypted_password: 5dfabbb8116c65ebdfa34e9059e29b45514cc312
+  current_belong_code: "1930"
+  division_code: "1000"
+  email: hisamura@example.mail.com
+  excluded: false
+  id: 215
+  item_group_id: 15
+  kana: "ひさむらしげはる"
+  login: hisamura
+  name: "久村茂治"
+  note: 
+  qualification_id: 16
+  remember_token: 
+  remember_token_expires_at: 
+  salt: 6fc383a62b72e7bf61c09f9003b578a2c4cfa37e
+  updated_at: 2011-08-18 06:27:43.563035 Z
+users_554: 
+  belong_code: "1900"
+  code: "2024"
+  created_at: 2010-05-25 14:11:12.478793 Z
+  crypted_password: 38a4515c92c11cf81fb5eda0cee76ffc741e9688
+  current_belong_code: "1930"
+  division_code: "1000"
+  email: kunichima@example.mail.com
+  excluded: false
+  id: 554
+  item_group_id: 15
+  kana: "くにしますみと"
+  login: kunichima
+  name: "国島純人"
+  note: 
+  qualification_id: 20
+  remember_token: 
+  remember_token_expires_at: 
+  salt: 7cf5dd0b1646f873895405decc16034606234c77
+  updated_at: 2011-08-18 06:27:43.568056 Z
+users_300: 
+  belong_code: "6100"
+  code: "285"
+  created_at: 2010-05-25 14:11:11.299751 Z
+  crypted_password: a79b7eef4868acd6ec1c967d37e8ccefee8b7eb7
+  current_belong_code: "6100"
+  division_code: "6000"
+  email: sakajiro@example.mail.com
+  excluded: false
+  id: 300
+  item_group_id: 1
+  kana: "さかじろかよこ"
+  login: sakajiro
+  name: "坂白香代子"
+  note: 
+  qualification_id: 10
+  remember_token: 
+  remember_token_expires_at: 
+  salt: d5b875075d568adb9b11b6ab17bc8a31c6ee1140
+  updated_at: 2011-08-18 06:27:43.572769 Z
+users_451: 
+  belong_code: "1900"
+  code: "6032"
+  created_at: 2010-05-25 14:11:11.983622 Z
+  crypted_password: e70ba4279c8b95271ca4028061f4fd11a129b91a
+  current_belong_code: "1910"
+  division_code: "1000"
+  email: tasato@example.mail.com
+  excluded: false
+  id: 451
+  item_group_id: 13
+  kana: "たさとゆうだい"
+  login: tasato
+  name: "田里雄大"
+  note: 
+  qualification_id: 13
+  remember_token: 
+  remember_token_expires_at: 
+  salt: 508a7865f6a7720ad4c569c82355ec67782ede8d
+  updated_at: 2011-08-18 06:27:43.577823 Z
+users_478: 
+  belong_code: "1900"
+  code: "2021"
+  created_at: 2010-05-25 14:11:12.089748 Z
+  crypted_password: 8e8ff6fc61d2daf1d496f0f3890dbc1c27d45f13
+  current_belong_code: "1930"
+  division_code: "1000"
+  email: nakoshi@example.mail.com
+  excluded: false
+  id: 478
+  item_group_id: 15
+  kana: "なこしのぼる"
+  login: nakoshi
+  name: "名越昇"
+  note: 
+  qualification_id: 20
+  remember_token: 
+  remember_token_expires_at: 
+  salt: 1c2f76d3b1b1658b4d770bedcf21998a49cdac55
+  updated_at: 2011-08-18 06:27:43.582783 Z

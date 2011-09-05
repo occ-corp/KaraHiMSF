@@ -1,0 +1,166 @@
+--- 
+evaluation_items_001: 
+  created_at: 
+  id: 1
+  name: "目標設定"
+  updated_at: 
+evaluation_items_002: 
+  created_at: 
+  id: 2
+  name: "目標遂行"
+  updated_at: 
+evaluation_items_003: 
+  created_at: 
+  id: 3
+  name: "実績評価(会社売上・利益への貢献)"
+  updated_at: 
+evaluation_items_004: 
+  created_at: 
+  id: 4
+  name: "売上・利益への貢献"
+  updated_at: 
+evaluation_items_005: 
+  created_at: 
+  id: 5
+  name: "仕事の改善、工夫"
+  updated_at: 
+evaluation_items_006: 
+  created_at: 
+  id: 6
+  name: "納期管理"
+  updated_at: 
+evaluation_items_007: 
+  created_at: 
+  id: 7
+  name: "資格取得"
+  updated_at: 
+evaluation_items_008: 
+  created_at: 
+  id: 8
+  name: "リスクマネジメント"
+  updated_at: 
+evaluation_items_009: 
+  created_at: 
+  id: 9
+  name: "環境維持"
+  updated_at: 
+evaluation_items_010: 
+  created_at: 
+  id: 10
+  name: "計画性"
+  updated_at: 
+evaluation_items_011: 
+  created_at: 
+  id: 11
+  name: "知識、技術、習熟度"
+  updated_at: 
+evaluation_items_012: 
+  created_at: 
+  id: 12
+  name: "正確性"
+  updated_at: 
+evaluation_items_013: 
+  created_at: 
+  id: 13
+  name: "効率化"
+  updated_at: 
+evaluation_items_014: 
+  created_at: 
+  id: 14
+  name: "報告力"
+  updated_at: 
+evaluation_items_015: 
+  created_at: 
+  id: 15
+  name: "表現力"
+  updated_at: 
+evaluation_items_016: 
+  created_at: 
+  id: 16
+  name: "理解力"
+  updated_at: 
+evaluation_items_017: 
+  created_at: 
+  id: 17
+  name: "判断力"
+  updated_at: 
+evaluation_items_018: 
+  created_at: 
+  id: 18
+  name: "知識"
+  updated_at: 
+evaluation_items_019: 
+  created_at: 
+  id: 19
+  name: "行動力"
+  updated_at: 
+evaluation_items_020: 
+  created_at: 
+  id: 20
+  name: "協調性"
+  updated_at: 
+evaluation_items_021: 
+  created_at: 
+  id: 21
+  name: "リーダーシップ"
+  updated_at: 
+evaluation_items_022: 
+  created_at: 
+  id: 22
+  name: "交渉力"
+  updated_at: 
+evaluation_items_023: 
+  created_at: 
+  id: 23
+  name: "発表力"
+  updated_at: 
+evaluation_items_024: 
+  created_at: 
+  id: 24
+  name: "計画・企画力"
+  updated_at: 
+evaluation_items_025: 
+  created_at: 
+  id: 25
+  name: "補佐力"
+  updated_at: 
+evaluation_items_026: 
+  created_at: 
+  id: 26
+  name: "指導力"
+  updated_at: 
+evaluation_items_027: 
+  created_at: 
+  id: 27
+  name: "問題発見能力"
+  updated_at: 
+evaluation_items_028: 
+  created_at: 
+  id: 28
+  name: "部下育成・指導力"
+  updated_at: 
+evaluation_items_029: 
+  created_at: 
+  id: 29
+  name: "マナー、規律"
+  updated_at: 
+evaluation_items_030: 
+  created_at: 
+  id: 30
+  name: "積極性"
+  updated_at: 
+evaluation_items_031: 
+  created_at: 
+  id: 31
+  name: "責任感"
+  updated_at: 
+evaluation_items_032: 
+  created_at: 
+  id: 32
+  name: "人間関係"
+  updated_at: 
+evaluation_items_033: 
+  created_at: 
+  id: 33
+  name: "自己啓発"
+  updated_at: 

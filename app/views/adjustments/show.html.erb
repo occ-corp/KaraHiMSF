@@ -1,0 +1,157 @@
+<%= javascript_tag do %>
+  function rank_find_by_score(p) {
+    p = parseFloat(p) || 0;
+    <% Rank::RANK_TABLE.inject(0) do |n, args| -%>
+      <%= n.zero? ? "if" : "else if" %> (<%= args[:javascript].html_safe %>) {
+        return '<%= I18n.t(args[:name]) %>';
+      }
+      <% n += 1 %>
+    <% end -%>
+  }
+
+  function update_adjusted_rank(n) {
+    $('adjustments_' + n + '_adjusted_rank').update(rank_find_by_score($('adjustments_' + n + '_adjusted_total').value));
+  }
+
+  function update_adjustment_value(n) {
+    var v =
+      (parseFloat($('adjustments_' + n + '_adjusted_total').value) || 0) -
+      (parseFloat($('adjustments_' + n + '_total').value) || 0);
+
+    v *= 1000;
+    v = Math.round(v);
+    v /= 1000;
+
+    $('adjustments_' + n + '_value').value = v;
+    update_adjusted_rank(n);
+  }
+
+  function update_adjusted_total(n) {
+    $('adjustments_' + n + '_adjusted_total').value =
+      (parseFloat($('adjustments_' + n + '_total').value) || 0) +
+      (parseFloat($('adjustments_' + n + '_value').value) || 0);
+    update_adjusted_rank(n);
+  }
+
+<% end -%>
+
+
+<h1><%= I18n.t('final_adjustment') %></h1>
+
+<%= form_tag :adjustment, :method => :get, :id => :adjustments do -%>
+  <div class="actions-bar wat-cf">
+    <div class="actions">
+      <%= label_tag "rank", "#{I18n.t('overall_eval')}  :  " %>
+      <%= select_tag "rank", options_for_select([[I18n.t('unselected'), ""]].concat(Rank.all.collect {|rank| [rank.name]}), params[:rank]) %>
+      <%= label_tag "phrase", "#{I18n.t('freeword')}  :  ", :style => "margin-left:10px" %>
+      <%= text_field_tag "phrase", params[:phrase] %>
+    </div>
+    <div class="actions" style="margin-left:10px">
+      <%= hidden_field_tag "session_save", "true" %>
+      <%= button_tag I18n.t('search_targets') %>
+    </div>
+    <div class="actions" style="margin-left:30px">
+      <%= link_to csv_icon_tag + I18n.t('result_csv_export'), users_results_path(:format => :csv) %>
+    </div>
+  </div>
+<% end -%>
+
+<%= form_tag :adjustment, :method => :put, :onsubmit => "return false" do -%>
+  <div class="actions-bar wat-cf">
+    <div class="actions">
+      <div>
+        <%= I18n.t('desc_cancel_editing') %>
+      </div>
+      <div>
+        <% ranks = Rank.all -%>
+        <% n = 0 -%>
+        <% ranks.each do |rank| -%>
+          <span class="strong" style="font-size:80%"><%=h rank.name %></span>
+          <span style="margin-right:20px" style="font-size:80%"><%=h rank.description %></span>
+          <% if n == (ranks.count / 2) -%>
+            <br />
+          <% end -%>
+          <% n += 1 -%>
+        <% end -%>
+      </div>
+    </div>
+  </div>
+
+  <div class="actions-bar wat-cf">
+    <div class="actions">
+      <input type="button" value="<%= I18n.t('save_adjusted_point') %>" onclick="submit()" />
+    </div>
+    <div class="actions" style="margin-left:30px">
+      <% if @users.total_pages < 2 -%>
+        <%= I18n.t('corresponding') %>
+      <% end -%>
+      <% if @users.total_entries.zero? -%>
+        <%= I18n.t('condition_no') %>
+      <% else -%>
+        <span class="strong"><%= @users.total_entries %></span>
+        <% if @users.total_pages > 1 -%>
+          <%= I18n.t('of_items') %>
+          <span class="strong"><%= AdjustmentsController::PAGINATE_PER_PAGE %></span><%= I18n.t('showing_items') %>
+        <% else -%>
+          <%= I18n.t('number_of_items') %>
+        <% end -%>
+      <% end -%>
+    </div>
+
+    <% if @users.total_pages > 1 -%>
+      <div class="actions" style="margin-left:15px">
+        <%= I18n.t('change_page2') %>&nbsp; : &nbsp;
+      </div>
+      <div class="paginate">
+        <%= will_paginate @users %>
+      </div>
+    <% end -%>
+  </div>
+
+  <table class="table">
+    <tr>
+      <th style="width:10%" class="first"><%= I18n.t('targets') %></th>
+      <th><%= I18n.t('affiliation') %></th>
+      <th style="width:5%"><%= I18n.t('evaluation') %></th>
+      <th style="width:10%"><%= I18n.t('eval_score') %></th>
+      <th style="width:15%"><%= I18n.t('adjusted_point') %></th>
+      <th style="width:15%"><%= I18n.t('overall_eval_point') %></th>
+      <th style="width:10%" class="last"><%= I18n.t('overall_eval') %></th>
+    </tr>
+    <% odd_or_even -%>
+    <% @users.inject(0) do |n, user| -%>
+      <tr class="<%= odd_or_even %>">
+        <td><%= user.name %></td>
+        <td>
+          <span style="font-size:80%">
+            <%= user.division_name_paths.collect {|name| h(name)}.join('<br />').html_safe %>
+          </span>
+        </td>
+        <td><%= Rank.find_by_score(user.total).name %></td>
+        <td>
+          <%= user.total.to_f %>
+          <%= hidden_field_tag "adjustments_#{n}_total", user.total.to_f %>
+        </td>
+        <td>
+          +
+          <%= text_field_tag "adjustments[#{n}][value]", (user.adjustment_value.to_f.zero? ? "" : user.adjustment_value), :style => "width:100px; ime-mode:disabled", :onchange => "update_adjusted_total(#{n})" %>
+          <%= hidden_field_tag "adjustments[#{n}][user_id]", user.id %>
+          <%= hidden_field_tag "adjustments[#{n}][id]", (user.adjustment ? user.adjustment.id : nil) %>
+        </td>
+        <td>
+          = <%= text_field_tag "adjustments_#{n}_adjusted_total", user.adjusted_total, :style => "width:100px; ime-mode:disabled", :onchange => "update_adjustment_value(#{n})" %>
+        </td>
+        <td>
+          <span id="adjustments_<%= n %>_adjusted_rank"><%= Rank.find_by_score(user.adjusted_total).name %></span>
+        </td>
+      </tr>
+      <% n += 1 -%>
+    <% end -%>
+  </table>
+
+  <div class="actions-bar wat-cf">
+    <div class="actions">
+      <input type="button" value="<%= I18n.t('save_adjusted_point') %>" onclick="submit()" />
+    </div>
+  </div>
+<% end -%>

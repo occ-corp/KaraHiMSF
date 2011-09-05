@@ -1,0 +1,62 @@
+<h1><%= I18n.t('system_settings_editing') %></h1>
+
+<%= form_for(@system) do |f| %>
+  <%= f.error_messages %>
+
+  <table class="table">
+    <tr>
+      <td>
+        <%= I18n.t('target_period') %>
+      </td>
+      <td>
+        <%= f.datetime_select :evaluation_term_start_at %> <%= I18n.t('from') %>
+        <%= f.datetime_select :evaluation_term_finish_at %> <%= I18n.t('to') %>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <%= I18n.t('implementation period') %>
+      </td>
+      <td>
+        <%= f.datetime_select :implementation_term_start_at %> <%= I18n.t('from') %>
+        <%= f.datetime_select :implementation_term_finish_at %> <%= I18n.t('to') %>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <%= I18n.t('eval_close') %>
+      </td>
+      <td>
+        <%= f.check_box :evaluation_closed %>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <%= I18n.t('open_results_to_top') %>
+      </td>
+      <td>
+        <%= f.check_box :evaluation_published_managers %>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <%= I18n.t('open_results_to_all') %>
+      </td>
+      <td>
+        <%= f.check_box :evaluation_published_employees %>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <%= I18n.t('show_interview_check') %>
+      </td>
+      <td>
+        <%= f.check_box :questionnaire_executed %>
+      </td>
+    </tr>
+  </table>
+
+  <p>
+    <%= save_button_tag %>
+  </p>
+<% end %>

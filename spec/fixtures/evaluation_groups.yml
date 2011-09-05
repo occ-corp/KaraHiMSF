@@ -1,0 +1,15 @@
+---
+evaluation_groups_001:
+  created_at:
+  id: 1
+  weight: 0.8
+  name: "上長評価"
+  type: EvaluationGroup::TopDown
+  updated_at:
+evaluation_groups_002:
+  created_at:
+  id: 2
+  name: "多面評価"
+  weight: 0.2
+  type: EvaluationGroup::Multifaceted
+  updated_at:

@@ -1,0 +1,22 @@
+<h1>Listing item_belongs</h1>
+
+<table>
+  <tr>
+    <th>Item</th>
+    <th>Item group</th>
+  </tr>
+
+<% @item_belongs.each do |item_belong| %>
+  <tr>
+    <td><%=h item_belong.item_id %></td>
+    <td><%=h item_belong.item_group_id %></td>
+    <td><%= link_to 'Show', item_belong %></td>
+    <td><%= link_to 'Edit', edit_item_belong_path(item_belong) %></td>
+    <td><%= link_to 'Destroy', item_belong, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New item_belong', new_item_belong_path %>

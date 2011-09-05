@@ -1,0 +1,149 @@
+<% evaluation_type = evaluation_category.class.evaluation_type -%>
+<% multifacted = evaluation_type == EvaluationOrder::Multifaceted -%>
+<% object_users = current_user.object_users.scope_by_evaluation_order_type(evaluation_type) -%>
+<% default_shown_user = object_users.first -%>
+
+<div style="overflow:auto; max-height:220px">
+  <%= render(:partial => 'object_users',
+             :locals => {
+               :object_users => object_users,
+               :default => default_shown_user,
+               :with_qualification => !multifacted,
+             }) %>
+</div>
+
+<%= form_for(@user, :url => {:controller => :scores, :action => :update}) do |user_form| -%>
+  <div class="actions-bar wat-cf">
+    <div class="actions">
+      <% if editable -%>
+        <%= save_button_tag %>
+      <% end -%>
+    </div>
+    <div class="pagination">
+      <%= describe_points %>
+    </div>
+  </div>
+
+  <table class="table">
+    <tbody>
+      <tr>
+        <th style="width:20%" class="first">
+          <%= I18n.t('eval_item') %>
+        </th>
+        <% unless multifacted -%>
+          <th style="width:10%">
+            <%= I18n.t('evaluator') %>
+          </th>
+          <th>
+            <%= I18n.t('evaluator') %>
+          </th>
+        <% end -%>
+        <% selectable_points.each do |point| -%>
+          <th style="width:10%">
+            <%=h point.name %>
+          </th>
+        <% end -%>
+        <th class="last" style="width:1%"></th> <!-- don't remove -->
+      </tr>
+
+      <% user_form.fields_for :evaluations do |evaluation_form| -%>
+        <% init_odd_or_even -%>
+        <% evaluation = evaluation_form.object -%>
+
+        <% object_user = evaluation.object_user -%>
+        <% passive_evaluations = object_user.passive_evaluations.scoped_by_evaluation_order_type(evaluation_type).exclude_by_user(@user) -%>
+
+        <% item_belongs = object_user.item_belongs_scoped_by_evaluation_category(evaluation_category)-%>
+
+        <% evaluation_form.fields_for :scores do |score_form| -%>
+          <% score = score_form.object -%>
+
+          <% item_belong = score.item_belong -%>
+
+          <% odd_or_even %>
+
+          <% if item_belongs.include?(item_belong) -%>
+            <% init_row_span(multifacted ? 1 : passive_evaluations.length) -%>
+
+            <tr class="<%= odd_or_even false %> scores_by_object_user_id_<%= object_user.id %>"
+                style="<%= object_user == default_shown_user ? '' : 'display:none' %>">
+              <% if row_spannable? -%>
+                <td rowspan="<%= row_span %>">
+                  <span class="strong">
+                    <%=h item_belong.item.name %>
+                  </span>
+                  <%= score_form.hidden_field :item_belong_id -%>
+                </td>
+              <% end -%>
+              <% unless multifacted -%>
+                <td>
+                  <span class="strong">
+                    <%=h evaluation.user.name %>
+                  </span>
+                </td>
+                <td>
+                  <span class="strong">
+                    <%=h evaluation.evaluation_order.name %>
+                  </span>
+                </td>
+              <% end -%>
+              <% selectable_points.each do |point| -%>
+                <td>
+                  <% if editable -%>
+                    <%= score_form.radio_button :point_id, point.id, :disabled => !editable %>
+                  <% else -%>
+                    <% if score_form.object.point == point -%>
+                      <%= check_icon_tag %>
+                    <% else -%>
+                      <%= bullet_icon_tag %>
+                    <% end -%>
+                  <% end -%>
+                </td>
+              <% end -%>
+              <td></td> <!-- don't remove -->
+            </tr>
+
+            <% unless multifacted -%>
+              <% passive_evaluations.each do |passive| -%>
+                <tr class="<%= odd_or_even false %> scores_by_object_user_id_<%= object_user.id %>"
+                    style="<%= object_user == default_shown_user ? '' : 'display:none' %>">
+                  <td>
+                  </td>
+                  <td>
+                    <span class="weak">
+                      <%=h passive.user.name %>
+                    </span>
+                  </td>
+                  <td>
+                    <span class="weak">
+                      <%=h passive.evaluation_order.name %>
+                    </span>
+                  </td>
+                  <% selectable_points.each do |point| -%>
+                    <td>
+                      <% i = passive.scores.select {|p| p.item_belong.id == item_belong.id}.first -%>
+                      <% if i and i.point == point -%>
+                        <%= weak_check_icon_tag %>
+                      <% else -%>
+                        <%= weak_bullet_icon_tag %>
+                      <% end -%>
+                    </td>
+                  <% end -%>
+                  <td></td> <!-- don't remove -->
+                </tr>
+              <% end -%>
+            <% end -%>
+          <% end -%>
+        <% end -%>
+      <% end -%>
+    </tbody>
+  </table>
+
+  <%= hidden_field_tag :evaluation_category_id, params[:evaluation_category_id] %>
+
+  <% if editable -%>
+    <div class="group navform wat-cf">
+      <%= save_button_tag %>
+    </div>
+  <% end -%>
+<% end -%>

@@ -1,0 +1,106 @@
+---
+answers_001:
+  answer: false
+  created_at: 2010-11-17 08:16:39.073289 Z
+  id: 1
+  question_id: 1
+  updated_at: 2010-11-17 08:16:39.073289 Z
+  user_id: 3
+answers_002:
+  answer: false
+  created_at: 2010-11-17 08:16:39.095803 Z
+  id: 2
+  question_id: 1
+  updated_at: 2010-11-17 08:16:39.095803 Z
+  user_id: 4
+answers_003:
+  answer: false
+  created_at: 2010-11-17 08:16:39.098330 Z
+  id: 3
+  question_id: 1
+  updated_at: 2010-11-17 08:16:39.098330 Z
+  user_id: 12
+answers_004:
+  answer: false
+  created_at: 2010-11-17 08:16:39.100824 Z
+  id: 4
+  question_id: 1
+  updated_at: 2010-11-17 08:16:39.100824 Z
+  user_id: 46
+answers_005:
+  answer: false
+  created_at: 2010-11-17 08:16:39.103226 Z
+  id: 5
+  question_id: 1
+  updated_at: 2010-11-17 08:16:39.103226 Z
+  user_id: 47
+answers_006:
+  answer: false
+  created_at: 2010-11-17 08:16:39.105713 Z
+  id: 6
+  question_id: 1
+  updated_at: 2010-11-17 08:16:39.105713 Z
+  user_id: 84
+answers_007:
+  answer: false
+  created_at: 2010-11-17 08:16:39.108064 Z
+  id: 7
+  question_id: 1
+  updated_at: 2010-11-17 08:16:39.108064 Z
+  user_id: 215
+answers_008:
+  answer: false
+  created_at: 2010-11-17 08:16:39.110410 Z
+  id: 8
+  question_id: 1
+  updated_at: 2010-11-17 08:16:39.110410 Z
+  user_id: 255
+answers_009:
+  answer: false
+  created_at: 2010-11-17 08:16:39.112771 Z
+  id: 9
+  question_id: 1
+  updated_at: 2010-11-17 08:16:39.112771 Z
+  user_id: 300
+answers_010:
+  answer: false
+  created_at: 2010-11-17 08:16:39.115123 Z
+  id: 10
+  question_id: 1
+  updated_at: 2010-11-17 08:16:39.115123 Z
+  user_id: 373
+answers_011:
+  answer: false
+  created_at: 2010-11-17 08:16:39.128549 Z
+  id: 11
+  question_id: 1
+  updated_at: 2010-11-17 08:16:39.128549 Z
+  user_id: 375
+answers_012:
+  answer: false
+  created_at: 2010-11-17 08:16:39.130973 Z
+  id: 12
+  question_id: 1
+  updated_at: 2010-11-17 08:16:39.130973 Z
+  user_id: 376
+answers_013:
+  answer: false
+  created_at: 2010-11-17 08:16:39.133376 Z
+  id: 13
+  question_id: 1
+  updated_at: 2010-11-17 08:16:39.133376 Z
+  user_id: 451
+answers_014:
+  answer: false
+  created_at: 2010-11-17 08:16:39.135699 Z
+  id: 14
+  question_id: 1
+  updated_at: 2010-11-17 08:16:39.135699 Z
+  user_id: 478
+answers_015:
+  answer: false
+  created_at: 2010-11-17 08:16:39.138069 Z
+  id: 15
+  question_id: 1
+  updated_at: 2010-11-17 08:16:39.138069 Z
+  user_id: 554

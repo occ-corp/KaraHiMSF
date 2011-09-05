@@ -1,0 +1,26 @@
+<h1>Listing evaluation_categories</h1>
+
+<table>
+  <tr>
+    <th>Type</th>
+    <th>Name</th>
+    <th>Created at</th>
+    <th>Updated at</th>
+  </tr>
+
+<% @evaluation_categories.each do |evaluation_category| %>
+  <tr>
+    <td><%=h evaluation_category.type %></td>
+    <td><%=h evaluation_category.name %></td>
+    <td><%=h evaluation_category.created_at %></td>
+    <td><%=h evaluation_category.updated_at %></td>
+    <td><%= link_to 'Show', evaluation_category %></td>
+    <td><%= link_to 'Edit', edit_evaluation_category_path(evaluation_category) %></td>
+    <td><%= link_to 'Destroy', evaluation_category, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New evaluation_category', new_evaluation_category_path %>

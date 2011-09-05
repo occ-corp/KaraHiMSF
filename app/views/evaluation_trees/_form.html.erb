@@ -1,0 +1,41 @@
+<%= form_for(@evaluation_tree) do |f| %>
+  <% if @evaluation_tree.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@evaluation_tree.errors.count, "error") %> prohibited this evaluation_tree from being saved:</h2>
+
+      <ul>
+      <% @evaluation_tree.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :type %><br />
+    <%= f.text_field :type %>
+  </div>
+  <div class="field">
+    <%= f.label :user_id %><br />
+    <%= f.text_field :user_id %>
+  </div>
+  <div class="field">
+    <%= f.label :head_id %><br />
+    <%= f.text_field :head_id %>
+  </div>
+  <div class="field">
+    <%= f.label :parent_id %><br />
+    <%= f.text_field :parent_id %>
+  </div>
+  <div class="field">
+    <%= f.label :lft %><br />
+    <%= f.text_field :lft %>
+  </div>
+  <div class="field">
+    <%= f.label :rgt %><br />
+    <%= f.text_field :rgt %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

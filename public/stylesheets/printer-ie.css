@@ -1,0 +1,44 @@
+h1 {
+    font-size:18px;
+    margin-top:0px;
+    margin-bottom:23px;
+}
+
+h2 {
+    font-size:16px;
+    margin-top:52px;
+    margin-bottom:18px;
+}
+
+body {
+  font-size: 12px;
+}
+
+.table tr, .table th, .table td {
+    border-bottom:1px solid black;
+    font-size:90%;
+}
+
+ul.note li {
+    line-height: 90%;
+    list-style-type: none;
+    font-size:80%;
+}
+
+ul.note-alignment-for-ie {
+    margin-top: 30px;
+}
+ul.note-alignment-for-ie li {
+    line-height: 140%;
+    list-style-type: none;
+    font-size: 100%;
+}
+
+/*
+ul.more-strong {
+    line-height: 100%;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+*/

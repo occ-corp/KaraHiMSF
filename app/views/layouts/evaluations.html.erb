@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>ESS</title>
+  <%= javascript_include_tag :defaults %>
+  <%= javascript_include_tag 'transfer_select' %>
+  <%= stylesheet_link_tag "web_app_theme", "web_app_theme_override", "themes/reidb-greenish/style", :cache => true %>
+</head>
+<body>
+  <div id="container" style="min-width:520px">
+    <div id="wrapper" class="wat-cf">
+      <div class="flash">
+        <% flash.each do |type, message| -%>
+          <div class="message <%= type %>">
+            <p><%= message %></p>
+          </div>
+        <% end -%>
+      </div>
+      <div id="main" style="width:100%">
+        <div id="block-text" class="block">
+          <div class="content">
+            <div class="actions-bar wat-cf">
+              <div class="actions"></div>
+            </div>
+            <div class="inner">
+              <%= yield %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<div class="actions-bar wat-cf">
+  <div class="actions">
+    <%= form_tag users_path, :method => :get do -%>
+      <%= division_select_tag 'division_id', params[:division_id] %>
+      <%= text_field_tag 'phrase', params[:phrase] %>
+      <%= button_tag I18n.t('search') %>
+    <% end -%>
+  </div>
+</div>
+
+<%= form_tag({:action => :update}, {:method => :put}) do -%>
+  <div class="actions-bar wat-cf">
+    <div class="actions">
+      <%= save_button_tag %>
+    </div>
+    <div class="pagination">
+      <%= will_paginate @users, :prev_label => I18n.t('previous_page'), :next_label => I18n.t('next_page') %>
+    </div>
+  </div>
+
+  <table class="table">
+    <tr>
+      <th class="first" style="width:10%">
+        username
+      </th>
+      <th style="width:7%">
+        login
+      </th>
+      <th style="width:7%">
+        email
+      </th>
+      <th style="width:30%">
+        note
+      </th>
+      <th>
+        qualification
+      </th>
+      <th class="last">
+        item group
+      </th>
+    </tr>
+
+    <% user_count = 0 -%>
+
+    <% qualifications_for_select = [[]].concat(Qualification.all.collect { |q|
+         [q.name, q.id]
+       }) -%>
+
+    <% item_groups_for_select = [[]].concat(ItemGroup.all.collect { |g|
+         [g.name, g.id]
+       }) -%>
+
+    <% @users.each do |user| -%>
+      <%= fields_for "users[#{user_count}]", user do |user_form| -%>
+        <tr class="<%= odd_or_even %>">
+          <td>
+            <%=h user.name %>
+          </td>
+          <td>
+            <%=h user.login %>
+          </td>
+          <td>
+            <%=h user.email %>
+          </td>
+          <td>
+            <span style="font-size:80%"><%= user.note %></span>
+          </td>
+          <td>
+            <%= user_form.select :qualification_id, qualifications_for_select %>
+          </td>
+          <td>
+            <%= user_form.select :item_group_id, item_groups_for_select %>
+            <%= user_form.hidden_field :id %>
+          </td>
+        </tr>
+      <% end -%>
+      <% user_count += 1 -%>
+    <% end -%>
+  </table>
+
+  <div class="actions-bar wat-cf">
+    <div class="actions">
+      <%= save_button_tag %>
+    </div>
+    <div class="pagination">
+      <%= will_paginate @users, :prev_label => I18n.t('previous_page'), :next_label => I18n.t('next_page') %>
+    </div>
+  </div>
+<% end -%>

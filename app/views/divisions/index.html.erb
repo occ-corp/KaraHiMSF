@@ -1,0 +1,32 @@
+<h1>Listing divisions</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Code</th>
+    <th>Parent</th>
+    <th>Lft</th>
+    <th>Rgt</th>
+    <th>Created at</th>
+    <th>Updated at</th>
+  </tr>
+
+<% @divisions.each do |division| %>
+  <tr>
+    <td><%=h division.name %></td>
+    <td><%=h division.code %></td>
+    <td><%=h division.parent_id %></td>
+    <td><%=h division.lft %></td>
+    <td><%=h division.rgt %></td>
+    <td><%=h division.created_at %></td>
+    <td><%=h division.updated_at %></td>
+    <td><%= link_to 'Show', division %></td>
+    <td><%= link_to 'Edit', edit_division_path(division) %></td>
+    <td><%= link_to 'Destroy', division, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New division', new_division_path %>

@@ -1,0 +1,24 @@
+<h1>Listing qualifications</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Created at</th>
+    <th>Updated at</th>
+  </tr>
+
+<% @qualifications.each do |qualification| %>
+  <tr>
+    <td><%=h qualification.name %></td>
+    <td><%=h qualification.created_at %></td>
+    <td><%=h qualification.updated_at %></td>
+    <td><%= link_to 'Show', qualification %></td>
+    <td><%= link_to 'Edit', edit_qualification_path(qualification) %></td>
+    <td><%= link_to 'Destroy', qualification, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New qualification', new_qualification_path %>

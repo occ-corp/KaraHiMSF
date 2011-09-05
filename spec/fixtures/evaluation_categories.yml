@@ -1,0 +1,30 @@
+---
+evaluation_categories_001:
+  created_at:
+  id: 1
+  name: "実績"
+  type: EvaluationCategory::TopDown
+  updated_at:
+  evaluation_group_id: 1
+evaluation_categories_002:
+  created_at:
+  id: 2
+  name: "能力"
+  type: EvaluationCategory::TopDown
+  updated_at:
+  evaluation_group_id: 1
+evaluation_categories_003:
+  created_at:
+  id: 3
+  name: "態度"
+  type: EvaluationCategory::TopDown
+  updated_at:
+  evaluation_group_id: 1
+evaluation_categories_004:
+  created_at:
+  id: 4
+  name: "多面評価"
+  type: EvaluationCategory::Multifaceted
+  updated_at:
+  evaluation_group_id: 2
+

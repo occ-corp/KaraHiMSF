@@ -1,0 +1,271 @@
+<% with_qualification = @evaluation_type == EvaluationOrder::Multifaceted ? false : true -%>
+
+<% javascript_tag do -%>
+
+<% if with_qualification -%>
+function update_object_user_result(object_user_id) {
+  new Ajax.Request('/users/' + object_user_id + '/result.json',
+                   {
+                     method:'get',
+                     onLoading: function () {
+                     },
+                     onSuccess: function (response) {
+                       json = response.responseJSON;
+                       $('total_multifaceted_evaluation_' + object_user_id).update(json.total_multifaceted_evaluation);
+                       $('total_first_topdown_evaluation_' + object_user_id).update(json.total_first_topdown_evaluation);
+                       $('total_first_topdown_plus_multifaceted_' + object_user_id).update(json.total_first_topdown_plus_multifaceted);
+                       $('total_first_topdown_plus_multifaceted_rank_' + object_user_id).update(json.total_first_topdown_plus_multifaceted_rank);
+                       $('total_second_topdown_evaluation_' + object_user_id).update(json.total_second_topdown_evaluation);
+                       $('total_second_topdown_plus_multifaceted_' + object_user_id).update(json.total_second_topdown_plus_multifaceted);
+                       $('total_second_topdown_plus_multifaceted_rank_' + object_user_id).update(json.total_second_topdown_plus_multifaceted_rank);
+                       new Effect.Highlight('object_user_' + object_user_id);
+                     }
+                   });
+}
+<% end -%>
+
+function post_score(n, object_user_id, parameters) {
+  new Ajax.Request('<%= user_scores_path @user, :format => :json %>',
+                   {
+                     method:'post',
+                     parameters:parameters,
+                     onLoading:function () {
+                       $('score_notif_' + n).update('<%= loading_icon_tag %>');
+                     },
+                     onSuccess:function (response) {
+                       s = response.responseJSON;
+                       $('score_notif_' + n).update('');
+                       $$('input.score_' + n).each(function(e) {
+                         var buf = ''
+                           + '<input type="radio"'
+                           + '       onclick="put_score' + '(' + n + ', ' + object_user_id + ', {\'score[id]\':' + s.id + ', \'score[point_id]\':' + e.id.replace('scores_' + n + '_point_id_', '') + ', \'score[item_belong_id]\':' + s.item_belong_id + ', \'score[evaluation_id]\':' + s.evaluation_id + '})"'
+                           + '       class="score_' + n + '"'
+                           + '       name="' + e.name + '"'
+                           + '       id="' + e.id + '"'
+                           + (e.id == 'scores_' + n + '_point_id_' + s.point_id ? 'checked="checked"' : '') + '" />' // "
+                         e.replace(buf);
+                       });
+<% if with_qualification -%>
+                       update_object_user_result(object_user_id);
+<% end -%>
+                     }
+                   });
+}
+
+function put_score(n, object_user_id, parameters) {
+  id = parameters['score[id]'];
+  new Ajax.Request('/users/373/scores/' + id + '.json',
+                   {
+                     method:'put',
+                     parameters:parameters,
+                     onLoading:function () {
+                       $('score_notif_' + n).update('<%= loading_icon_tag %>');
+                     },
+                     onSuccess:function (response) {
+                       $('score_notif_' + n).update('');
+<% if with_qualification -%>
+                       update_object_user_result(object_user_id);
+<% end -%>
+                     }
+                   });
+}
+
+function insert_loading_icon_tag() {
+  var buf = '';
+  buf += '  <td colspan="<%= 2 + Point.count %>" style="text-align:center">'
+    +  '    <%= loading_icon_tag %>'
+    +  '  </td>';
+  return buf;
+}
+
+function build_score_tr_builder() {
+  var n = 0;
+  var is_odd_or_even = true;
+  return function (e) {
+    var odd_or_even = ((is_odd_or_even = !is_odd_or_even) ? 'odd' : 'even');
+    var rowsn = [e.last().size(), e.last().first().last().size()].max();
+    var buf = ''
+      + '<tr style="height:32px" class="' + odd_or_even + '" >'
+      + '  <td rowspan="' + rowsn + '">' + e.first() + ((e[1] || '').length ? '<img id="popup_link_' + n + '" class="popup_link" src="/images/message.png" style="margin-left:8px" /><div id="popup_' + n + '" class="baloon popup" style="width:520px"><p>' + e[1].gsub(/\n/, '<br />') + '</p><div class="popup_closebox"><img src="/images/close.png" /><%= I18n.t('close_window') %></div></div>' : '') + '</td>';
+
+    e.last().each(function (f) {
+      u = f.first();
+      f.last().each(function (s) {
+        if (u.user_id == <%= current_user.id %>) {
+          buf += ''
+            + '<td><span class="strong">' + u.user_name + '</span></td>'
+            + '<td><span class="strong">' + s.evaluation_order_name + '</span></td>';
+        } else {
+          buf += ''
+            + '<td><span class="weak">' + u.user_name + '</span></td>'
+            + '<td><span class="weak">' + s.evaluation_order_name + '</span></td>';
+        }
+          <% Point.all.each do |point| -%>
+          if (u.user_id == <%= current_user.id %>) {
+            <% if System.evaluation_closed? -%>
+              buf += '<td>';
+              if (s.point_id == <%= point.id %>) {
+                buf += '<%= check_icon_tag %>';
+              } else {
+                buf += '<%= bullet_icon_tag %>';
+              }
+              buf += '</td>';
+            <% else -%>
+              buf += ''
+                + '<td>'
+                + '  <input type="radio"'
+                + '         onclick="' + (s.id ? 'put_score' : 'post_score') + '(' + n + ', ' + u.object_user_id + ', {\'score[id]\':' + s.id + ', \'score[point_id]\':<%= point.id %>, \'score[item_belong_id]\':' + s.item_belong_id + ', \'score[evaluation_id]\':' + s.evaluation_id + '})"'
+                + '         class="score_' + n + '"'
+                + '         name="scores[' + n + '][point_id]"'
+                + '         id="scores_' + n + '_point_id_<%= point.id %>"'
+                + (s.point_id == <%= point.id %> ? 'checked="checked"' : '') + '" />' // "
+                + '</td>';
+            <% end -%>
+          } else {
+            buf += '<td>';
+            if (s.point_id == <%= point.id %>) {
+              buf += '<%= weak_check_icon_tag %>';
+            } else {
+              buf += '<%= weak_bullet_icon_tag %>';
+            }
+            buf += '</td>';
+          }
+          <% end %>
+          buf += ''
+          + '  <td id="score_notif_' + n + '">'
+          + '  </td>'
+          + '</tr>';
+        if (rowsn-- > 1) {
+          buf += '<tr style="height:32px" class="' + odd_or_even + '">';
+        }
+        n += 1;
+      });
+    });
+    buf += '</tr>';
+    return buf;
+  }
+}
+
+function show_score_table(object_user_id) {
+  new Ajax.Request('<%= user_scores_path @user, :format => :json %>',
+                   {
+                     method:'get',
+                     parameters:{
+                       object_user_id:object_user_id,
+                       evaluation_category_id:<%= @evaluation_category.id %>
+                     },
+                     onLoading:function () {
+                       var buf = '';
+                       buf += '<tr>'
+                         +  insert_loading_icon_tag()
+                         +  '</tr>';
+                       $('score_tbody').update(buf);
+                     },
+                     onSuccess:function (response) {
+                       var buf = '';
+                       var build_score_tr = build_score_tr_builder();
+                       response.responseJSON.each(function (e) {
+                         buf += build_score_tr(e);
+                       });
+                       $('score_tbody').update(buf);
+                       $$('div.baloon').each(function(e){
+                         var n = e.id.gsub(/popup_/, '');
+                         new Popup('popup_' + n, 'popup_link_' + n, {position:'below', trigger:'click'});
+                       })
+                     }
+                   });
+}
+
+  <% unless params[:object_user_id].to_s.empty? -%>
+    Event.observe(window, 'load', function (event) {
+                    show_score_table('<%= params[:object_user_id] %>');
+                  });
+  <% end -%>
+
+<% end -%>
+
+<div class="actions-bar wat-cf">
+  <%= form_tag user_scores_path(current_user), :method => :get do %>
+    <div class="actions" style="margin-right:30px">
+      <%= check_box_tag "only_unevaluated",
+                        "true",
+                        (params[:only_unevaluated] == "true" ? true : false) %>
+      <span class="strong">
+        <%= label_tag "only_unevaluated", I18n.t('show_incomplete_only') %>
+      </span>
+      <%= text_field_tag "phrase", params[:phrase], :style => "margin-left:10px" %>
+    </div>
+    <div class="actions">
+      <%= hidden_field_tag "session_save", "true" %>
+      <%= hidden_field_tag "evaluation_category_id", params[:evaluation_category_id] %>
+      <%= button_tag I18n.t('search') %>
+    </div>
+    <div class="actions" style="margin-left:10px">
+      <% if @object_users.total_pages < 2 -%>
+        <%= I18n.t('corresponding') %>
+      <% end -%>
+      <% if @object_users.total_entries.zero? -%>
+        <%= I18n.t('condition_no') %>
+      <% else -%>
+        <span class="strong"><%= @object_users.total_entries %></span>
+        <% if @object_users.total_pages > 1 -%>
+          <%= I18n.t('of_items') %>
+          <span class="strong"><%= ScoresController::PAGINATE_PER_PAGE %></span><%= I18n.t('showing_items') %>
+        <% else -%>
+          <%= I18n.t('number_of_items') %>
+        <% end -%>
+      <% end -%>
+    </div>
+  <% end -%>
+
+  <% if @object_users.total_pages > 1 -%>
+    <div class="actions" style="margin-left:15px">
+      <%= I18n.t('change_page2') %>&nbsp; : &nbsp;
+    </div>
+    <div class="pagination">
+      <%= will_paginate @object_users, :prev_label => "&laquo;", :next_label => "&raquo;" %>
+    </div>
+  <% end -%>
+</div>
+
+<div style="overflow:auto; max-height:320px">
+  <%= render(:partial => 'object_users',
+             :locals => {
+               :object_users => @object_users,
+               :with_qualification => with_qualification,
+             }) %>
+</div>
+
+<div style="margin-top:10px">
+  <%= I18n.t('will_be_saved_as_soon_as_you_check') %>
+
+</div>
+
+<div style="height:360px">
+  <table class="table">
+    <thead>
+      <tr>
+        <th style="width:20%" class="first">
+          <%= I18n.t('eval_item') %>
+        </th>
+        <th style="width:10%">
+          <%= I18n.t('evaluator') %>
+        </th>
+        <th>
+          <%= I18n.t('evaluation') %>
+        </th>
+        <% selectable_points.each do |point| -%>
+          <th style="width:10%">
+            <span class="small">
+              <%= point.point.to_i %>.
+              <%= point.name %>
+            </span>
+          </th>
+        <% end -%>
+        <th class="last" style="width:5%"></th> <!-- don't remove -->
+      </tr>
+    </thead>
+    <tbody id="score_tbody">
+    </tbody>
+  </table>
+</div>

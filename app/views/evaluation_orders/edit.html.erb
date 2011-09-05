@@ -1,0 +1,16 @@
+<h1>Editing evaluation_order</h1>
+
+<%= form_for(@evaluation_order) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @evaluation_order %> |
+<%= link_to 'Back', evaluation_orders_path %>

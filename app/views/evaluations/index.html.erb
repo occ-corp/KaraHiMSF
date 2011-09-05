@@ -1,0 +1,95 @@
+<%= form_tag evaluations_path, :method => :get do -%>
+  <div class="actions-bar wat-cf">
+    <div class="actions">
+      <%= division_select_tag 'division_id', params[:division_id] %><br />
+      <%= text_field_tag('phrase',
+                         params[:phrase],
+                         :style => 'width:200px') %>
+    </div>
+  </div>
+
+  <div class="actions-bar wat-cf">
+    <div class="actions">
+      <%= button_tag I18n.t('search') %>
+    </div>
+    <div class="pagination">
+      <%= will_paginate @users, :prev_label=>I18n.t('previous_page'), :next_label=>I18n.t('next_page') %>
+    </div>
+  </div>
+<% end -%>
+
+<% topdown_eval_orders = EvaluationOrder.scoped_by_type('EvaluationOrder::TopDown') -%>
+
+<% multifaceted_eval_orders = EvaluationOrder.scoped_by_type('EvaluationOrder::Multifaceted') -%>
+
+<table class="table">
+  <tr>
+    <th rowspan="3" class="first"><%= I18n.t('current_user') %></th>
+    <th colspan="<%= topdown_eval_orders.length + multifaceted_eval_orders.length %>">
+      <%= I18n.t('users_eval_targets') %>
+    </th>
+    <th colspan="<%= topdown_eval_orders.length + multifaceted_eval_orders.length %>" class="last">
+      <%= I18n.t('peple_eval_user') %>
+    </th>
+  </tr>
+  <tr>
+    <th colspan="<%= topdown_eval_orders.length %>"><%= I18n.t('top') %></th>
+    <th style="width:10%" rowspan="2"><%= I18n.t('multiface') %></th>
+    <th colspan="<%= topdown_eval_orders.length %>"><%= I18n.t('top') %></th>
+    <th style="width:10%" rowspan="2"><%= I18n.t('multiface') %></th>
+  </tr>
+  <tr>
+    <% 2.times do -%>
+      <% topdown_eval_orders.each do |order| -%>
+        <th style="width:10%">
+          <%=h order.name %>
+        </th>
+      <% end -%>
+    <% end -%>
+  </tr>
+  <% @users.each do |user| -%>
+  <% @user = user -%>
+
+  <tr class="<%= odd_or_even %>">
+    <td>
+      <%=h @user.name %>
+    </td>
+    <% topdown_eval_orders.each do |order| -%>
+      <td id="evaluations_field_<%= @user.id %>_<%= order.id %>">
+        <%= render(:partial => 'evaluations',
+                   :locals => {:evaluation_order => order}) %>
+      </td>
+    <% end -%>
+    <% multifaceted_eval_orders.each do |order| -%>
+      <td id="evaluations_field_<%= @user.id %>_<%= order.id %>">
+        <%= render(:partial => 'evaluations',
+                   :locals => {:evaluation_order => order}) %>
+      </td>
+    <% end -%>
+    <% topdown_eval_orders.each do |order| -%>
+      <td>
+        <%= render(:partial => 'evaluations',
+                   :locals => {
+                     :evaluation_order => order,
+                     :on_passive_evaluations => true
+                   }) %>
+      </td>
+    <% end -%>
+    <% multifaceted_eval_orders.each do |order| -%>
+      <td>
+        <%= render(:partial => 'evaluations',
+                   :locals => {
+                     :evaluation_order => order,
+                     :on_passive_evaluations => true
+                   }) %>
+      </td>
+    <% end -%>
+  </tr>
+<% end -%>
+</table>
+
+<div class="actions-bar wat-cf">
+  <div class="pagination">
+    <%= will_paginate @users, :prev_label=>I18n.t('previous_page'), :next_label=>I18n.t('next_page') %>
+  </div>
+</div>

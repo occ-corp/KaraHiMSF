@@ -1,0 +1,2 @@
+# Configure which authentication method is used. Available methods are none, local and ldap.
+authentication_method: local

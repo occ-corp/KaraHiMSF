@@ -1,0 +1,23 @@
+=== Version 0.3.0
+
+2009-10-20.
+
+- releasing into gemcutter.
+
+=== Version 0.2.0
+
+2008-09-02.
+
+- Applied patch from OHASHI Hideya: YAML.dump support.
+
+=== Version 0.1.2
+
+2008-09-02.
+
+- gemized in http://gems.github.com/
+
+=== Version 0.1.1
+
+2007-01-05.
+
+- initial release.

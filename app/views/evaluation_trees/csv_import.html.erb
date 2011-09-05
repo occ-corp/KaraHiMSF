@@ -1,0 +1,10 @@
+<%= form_tag evaluation_tree_path(0), :method => :put, :multipart => true do %>
+  <div class="actions-bar wat-cf">
+    <div class="actions">
+      <%= file_field_tag "file" %>
+    </div>
+    <div class="actions">
+      <%= button_tag I18n.t('import') %>
+    </div>
+  </div>
+<% end -%>

@@ -1,0 +1,14 @@
+= TODO
+
+* pass all the tests
+* a feature to help the supervisors who enter the scores for subordinates in remote locations
+* lock/unlock the topdown evaluation and/or multifaceted evaluation entering
+* fix the issues of the evaluation tree window
+* better setting windows for
+
+  * employees and system users
+  * divisions
+  * roles
+  * qualification weight
+
+* overall review of the user interface

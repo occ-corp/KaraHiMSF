@@ -1,0 +1,82 @@
+--- 
+divisions_011: 
+  code: "0"
+  created_at: 2010-05-25 14:11:06.812294 Z
+  id: 11
+  lft: 1
+  name: "全体"
+  parent_id: 
+  rgt: 18
+  updated_at: 2010-05-25 14:11:06.812294 Z
+divisions_004: 
+  code: "1000"
+  created_at: 2010-05-25 14:11:06.798089 Z
+  id: 4
+  lft: 2
+  name: "営業戦略部"
+  parent_id: 11
+  rgt: 17
+  updated_at: 2010-05-25 14:11:06.798089 Z
+divisions_017: 
+  code: "1200"
+  created_at: 2010-05-25 14:11:06.824377 Z
+  id: 17
+  lft: 3
+  name: "技術支援課"
+  parent_id: 4
+  rgt: 4
+  updated_at: 2010-05-25 14:11:06.824377 Z
+divisions_018: 
+  code: "1400"
+  created_at: 2010-05-25 14:11:06.826384 Z
+  id: 18
+  lft: 5
+  name: "データサービス課"
+  parent_id: 4
+  rgt: 6
+  updated_at: 2010-05-25 14:11:06.826384 Z
+divisions_019: 
+  code: "1900"
+  created_at: 2010-05-25 14:11:06.828369 Z
+  id: 19
+  lft: 7
+  name: "企画課"
+  parent_id: 4
+  rgt: 16
+  updated_at: 2010-05-25 14:11:06.828369 Z
+divisions_020: 
+  code: "1900"
+  created_at: 2010-05-25 14:11:06.830407 Z
+  id: 20
+  lft: 8
+  name: "品質管理チーム"
+  parent_id: 19
+  rgt: 9
+  updated_at: 2010-05-25 14:11:06.830407 Z
+divisions_021: 
+  code: "1900"
+  created_at: 2010-05-25 14:11:06.832402 Z
+  id: 21
+  lft: 10
+  name: "営業支援チーム"
+  parent_id: 19
+  rgt: 11
+  updated_at: 2010-05-25 14:11:06.832402 Z
+divisions_022: 
+  code: "1900"
+  created_at: 2010-05-25 14:11:06.834380 Z
+  id: 22
+  lft: 12
+  name: "販売促進チーム"
+  parent_id: 19
+  rgt: 13
+  updated_at: 2010-05-25 14:11:06.834380 Z
+divisions_023: 
+  code: "1900"
+  created_at: 2010-05-25 14:11:06.836360 Z
+  id: 23
+  lft: 14
+  name: "Webコンテンツチーム"
+  parent_id: 19
+  rgt: 15
+  updated_at: 2010-05-25 14:11:06.836360 Z

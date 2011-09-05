@@ -1,0 +1,278 @@
+<%= javascript_tag <<-EOS
+      function enable_belong_form(prefix) {
+        $(prefix + '_close_icon_tag').show();
+        $(prefix + '_add_icon_tag').hide();
+        if ($(prefix + '__delete')) {
+          $(prefix + '__delete').disable();
+        }
+        $(prefix + '_user_id').enable();
+        $(prefix + '_job_title_id').enable();
+      }
+
+      function disable_belong_form(prefix) {
+        $(prefix + '_close_icon_tag').hide();
+        $(prefix + '_add_icon_tag').show();
+        if ($(prefix + '__delete')) {
+          $(prefix + '__delete').enable();
+        }
+        $(prefix + '_user_id').disable();
+        $(prefix + '_job_title_id').disable();
+      }
+
+      function update_select_for_users(prefix, json) {
+        select_tag = $(prefix + '_user_id');
+
+        // clear
+        select_tag.update();
+
+        json.collect(function (e) {
+          return e.user;
+        }).each(function (user) {
+          select_tag.insert(new Element('option', {value:user.id}).update(user.name));
+        });
+      }
+
+      function new_ajax_request_for_users(prefix) {
+        new Ajax.Request('#{users_path(:json)}',
+                         {
+                          method:'get',
+                          asynchronous:true,
+                          evalScripts:true,
+                          parameters:{
+                            phrase:$F(prefix + '_phrase'),
+                            without_division_name:true
+                          },
+                          onComplete:function (response) {
+                            update_select_for_users(prefix, response.responseJSON);
+                          }
+                         });
+      }
+
+      function new_element_observer_for_select(prefix) {
+        new Form.Element.Observer(prefix + '_phrase',
+                                  1.2,
+                                  function (event) {
+                                    expand_select_tag(prefix + '_user_id');
+                                    new_ajax_request_for_users(prefix);
+                                  });
+      }
+
+      function expand_select_tag(select_tag) {
+         select_tag = $(select_tag);
+         select_tag.multiple = true;
+         select_tag.setStyle({ height:'120px'});
+      }
+
+      function shrink_select_tag(select_tag) {
+         select_tag = $(select_tag);
+         select_tag.multiple = false;
+         select_tag.setStyle({ height:null });
+      }
+
+      function open_user_id_form(prefix) {
+         $(prefix + '_phrase').show();
+         $(prefix + '_reset').show();
+         expand_select_tag($(prefix + '_user_id'));
+         new_element_observer_for_select(prefix);
+      }
+
+      function close_user_id_form(prefix, user_id, user_name) {
+         $(prefix + '_phrase').hide();
+         $(prefix + '_reset').hide();
+         shrink_select_tag($(prefix + '_user_id'));
+         $(prefix + '_user_id').update();
+         $(prefix + '_user_id').insert(new Element('option', {value:user_id}).update(user_name));
+      }
+    EOS
+    %>
+
+<%= form_tag belongs_path, :method => :get do -%>
+  <label>
+    <%= I18n.t('narrow_by_division') %>:
+  </label><br />
+  <%= division_select_tag 'id', params[:id], :onchange => 'submit()' %>
+<% end -%>
+
+<ul>
+  <li><%= I18n.t('reload_page_to_discard_changes') %></li>
+  <li><%= I18n.t('not_updated_until_you_press_save_button') %></li>
+</ul>
+
+<%= form_tag({:action => :update}, {:method => :put}) do -%>
+  <div class="actions-bar wat-cf">
+    <div class="actions">
+      <%= save_button_tag %>
+    </div>
+    <div class="pagination">
+      <%= will_paginate @divisions, :prev_label => I18n.t('previous_page'), :next_label => I18n.t('next_page') %>
+    </div>
+  </div>
+
+  <table class="table">
+    <tr>
+      <th style="width:40%"  class="first">
+        divisions.name
+      </th>
+      <th style="width:30%">
+        users.name
+      </th>
+      <th>
+        job_titles.name
+      </th>
+      <th class="last">
+      </th>
+    </tr>
+
+    <% job_titles = JobTitle.all -%>
+
+    <% job_titles_for_select = [['']] + job_titles.collect do |job_title|
+         [job_title.name, job_title.id]
+       end -%>
+
+    <% division_count = 0 -%>
+
+    <% @divisions.each do |division| -%>
+      <% odd_or_even -%>
+      <%= fields_for "divisions[#{division_count}]", division do |division_form| -%>
+        <% init_row_span division.belongs.length + 1 -%>
+        <% division_form_name = division_form.object_name -%>
+        <% division_form_id = sanitize_to_id(division_form_name) -%>
+        <% division_forms_id = division_form_id + '_tbody_id' -%>
+
+        <tbody id="<%= division_forms_id %>">
+          <tr class="<%= odd_or_even false %>">
+            <% len = row_span -%>
+            <% division_form_head_id = division_form_id + '_head' -%>
+
+            <td rowspan="<%= len %>" id="<%= division_form_head_id %>">
+              <%= division.id %>
+              <%= division.nested_name %>
+            </td>
+            <td>
+              <% division_name_prefix = division_form_name + '[belongs_attributes]' -%>
+              <% division_id_prefix = sanitize_to_id(division_name_prefix) -%>
+              <%= javascript_tag <<-EOS
+                    #{division_id_prefix}_count = #{division.belongs.count};
+                  EOS
+                  %>
+              <%= link_to_function add_icon_tag + I18n.t('add'), <<-EOS
+                    name_prefix = '#{division_name_prefix}'
+                      + '[' + #{division_id_prefix}_count + ']';
+
+                    id_prefix = '#{sanitize_to_id(division_name_prefix)}'
+                      + '_' + #{division_id_prefix}_count;
+
+                    $('#{division_form_head_id}').rowSpan++;
+                    $('#{division_forms_id}').insert(
+                        '<tr class="#{odd_or_even false}">'
+                      + '  <td>'
+                      + '    <select id="' + id_prefix + '_user_id"'
+                      + '            name="' + name_prefix + '[user_id]"'
+                      + '            onchange="shrink_select_tag(this)"'
+                      + '            disabled="disabled"'
+                      + '            style="width:180px">'
+                      + '    </select>'
+                      + '    <a href="#"'
+                      + '       onclick="open_user_id_form(\\'' + id_prefix + '\\'); enable_belong_form(\\'' + id_prefix + '\\'); return false;">'
+                      + '      #{edit_icon_tag}'
+                      + '    </a>'
+                      + '    <input type="text"'
+                      + '           id="' + id_prefix + '_phrase"'
+                      + '           style="display:none" />'
+                      + '    <a href="#"'
+                      + '       id="' + id_prefix + '_reset"'
+                      + '       onclick="close_user_id_form(\\'' + id_prefix + '\\', \\'\\', \\'\\'); disable_belong_form(\\'' + id_prefix + '\\'); return false;"'
+                      + '       style="display:none">'
+                      + '      #{close_icon_tag}'
+                      + '    </a>'
+                      + '  </td>'
+                      + '  <td>'
+                      + '    <select id="' + id_prefix + '_job_title_id"'
+                      + '            disabled="disabled"'
+                      + '            name="' + name_prefix + '[job_title_id]">'
+                      + '      #{escape_javascript(options_for_select(job_titles_for_select))}'
+                      + '    </select>'
+                      + '  </td>'
+                      + '  <td>'
+                      + '    <a href="#"'
+                      + '       id="' + id_prefix + '_close_icon_tag"'
+                      + '       onclick="disable_belong_form(\\'' + id_prefix + '\\'); return false;">'
+                      + '      #{close_icon_tag}'
+                      + '    </a>'
+                      + '    <a href="#"'
+                      + '       id="' + id_prefix + '_add_icon_tag"'
+                      + '       onclick="enable_belong_form(\\'' + id_prefix + '\\'); return false;"'
+                      + '       style="display:none">'
+                      + '      #{add_icon_tag}'
+                      + '    </a>'
+                      + '  </td>'
+                      + '</tr>'
+                    );
+                    #{division_id_prefix}_count++;
+                  EOS
+                  %>
+              <%= hidden_field_tag division_form.object_name + '[id]', division.id %>
+            </td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <% division_form.fields_for :belongs do |belong_form| -%>
+            <tr class="<%= odd_or_even false %>">
+              <td>
+                <% belong = belong_form.object -%>
+                <% user = belong.user -%>
+                <% id_prefix = sanitize_to_id(belong_form.object_name) -%>
+
+                <%= belong_form.select(:user_id,
+                                       [[user.name, user.id]],
+                                       {},
+                                       {
+                                         :onchange => 'shrink_select_tag(this)',
+                                         :style => 'width:180px'
+                                       }) %>
+                <%= link_to_function edit_icon_tag, <<-EOS
+                      open_user_id_form('#{id_prefix}');
+                    EOS
+                    %>
+                <%= text_field_tag(id_prefix + "_phrase",
+                                   nil,
+                                   :name => nil,
+                                   :style => 'display:none')  %>
+                <%= link_to_function(close_icon_tag, <<-EOS, :id => id_prefix + "_reset", :style => 'display:none')
+                      close_user_id_form('#{id_prefix}', '#{user.id}', '#{user.name}');
+                    EOS
+                    %>
+              </td>
+              <td>
+                <%= belong_form.select(:job_title_id, job_titles_for_select) %>
+              </td>
+              <td>
+                <%= belong_form.hidden_field :_delete, :value => true, :disabled => 'disabled' %>
+                <%= link_to_function close_icon_tag, <<-EOS, :id => id_prefix + '_close_icon_tag'
+                      disable_belong_form('#{id_prefix}');
+                    EOS
+                    %>
+                <%= link_to_function add_icon_tag, <<-EOS, :id => id_prefix + '_add_icon_tag', :style => 'display:none'
+                      enable_belong_form('#{id_prefix}');
+                    EOS
+                    %>
+              </td>
+            </tr>
+          <% end -%>
+        </tbody>
+
+      <% end -%>
+      <% division_count += 1 -%>
+    <% end -%>
+  </table>
+
+  <div class="actions-bar wat-cf">
+    <div class="actions">
+      <%= save_button_tag %>
+    </div>
+    <div class="pagination">
+      <%= will_paginate @divisions, :prev_label => I18n.t('previous_page'), :next_label => I18n.t('next_page') %>
+    </div>
+  </div>
+<% end -%>

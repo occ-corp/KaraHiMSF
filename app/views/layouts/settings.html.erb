@@ -1,0 +1,60 @@
+<% content_for :secondary_navigation do -%>
+  <!--
+  <li class="first <%#= controller_name=='evaluations' ? 'active' : '' %>">
+    <%#= link_to '評価グループ', evaluations_path %>
+  </li>
+    -->
+
+  <li class="first <%= controller_name=='evaluation_trees' ? 'active' : '' %>">
+    <%= link_to I18n.t('evaluation_group'), evaluation_trees_path %>
+  </li>
+  <% if setting_modification_enabled? -%>
+    <li class="<%= controller_name=='item_groups' ? 'active' : '' %>">
+      <%= link_to I18n.t('employee_score_sheet'), item_groups_path %>
+    </li>
+    <li class="<%= controller_name=='users' and action_name=='incompletes' ? 'active' : '' %>">
+      <%= link_to I18n.t('check_unevaluated_targets_all'), :controller => :users, :action => :incompletes %>
+    </li>
+    <li class="<%= controller_name=='users' and action_name!='incompletes' ? 'active' : '' %>">
+      <%= link_to I18n.t('current_user'), users_path %>
+    </li>
+    <li class="<%= controller_name=='qualifications' ? 'active' : '' %>">
+      <%= link_to I18n.t('qualification'), qualifications_path %>
+    </li>
+    <li class="<%= controller_name=='points' ? 'active' : '' %>">
+      <%= link_to I18n.t('point'), points_path %>
+    </li>
+    <li class="<%= controller_name=='belongs' ? 'active' : '' %>">
+      <%= link_to I18n.t('affiliation'), belongs_path %>
+    </li>
+    <li class="<%= controller_name=='divisions' ? 'active' : '' %>">
+      <%= link_to I18n.t('department_name'), divisions_path %>
+    </li>
+    <li class="<%= controller_name=='job_titles' ? 'active' : '' %>">
+      <%= link_to I18n.t('job_title'), job_titles_path %>
+    </li>
+    <li class="last <%= controller_name=='systems' ? 'active' : '' %>">
+      <%= link_to I18n.t('settings'), systems_path %>
+    </li>
+  <% end -%>
+
+  <!--
+  <li class="last <%#= controller_name=='roles' ? 'active' : '' %>">
+    <%#= link_to 'ロール', roles_path %>
+  </li>
+  <li class="<%#= controller_name=='items' ? 'active' : '' %>">
+    <%#= link_to 'items', items_path %>
+  </li>
+  <li class="<%#= controller_name=='item_belongs' ? 'active' : '' %>">
+    <%#= link_to 'item belongs', item_belongs_path %>
+  </li>
+  <li class="<%#= controller_name=='evaluation_categories' ? 'active' : '' %>">
+    <%#= link_to 'evaluaton categories', evaluation_categories_path %>
+  </li>
+  <li class="last <%#= controller_name=='evaluation_items' ? 'active' : '' %>">
+    <%#= link_to 'evaluaton items', evaluation_items_path %>
+  </li>
+    -->
+<% end -%>
+
+<%= render :file => File.join('layouts', 'application') %>

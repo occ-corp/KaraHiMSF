@@ -1,0 +1,121 @@
+--- 
+item_groups_003: 
+  created_at: 2010-05-25 14:20:06.596869 Z
+  id: 3
+  name: "インストラクタ"
+  updated_at: 2010-05-25 14:29:19.508308 Z
+item_groups_004: 
+  created_at: 2010-05-25 14:21:18.324639 Z
+  id: 4
+  name: "ヘルプデスク"
+  updated_at: 2010-05-25 14:29:36.140586 Z
+item_groups_002: 
+  created_at: 2010-05-25 14:15:22.595069 Z
+  id: 2
+  name: "雛形(一般・専門職)"
+  updated_at: 2010-05-25 14:32:26.028879 Z
+item_groups_007: 
+  created_at: 2010-05-25 14:35:05.358899 Z
+  id: 7
+  name: "データセンタオペレータ"
+  updated_at: 2010-05-25 14:35:05.358899 Z
+item_groups_008: 
+  created_at: 2010-05-25 14:35:27.488239 Z
+  id: 8
+  name: "データセンタスケジューラ"
+  updated_at: 2010-05-25 14:35:27.488239 Z
+item_groups_009: 
+  created_at: 2010-05-25 14:35:43.556460 Z
+  id: 9
+  name: "データセンタ受付"
+  updated_at: 2010-05-25 14:35:43.556460 Z
+item_groups_010: 
+  created_at: 2010-05-25 14:35:59.306590 Z
+  id: 10
+  name: "データセンタ管理"
+  updated_at: 2010-05-25 14:35:59.306590 Z
+item_groups_011: 
+  created_at: 2010-05-25 14:36:18.949798 Z
+  id: 11
+  name: "配送"
+  updated_at: 2010-05-25 14:36:33.899262 Z
+item_groups_013: 
+  created_at: 2010-05-25 15:00:21.993789 Z
+  id: 13
+  name: "営業戦略品質管理"
+  updated_at: 2010-05-25 15:00:21.993789 Z
+item_groups_014: 
+  created_at: 2010-05-25 15:00:46.673436 Z
+  id: 14
+  name: "営業戦略企画"
+  updated_at: 2010-05-25 15:00:46.673436 Z
+item_groups_015: 
+  created_at: 2010-05-25 15:00:58.169359 Z
+  id: 15
+  name: "営業戦略Webコンテンツ"
+  updated_at: 2010-05-25 15:00:58.169359 Z
+item_groups_016: 
+  created_at: 2010-05-25 15:01:18.903603 Z
+  id: 16
+  name: "営業戦略技術支援"
+  updated_at: 2010-05-25 15:01:18.903603 Z
+item_groups_018: 
+  created_at: 2010-05-25 15:09:34.661672 Z
+  id: 18
+  name: "庶務"
+  updated_at: 2010-05-25 15:09:34.661672 Z
+item_groups_021: 
+  created_at: 2010-05-25 15:12:43.592880 Z
+  id: 21
+  name: "営業支援"
+  updated_at: 2010-05-25 15:12:43.592880 Z
+item_groups_020: 
+  created_at: 2010-05-25 15:12:20.102116 Z
+  id: 20
+  name: "営業一般"
+  updated_at: 2010-05-25 15:12:57.599473 Z
+item_groups_023: 
+  created_at: 2010-05-25 15:21:20.694867 Z
+  id: 23
+  name: "SE"
+  updated_at: 2010-05-25 15:21:20.694867 Z
+item_groups_024: 
+  created_at: 2010-05-25 15:21:33.388553 Z
+  id: 24
+  name: "PG"
+  updated_at: 2010-05-25 15:21:33.388553 Z
+item_groups_026: 
+  created_at: 2010-05-25 15:27:37.959229 Z
+  id: 26
+  name: "技術ネットワーク"
+  updated_at: 2010-05-25 15:27:37.959229 Z
+item_groups_027: 
+  created_at: 2010-05-25 15:27:53.762265 Z
+  id: 27
+  name: "技術サーバ"
+  updated_at: 2010-05-25 15:27:53.762265 Z
+item_groups_028: 
+  created_at: 2010-05-25 15:28:08.396508 Z
+  id: 28
+  name: "技術統括"
+  updated_at: 2010-05-25 15:28:08.396508 Z
+item_groups_029: 
+  created_at: 2010-05-25 15:28:33.172287 Z
+  id: 29
+  name: "出向者"
+  updated_at: 2010-05-25 15:28:33.172287 Z
+item_groups_001: 
+  created_at: 2010-05-25 14:11:59.384275 Z
+  id: 1
+  name: "管理職"
+  updated_at: 2010-05-27 09:01:47.300927 Z
+item_groups_030: 
+  created_at: 2010-06-01 06:32:37.839513 Z
+  id: 30
+  name: "その他一般・専門職"
+  updated_at: 2010-06-01 06:32:37.839513 Z
+item_groups_031: 
+  created_at: 2010-06-02 04:56:03.376416 Z
+  id: 31
+  name: "テスタ"
+  updated_at: 2010-06-02 07:13:36.690731 Z

@@ -1,0 +1,87 @@
+<% javascript_tag do -%>
+  function update_item_belong_sequences() {
+    var n=0;
+    Sortable.sequence('sortable_list').each(function (e) {
+      $('item_group_item_belongs_attributes_' + e + '_seq').value = n;
+      n++;
+    });
+  }
+
+  Event.observe(window,
+                'load',
+                function (event) {
+                  Sortable.create('sortable_list',
+                                  {
+                                    constraint: false,
+                                    dropOnEmpty: true
+                                  })
+                });
+<% end -%>
+
+<div class="actions-bar wat-cf">
+  <%= form_tag new_item_group_path, :method => :get do %>
+    <div class="actions">
+      <%= select_tag("id",
+                     options_for_select(ItemGroup.order_by_name.collect { |item_group|
+                                          [item_group.name, item_group.id]
+                                        })) %>
+    </div>
+    <div class="actions">
+      <%= button_tag I18n.t('load_template') %>
+    </div>
+  <% end -%>
+</div>
+
+<%= form_for @item_group do |item_group_form| %>
+  <% if @item_group.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@item_group.errors.count, "error") %> prohibited this item_group from being saved:</h2>
+
+      <ul>
+      <% @item_group.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= item_group_form.label :name, I18n.t('employee_score_sheet_name') %>
+    <%= item_group_form.text_field :name %>
+  </div>
+
+  <ul id="sortable_list" class="sortable_list">
+    <%= item_group_form.fields_for :item_belongs do |f| %>
+      <% item = f.object.item -%>
+      <% evaluation_category = item.evaluation_category -%>
+      <% evaluation_item = item.evaluation_item -%>
+      <li style="width:830px; padding:2px;" id="sortable_item_<%= sanitize_to_id f.object_name %>">
+
+        <div style="border:1px solid #aaaaaa; background:white; padding:5px">
+          <div style="width:160px; float:left">
+            <span class="strong"><%= evaluation_category.name %></span>
+          </div>
+          <div style="width:160px; float:left">
+            <%= evaluation_item.name %>
+          </div>
+          <div style="width:120px; float:left">
+            <%= f.text_field :weight, :style => "width:90%" %>
+          </div>
+          <div style="width:360px; float:left">
+            <%= f.text_area :note, :rows => 3, :style => "width:90%" %>
+          </div>
+          <div style="clear:both"></div>
+          <%= f.hidden_field :item_id %>
+          <%= f.hidden_field :seq %>
+        </div>
+
+      </li>
+    <% end -%>
+  </ul>
+
+  <%= item_group_form.hidden_field :item_sequence, :value => "" %>
+
+  <div class="actions-bar wat-cf">
+    <%= button_tag I18n.t('submit'), :onclick => "update_item_belong_sequences()" %>
+  </div>
+<% end -%>

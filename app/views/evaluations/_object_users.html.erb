@@ -1,0 +1,53 @@
+<%= javascript_tag <<-EOS
+      object_user_ids = [#{object_users.collect {|user| user.id}.join(',')}];
+
+      show_object_users_scores_only = function (object_user_id) {
+        object_user_ids.each(function (id) {
+          if (id == object_user_id) {
+            $$('tr.scores_by_object_user_id_' + id).each(function (e) {
+              e.show();
+            });
+          } else {
+            $$('tr.scores_by_object_user_id_' + id).each(function (e) {
+              e.hide();
+            });
+          }
+        });
+      }
+    EOS
+    %>
+
+<table class="table">
+  <tbody>
+    <tr>
+      <th class="first"></th>
+      <th><%= I18n.t('fullname') %></th>
+      <th><%= I18n.t('employee_number') %></th>
+      <th><%= I18n.t('affiliation') %></th>
+      <th><%= I18n.t('qualification') %></th>
+      <th><%= I18n.t('weight') %></th>
+      <th class="last"><%= I18n.t('job_title') %></th>
+    </tr>
+    <% object_users.each do |user| -%>
+      <tr class="<%= odd_or_even %>">
+        <td>
+          <%= radio_button_tag(:object_user_id,
+                               user.id,
+                               user == default,
+                               :onclick => <<-EOS)
+                show_object_users_scores_only($F(this));
+              EOS
+              %>
+        </td>
+        <td>
+          <%=h user.name %>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    <% end -%>
+  </tbody>
+</table>

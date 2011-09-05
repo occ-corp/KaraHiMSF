@@ -1,0 +1,222 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title><%= I18n.t('system_name') %></title>
+        <%= javascript_include_tag :defaults %>
+        <%= javascript_include_tag "window" %>
+        <%= javascript_include_tag "popup" %>
+        <%= javascript_include_tag "minmax" %>
+        <%= javascript_include_tag "jquery" %>
+        <%= javascript_tag do %>
+          jQuery.noConflict();
+          var j$ = jQuery;
+        <% end -%>
+        <%= javascript_include_tag "jquery.notifyBar" %>
+
+        <!-- <script type="text/javascript" src="http://getfirebug.com/releases/lite/1.2/firebug-lite-compressed.js"></script> -->
+
+        <%= stylesheet_link_tag "themes/alert", :media => 'all' %>
+        <%= stylesheet_link_tag "themes/default", :media => 'all' %>
+        <%= stylesheet_link_tag "popup", :media => 'all' %>
+        <%= stylesheet_link_tag "jquery.notifyBar" %>
+        <%= stylesheet_link_tag "web_app_theme", "themes/reidb-greenish/style", "web_app_theme_override", :media => 'all', :cache => true %>
+        <!--[if IE 6]>
+            <%= stylesheet_link_tag "ie6" %>
+        <![endif]-->
+
+        <%= stylesheet_link_tag "printer", :media => 'print' %>
+        <!--[if IE]>
+            <%= stylesheet_link_tag "printer-ie", :media => 'print' %>
+        <![endif]-->
+
+        <%= javascript_tag do %>
+          // The AJAX timeout handling is described in
+          // http://codejanitor.com/wp/2006/03/23/ajax-timeouts-with-prototype/
+          function callInProgress (xmlhttp) {
+            switch (xmlhttp.readyState) {
+            case 1: case 2: case 3:
+              return true;
+              break;
+              // Case 4 and 0
+            default:
+              return false;
+              break;
+            }
+          }
+
+          function showTimeoutMessage() {
+            j$.notifyBar({ html: I18n.t('access_timed_out') });
+          }
+
+          // Register global responders that will occur on all AJAX requests
+          Ajax.Responders.register({
+            onCreate: function(request) {
+              request['timeoutId'] = window.setTimeout(
+                function() {
+                  // If we have hit the timeout and the AJAX request is active, abort it and let the user know
+                  if (callInProgress(request.transport)) {
+                    request.transport.abort();
+                    showTimeoutMessage();
+
+                    // Run the onFailure method if we set one up when creating the AJAX object
+                    if (request.options['onFailure']) {
+                      request.options['onFailure'](request.transport, request.json);
+                    }
+                  }
+                },
+                30000 // 30 seconds
+              );
+            },
+            onComplete: function(request) {
+              // Clear the timeout, the request completed ok
+              window.clearTimeout(request['timeoutId']);
+              $$('img.loading_icon').each(function (e) {
+                e.remove();
+              });
+            },
+            onException: function() {
+              // Remove all loading icons
+              $$('img.loading_icon').each(function (e) {
+                e.remove();
+              });
+            }
+          });
+        <% end %>
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="header">
+      <div style="width:100%">
+        <div style="width:60%; float:left">
+          <h1><a href="/"><%= I18n.t('system_name') %></a></h1>
+          <% if System.questionnaire_executed? -%>
+            <% Question.all.each do |question| -%>
+              <%= form_for (current_user.answers.find_by_question_id(question) || current_user.answers.new(:question_id => question)), :html => {:id => "question_#{question.id}_answer"} do |f| %>
+                <p style="margin:0px; margin-left:20px">
+                  <span class="strong">* <%= question.question %>  :  </span>
+                  &nbsp;&nbsp;&nbsp;
+                  <%= f.radio_button :answer, false, :onclick => "$('question_#{question.id}_answer').submit()" %><%= f.label :answer_false, I18n.t('answer_no') %>
+                  &nbsp;&nbsp;&nbsp;
+                  <%= f.radio_button :answer, true, :onclick => "$('question_#{question.id}_answer').submit()" %><%= f.label :answer_true, I18n.t('answer_yes') %>
+                  <%= f.hidden_field :user_id %>
+                  <%= f.hidden_field :question_id %>
+                </p>
+                <% end -%>
+            <% end -%>
+          <% end -%>
+          <p style="margin:0px; margin-left:20px">
+            <%= I18n.t('draft_paper') %><br />
+          </p>
+        </div>
+        <div style="width:35%; float:right; text-align:right; margin-top:5px">
+          <%= I18n.t('login') %> <span class="strong"><%=h current_user.name %></span>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <% if original_current_user -%>
+            <% store_location -%>
+            <%= form_tag(session_path, {:method => :put, :id => "change_current_user_form"}) do %>
+              <%= link_to_function(I18n.t('back_to_your_login'), "$('change_current_user_form').submit()") %>
+            <% end -%>
+          <% else -%>
+            <% if current_user.roles.admin? -%>
+              <% store_location -%>
+              <%= link_to_function(I18n.t('change_login'), nil,
+                                   :id => "select_current_user_popup_link",
+                                   :class => "popup_link") %>
+              <div id="select_current_user_popup" class="popup" style="width:330px; height:420px; text-align:left">
+                <p><span class="strong"><%= I18n.t('only_administrator_can_enter_on_behalf') %></span></p>
+                <div class="actions-bar wat-cf" style="padding-bottom:0px">
+                  <div class="actions">
+                    <%= form_tag(session_path, {:method => :put, :id => "change_current_user_form"}) do %>
+                      <%= select_tag("id",
+                                     options_for_select([I18n.t('select_user')].concat(User.find(:all, :order => "users.kana").collect { |u|
+                                                          [u.name, u.id]
+                                                        })),
+                                     :onchange => "$('change_current_user_form').submit()") %>
+                    <% end -%>
+                  </div>
+                </div>
+                <div class="actions-bar wat-cf" style="padding-bottom:0px">
+                  <div class="actions">
+                    <a class="popup_closebox" href="#"><%= close_icon_tag %><%= I18n.t('close_window') %></a>
+                  </div>
+                </div>
+              </div>
+              <%= javascript_tag do %>
+                new Popup('select_current_user_popup', 'select_current_user_popup_link', {position:'auto', trigger:'click'});
+              <% end -%>
+            <% end -%>
+          <% end -%>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="/logout" class="logout"><%= t("web-app-theme.logout", :default => "Logout") %></a>
+        </div>
+        <div style="clear:both"></div>
+      </div>
+
+      <div id="main-navigation">
+        <ul class="wat-cf">
+          <% first_tab = true -%>
+          <% EvaluationCategory.all.each do |category| -%>
+            <li class="<%= first_tab ? 'first' : '' %>
+                       <%= params[:evaluation_category_id].to_i == category.id ? ' active' : '' %>">
+              <%= link_to category.name, user_scores_path(:user_id => current_user, :evaluation_category_id => category) %>
+            </li>
+            <% first_tab &= false -%>
+          <% end -%>
+          <li class="<%= controller_name == "incompletes" ? 'active' : '' %>">
+            <%= link_to I18n.t('check_unevaluated_targets'), :controller => :incompletes %>
+          </li>
+          <% if current_user.roles.decider? or current_user.roles.admin? -%>
+            <li class="<%= controller_name == 'adjustments' ? 'active' : '' %>">
+              <%= link_to I18n.t('final_adjustment'), adjustment_path %>
+            </li>
+          <% end -%>
+          <li class="<%= controller_name == 'users' and action_name == 'result' ? 'active' : '' %>">
+            <%= link_to I18n.t('eval_result'), :controller => :users, :action => :result %>
+          </li>
+          <li class="<%= controller_name == "interviews" ? "active" : '' %>">
+            <%= link_to I18n.t('interview_check'), :interviews %>
+          </li>
+          <li class="<%= params[:evaluation_category_id].to_i.zero? and !((controller_name == 'users' and action_name == 'result') or controller_name == "incompletes" or controller_name == "adjustments" or controller_name == "interviews") ? 'active' : '' %>">
+            <%= link_to I18n.t('configuration'), settings_path %>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="wrapper" class="wat-cf">
+      <div class="flash">
+        <% flash.each do |type, message| -%>
+          <div class="message <%= type %>">
+            <p><%= message %></p>
+          </div>
+        <% end -%>
+      </div>
+      <div id="main" style="width:100%">
+        <div id="block-text" class="block">
+          <div class="secondary-navigation">
+            <ul class="wat-cf">
+              &nbsp;
+              <%= yield :secondary_navigation %>
+            </ul>
+          </div>
+          <div class="content">
+            <div class="inner">
+              <%= yield %>
+            </div>
+          </div>
+        </div>
+        <div id="footer">
+          <div class="block">
+            <p>Copyright &copy; <%= Time.now.year %> OCC Corporation.</p>
+          </div>
+        </div>
+      </div>
+      <div id="sidebar">
+        <%= yield :sidebar %>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
