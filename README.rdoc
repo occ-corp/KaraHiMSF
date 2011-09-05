@@ -1,26 +1,26 @@
-== Employee Score Sheet
+== KaraHi MSF
 
-Employee Scorng Sheet(ESS) is an help application for 
-the employee evaluation. 
+KaraHi MSF(Multi Source Feedback) is a support system for 
+the self-development of the human resources.
 
 The superiors evaluate his subordinates work in the 
 top-down evaluation group the Human Resources 
 Department gave. The subordinates evaluate his 
 co-workers work in the multifaceted evaluation group.
 
-To help the evaluation, this application provides 
+To help an hassle-free evaluation, this system provides 
 following features.
 
 * help superiors and subordinates who enter the evaluation scores
 * help Human Resources Department staffs set up the top-down and multifaceted group
-* show the results and summaries of the evaluation
+* show results and summaries of the evaluation
 
 == REQUIREMENTS
 
 This system will work fine in Debian GNU/Linux 6.0, and on
 Ruby on Rails 3.0.1.
 
-ESS depends on following packages,
+This depends on following packages,
 
 * Ruby 1.9.2
 * PostgreSQL 8.4
