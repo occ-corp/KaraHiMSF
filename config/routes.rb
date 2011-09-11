@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-Ess::Application.routes.draw do
+KaraHiMsf::Application.routes.draw do
   resources :interviews, :only => [:index, :create, :update]
 
   resources :answers, :only => [:create, :update]

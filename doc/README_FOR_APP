@@ -1,2 +1,86 @@
-Use this README file to introduce your application and point to useful places in the API for learning more.
-Run "rake doc:app" to generate API documentation for your models, controllers, helpers, and libraries.
+== KaraHi MSF
+
+KaraHi MSF(Multi Source Feedback) is a support system for 
+the self-development of the human resources.
+
+The superiors evaluate his subordinates work in the 
+top-down evaluation group the Human Resources 
+Department gave. The subordinates evaluate his 
+co-workers work in the multifaceted evaluation group.
+
+To help an hassle-free evaluation, this system provides 
+following features.
+
+* help superiors and subordinates who enter the evaluation scores
+* help Human Resources Department staffs set up the top-down and multifaceted group
+* show results and summaries of the evaluation
+
+== REQUIREMENTS
+
+This system will work fine in Debian GNU/Linux 6.0, and on
+Ruby on Rails 3.0.1.
+
+This depends on following packages,
+
+* Ruby 1.9.2
+* PostgreSQL 8.4
+
+and following gem packages.
+
+* rails (3.0.1)
+* pg (0.9.0)
+* ruby-debug19 (0.11.6)
+* will_paginate (3.0.pre2)
+* test-unit (1.2.3)
+* rspec-rails (2.0.1)
+* prawn (0.11.1.pre)
+* net-ldap (0.1.1)
+
+== INSTALLATION
+
+At the command prompt, install dependent gem packages.
+
+  bundle install
+
+Configure the database.
+
+  cp config/database.yml.example config/database.yml
+  rake db:create:all
+  rake db:migrate
+
+Load fixtures into the database.
+
+  rake db:fixtures:load FIXTURES_PATH=spec/fixtures
+
+Configure the application.
+
+  cp config/environments/development.yml.example \
+    config/environments/development.yml
+
+Test the installation by running WEBrick web server.
+
+  rails server
+
+Open your browser with http://localhost:3000.
+You will see the application welcome page.
+
+Use default administrator account to log in.
+
+* login:iwamichi
+* password:iwamichi
+
+== IPA Font
+
+This application uses the IPA Font license font(ipag.ttf)
+which released under the IPA Font license. See 
+IPA-Font-License.txt in ./ipag00303 directory 
+for more details.
+
+== LICENSE
+
+This is free software released under the MIT-license.
+See LICENSE.txt for more details.
+
+== CONTACT
+
+OCC Corporation. http://www.occ.co.jp

@@ -4,4 +4,4 @@
 require File.expand_path('../config/application', __FILE__)
 require 'rake'
 
-Ess::Application.load_tasks
+KaraHiMsf::Application.load_tasks

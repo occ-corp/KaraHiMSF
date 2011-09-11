@@ -11,7 +11,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: ess_development
+  database: karahi_msf_development
   pool: 5
   username: postgres
   password:
@@ -37,7 +37,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: ess_test
+  database: karahi_msf_test
   pool: 5
   username: postgres
   password:
@@ -45,7 +45,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: ess_production
+  database: karahi_msf_production
   pool: 5
   username: postgres
   password:
