@@ -19,3 +19,4 @@ vendor/rails
 /foo*
 /bar*
 config/database.yml
+*.old
