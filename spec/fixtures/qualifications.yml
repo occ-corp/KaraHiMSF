@@ -1,121 +1,121 @@
---- 
-qualifications_001: 
+---
+qualifications_001:
   abbrev: AD
-  created_at: 
+  created_at:
   id: 1
   name: "アドバイザー"
-  updated_at: 
-qualifications_002: 
+  updated_at:
+qualifications_002:
   abbrev: F1
-  created_at: 
+  created_at:
   id: 2
-  name: "チーフエンジニア1級"
-  updated_at: 
-qualifications_003: 
+  name: "上級技術職1級"
+  updated_at:
+qualifications_003:
   abbrev: F2
-  created_at: 
+  created_at:
   id: 3
-  name: "チーフエンジニア2級"
-  updated_at: 
-qualifications_004: 
+  name: "上級技術職2級"
+  updated_at:
+qualifications_004:
   abbrev: F3
-  created_at: 
+  created_at:
   id: 4
-  name: "チーフエンジニア3級"
-  updated_at: 
-qualifications_005: 
+  name: "上級技術職3級"
+  updated_at:
+qualifications_005:
   abbrev: E1
-  created_at: 
+  created_at:
   id: 5
-  name: "エンジニア1級"
-  updated_at: 
-qualifications_006: 
+  name: "技術職1級"
+  updated_at:
+qualifications_006:
   abbrev: E2
-  created_at: 
+  created_at:
   id: 6
-  name: "エンジニア2級"
-  updated_at: 
-qualifications_007: 
+  name: "技術職2級"
+  updated_at:
+qualifications_007:
   abbrev: E3
-  created_at: 
+  created_at:
   id: 7
-  name: "エンジニア3級"
-  updated_at: 
-qualifications_011: 
+  name: "技術職3級"
+  updated_at:
+qualifications_011:
   abbrev: C1
-  created_at: 
+  created_at:
   id: 11
-  name: "チーフスペシャリスト1級"
-  updated_at: 
-qualifications_012: 
+  name: "上級専門職1級"
+  updated_at:
+qualifications_012:
   abbrev: C2
-  created_at: 
+  created_at:
   id: 12
-  name: "チーフスペシャリスト2級"
-  updated_at: 
-qualifications_013: 
+  name: "上級専門職2級"
+  updated_at:
+qualifications_013:
   abbrev: C3
-  created_at: 
+  created_at:
   id: 13
-  name: "チーフスペシャリスト3級"
-  updated_at: 
-qualifications_014: 
+  name: "上級専門職3級"
+  updated_at:
+qualifications_014:
   abbrev: S1
-  created_at: 
+  created_at:
   id: 14
-  name: "スペシャリスト1級"
-  updated_at: 
-qualifications_015: 
+  name: "専門職1級"
+  updated_at:
+qualifications_015:
   abbrev: S2
-  created_at: 
+  created_at:
   id: 15
-  name: "スペシャリスト2級"
-  updated_at: 
-qualifications_016: 
+  name: "専門職2級"
+  updated_at:
+qualifications_016:
   abbrev: S3
-  created_at: 
+  created_at:
   id: 16
-  name: "スペシャリスト3級"
-  updated_at: 
-qualifications_017: 
+  name: "専門職3級"
+  updated_at:
+qualifications_017:
   abbrev: S4
-  created_at: 
+  created_at:
   id: 17
-  name: "スペシャリスト4級"
-  updated_at: 
-qualifications_018: 
+  name: "専門職4級"
+  updated_at:
+qualifications_018:
   abbrev: SA
-  created_at: 
+  created_at:
   id: 18
-  name: "スペシャリストアシスタント"
-  updated_at: 
-qualifications_019: 
+  name: "アシスタント"
+  updated_at:
+qualifications_019:
   abbrev: TR
-  created_at: 
+  created_at:
   id: 19
   name: "トレーニー"
-  updated_at: 
-qualifications_020: 
+  updated_at:
+qualifications_020:
   abbrev: ""
-  created_at: 
+  created_at:
   id: 20
   name: "その他"
-  updated_at: 
-qualifications_008: 
-  abbrev: E1(manager)
-  created_at: 
+  updated_at:
+qualifications_008:
+  abbrev: M1
+  created_at:
   id: 8
-  name: "エンジニア1級(ライン管理職)"
-  updated_at: 
-qualifications_009: 
-  abbrev: E2(manager)
-  created_at: 
+  name: "管理職1級"
+  updated_at:
+qualifications_009:
+  abbrev: M2
+  created_at:
   id: 9
-  name: "エンジニア2級(ライン管理職)"
-  updated_at: 
-qualifications_010: 
-  abbrev: E3(manager)
-  created_at: 
+  name: "管理職2級"
+  updated_at:
+qualifications_010:
+  abbrev: M3
+  created_at:
   id: 10
-  name: "エンジニア3級(ライン管理職)"
-  updated_at: 
+  name: "管理職3級"
+  updated_at:

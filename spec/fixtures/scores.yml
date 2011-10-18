@@ -1,0 +1,6826 @@
+--- 
+scores_81986: 
+  created_at: 2011-10-12 08:22:05.405097 Z
+  evaluation_id: 53333
+  id: 81986
+  item_belong_id: 1621
+  point_id: 1
+  updated_at: 2011-10-12 08:27:16.002288 Z
+scores_82000: 
+  created_at: 2011-10-12 08:22:05.445801 Z
+  evaluation_id: 53334
+  id: 82000
+  item_belong_id: 1622
+  point_id: 1
+  updated_at: 2011-10-12 08:27:16.867560 Z
+scores_82002: 
+  created_at: 2011-10-12 08:22:05.450375 Z
+  evaluation_id: 53334
+  id: 82002
+  item_belong_id: 1624
+  point_id: 2
+  updated_at: 2011-10-12 08:27:29.811148 Z
+scores_81990: 
+  created_at: 2011-10-12 08:22:05.416313 Z
+  evaluation_id: 53333
+  id: 81990
+  item_belong_id: 1625
+  point_id: 2
+  updated_at: 2011-10-12 08:27:32.528191 Z
+scores_82004: 
+  created_at: 2011-10-12 08:22:05.455249 Z
+  evaluation_id: 53334
+  id: 82004
+  item_belong_id: 1626
+  point_id: 2
+  updated_at: 2011-10-12 08:27:35.046480 Z
+scores_82006: 
+  created_at: 2011-10-12 08:22:05.459943 Z
+  evaluation_id: 53334
+  id: 82006
+  item_belong_id: 1628
+  point_id: 1
+  updated_at: 2011-10-12 08:27:45.369945 Z
+scores_82007: 
+  created_at: 2011-10-12 08:22:05.462116 Z
+  evaluation_id: 53334
+  id: 82007
+  item_belong_id: 1629
+  point_id: 2
+  updated_at: 2011-10-12 08:27:48.746787 Z
+scores_81994: 
+  created_at: 2011-10-12 08:22:05.426446 Z
+  evaluation_id: 53333
+  id: 81994
+  item_belong_id: 1629
+  point_id: 2
+  updated_at: 2011-10-12 08:27:51.152305 Z
+scores_81985: 
+  created_at: 2011-10-12 08:22:05.393234 Z
+  evaluation_id: 53333
+  id: 81985
+  item_belong_id: 1620
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.393234 Z
+scores_81987: 
+  created_at: 2011-10-12 08:22:05.407610 Z
+  evaluation_id: 53333
+  id: 81987
+  item_belong_id: 1622
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.407610 Z
+scores_81988: 
+  created_at: 2011-10-12 08:22:05.409889 Z
+  evaluation_id: 53333
+  id: 81988
+  item_belong_id: 1623
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.409889 Z
+scores_81989: 
+  created_at: 2011-10-12 08:22:05.412559 Z
+  evaluation_id: 53333
+  id: 81989
+  item_belong_id: 1624
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.412559 Z
+scores_81991: 
+  created_at: 2011-10-12 08:22:05.418690 Z
+  evaluation_id: 53333
+  id: 81991
+  item_belong_id: 1626
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.418690 Z
+scores_81992: 
+  created_at: 2011-10-12 08:22:05.421390 Z
+  evaluation_id: 53333
+  id: 81992
+  item_belong_id: 1627
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.421390 Z
+scores_81993: 
+  created_at: 2011-10-12 08:22:05.424183 Z
+  evaluation_id: 53333
+  id: 81993
+  item_belong_id: 1628
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.424183 Z
+scores_81995: 
+  created_at: 2011-10-12 08:22:05.428713 Z
+  evaluation_id: 53333
+  id: 81995
+  item_belong_id: 1630
+  point_id: 4
+  updated_at: 2011-10-12 08:22:05.428713 Z
+scores_81996: 
+  created_at: 2011-10-12 08:22:05.431116 Z
+  evaluation_id: 53333
+  id: 81996
+  item_belong_id: 1631
+  point_id: 4
+  updated_at: 2011-10-12 08:22:05.431116 Z
+scores_81997: 
+  created_at: 2011-10-12 08:22:05.433649 Z
+  evaluation_id: 53333
+  id: 81997
+  item_belong_id: 1632
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.433649 Z
+scores_81998: 
+  created_at: 2011-10-12 08:22:05.440551 Z
+  evaluation_id: 53334
+  id: 81998
+  item_belong_id: 1620
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.440551 Z
+scores_81999: 
+  created_at: 2011-10-12 08:22:05.443289 Z
+  evaluation_id: 53334
+  id: 81999
+  item_belong_id: 1621
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.443289 Z
+scores_82001: 
+  created_at: 2011-10-12 08:22:05.448028 Z
+  evaluation_id: 53334
+  id: 82001
+  item_belong_id: 1623
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.448028 Z
+scores_82003: 
+  created_at: 2011-10-12 08:22:05.452663 Z
+  evaluation_id: 53334
+  id: 82003
+  item_belong_id: 1625
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.452663 Z
+scores_82005: 
+  created_at: 2011-10-12 08:22:05.457672 Z
+  evaluation_id: 53334
+  id: 82005
+  item_belong_id: 1627
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.457672 Z
+scores_82008: 
+  created_at: 2011-10-12 08:22:05.464586 Z
+  evaluation_id: 53334
+  id: 82008
+  item_belong_id: 1630
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.464586 Z
+scores_82009: 
+  created_at: 2011-10-12 08:22:05.467425 Z
+  evaluation_id: 53334
+  id: 82009
+  item_belong_id: 1631
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.467425 Z
+scores_82010: 
+  created_at: 2011-10-12 08:22:05.469729 Z
+  evaluation_id: 53334
+  id: 82010
+  item_belong_id: 1632
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.469729 Z
+scores_82011: 
+  created_at: 2011-10-12 08:22:05.476389 Z
+  evaluation_id: 53335
+  id: 82011
+  item_belong_id: 1455
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.476389 Z
+scores_82012: 
+  created_at: 2011-10-12 08:22:05.479324 Z
+  evaluation_id: 53335
+  id: 82012
+  item_belong_id: 1456
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.479324 Z
+scores_82013: 
+  created_at: 2011-10-12 08:22:05.481579 Z
+  evaluation_id: 53335
+  id: 82013
+  item_belong_id: 1457
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.481579 Z
+scores_82014: 
+  created_at: 2011-10-12 08:22:05.485342 Z
+  evaluation_id: 53335
+  id: 82014
+  item_belong_id: 1458
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.485342 Z
+scores_82015: 
+  created_at: 2011-10-12 08:22:05.487728 Z
+  evaluation_id: 53335
+  id: 82015
+  item_belong_id: 1459
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.487728 Z
+scores_82016: 
+  created_at: 2011-10-12 08:22:05.490179 Z
+  evaluation_id: 53335
+  id: 82016
+  item_belong_id: 1460
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.490179 Z
+scores_82017: 
+  created_at: 2011-10-12 08:22:05.492469 Z
+  evaluation_id: 53335
+  id: 82017
+  item_belong_id: 1461
+  point_id: 4
+  updated_at: 2011-10-12 08:22:05.492469 Z
+scores_82018: 
+  created_at: 2011-10-12 08:22:05.495146 Z
+  evaluation_id: 53335
+  id: 82018
+  item_belong_id: 1462
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.495146 Z
+scores_82019: 
+  created_at: 2011-10-12 08:22:05.497455 Z
+  evaluation_id: 53335
+  id: 82019
+  item_belong_id: 1463
+  point_id: 4
+  updated_at: 2011-10-12 08:22:05.497455 Z
+scores_82020: 
+  created_at: 2011-10-12 08:22:05.499853 Z
+  evaluation_id: 53335
+  id: 82020
+  item_belong_id: 1464
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.499853 Z
+scores_82021: 
+  created_at: 2011-10-12 08:22:05.506287 Z
+  evaluation_id: 53335
+  id: 82021
+  item_belong_id: 1465
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.506287 Z
+scores_82022: 
+  created_at: 2011-10-12 08:22:05.508857 Z
+  evaluation_id: 53335
+  id: 82022
+  item_belong_id: 1466
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.508857 Z
+scores_82023: 
+  created_at: 2011-10-12 08:22:05.511354 Z
+  evaluation_id: 53335
+  id: 82023
+  item_belong_id: 1467
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.511354 Z
+scores_82024: 
+  created_at: 2011-10-12 08:22:05.519100 Z
+  evaluation_id: 53336
+  id: 82024
+  item_belong_id: 1455
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.519100 Z
+scores_82025: 
+  created_at: 2011-10-12 08:22:05.522054 Z
+  evaluation_id: 53336
+  id: 82025
+  item_belong_id: 1456
+  point_id: 4
+  updated_at: 2011-10-12 08:22:05.522054 Z
+scores_82026: 
+  created_at: 2011-10-12 08:22:05.524669 Z
+  evaluation_id: 53336
+  id: 82026
+  item_belong_id: 1457
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.524669 Z
+scores_82027: 
+  created_at: 2011-10-12 08:22:05.527053 Z
+  evaluation_id: 53336
+  id: 82027
+  item_belong_id: 1458
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.527053 Z
+scores_82028: 
+  created_at: 2011-10-12 08:22:05.529246 Z
+  evaluation_id: 53336
+  id: 82028
+  item_belong_id: 1459
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.529246 Z
+scores_82029: 
+  created_at: 2011-10-12 08:22:05.531614 Z
+  evaluation_id: 53336
+  id: 82029
+  item_belong_id: 1460
+  point_id: 4
+  updated_at: 2011-10-12 08:22:05.531614 Z
+scores_82030: 
+  created_at: 2011-10-12 08:22:05.534164 Z
+  evaluation_id: 53336
+  id: 82030
+  item_belong_id: 1461
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.534164 Z
+scores_82031: 
+  created_at: 2011-10-12 08:22:05.536528 Z
+  evaluation_id: 53336
+  id: 82031
+  item_belong_id: 1462
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.536528 Z
+scores_82032: 
+  created_at: 2011-10-12 08:22:05.538740 Z
+  evaluation_id: 53336
+  id: 82032
+  item_belong_id: 1463
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.538740 Z
+scores_82033: 
+  created_at: 2011-10-12 08:22:05.541017 Z
+  evaluation_id: 53336
+  id: 82033
+  item_belong_id: 1464
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.541017 Z
+scores_82034: 
+  created_at: 2011-10-12 08:22:05.543555 Z
+  evaluation_id: 53336
+  id: 82034
+  item_belong_id: 1465
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.543555 Z
+scores_82035: 
+  created_at: 2011-10-12 08:22:05.545955 Z
+  evaluation_id: 53336
+  id: 82035
+  item_belong_id: 1466
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.545955 Z
+scores_82036: 
+  created_at: 2011-10-12 08:22:05.548185 Z
+  evaluation_id: 53336
+  id: 82036
+  item_belong_id: 1467
+  point_id: 4
+  updated_at: 2011-10-12 08:22:05.548185 Z
+scores_82037: 
+  created_at: 2011-10-12 08:22:05.554637 Z
+  evaluation_id: 53337
+  id: 82037
+  item_belong_id: 1455
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.554637 Z
+scores_82038: 
+  created_at: 2011-10-12 08:22:05.557481 Z
+  evaluation_id: 53337
+  id: 82038
+  item_belong_id: 1456
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.557481 Z
+scores_82039: 
+  created_at: 2011-10-12 08:22:05.559911 Z
+  evaluation_id: 53337
+  id: 82039
+  item_belong_id: 1457
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.559911 Z
+scores_82040: 
+  created_at: 2011-10-12 08:22:05.562138 Z
+  evaluation_id: 53337
+  id: 82040
+  item_belong_id: 1458
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.562138 Z
+scores_82041: 
+  created_at: 2011-10-12 08:22:05.564468 Z
+  evaluation_id: 53337
+  id: 82041
+  item_belong_id: 1459
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.564468 Z
+scores_82042: 
+  created_at: 2011-10-12 08:22:05.567284 Z
+  evaluation_id: 53337
+  id: 82042
+  item_belong_id: 1460
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.567284 Z
+scores_82043: 
+  created_at: 2011-10-12 08:22:05.569663 Z
+  evaluation_id: 53337
+  id: 82043
+  item_belong_id: 1461
+  point_id: 4
+  updated_at: 2011-10-12 08:22:05.569663 Z
+scores_82044: 
+  created_at: 2011-10-12 08:22:05.572024 Z
+  evaluation_id: 53337
+  id: 82044
+  item_belong_id: 1462
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.572024 Z
+scores_82045: 
+  created_at: 2011-10-12 08:22:05.574313 Z
+  evaluation_id: 53337
+  id: 82045
+  item_belong_id: 1463
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.574313 Z
+scores_82046: 
+  created_at: 2011-10-12 08:22:05.577012 Z
+  evaluation_id: 53337
+  id: 82046
+  item_belong_id: 1464
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.577012 Z
+scores_82047: 
+  created_at: 2011-10-12 08:22:05.579484 Z
+  evaluation_id: 53337
+  id: 82047
+  item_belong_id: 1465
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.579484 Z
+scores_82048: 
+  created_at: 2011-10-12 08:22:05.581676 Z
+  evaluation_id: 53337
+  id: 82048
+  item_belong_id: 1466
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.581676 Z
+scores_82049: 
+  created_at: 2011-10-12 08:22:05.583964 Z
+  evaluation_id: 53337
+  id: 82049
+  item_belong_id: 1467
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.583964 Z
+scores_82050: 
+  created_at: 2011-10-12 08:22:05.590408 Z
+  evaluation_id: 53338
+  id: 82050
+  item_belong_id: 1455
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.590408 Z
+scores_82051: 
+  created_at: 2011-10-12 08:22:05.592899 Z
+  evaluation_id: 53338
+  id: 82051
+  item_belong_id: 1456
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.592899 Z
+scores_82052: 
+  created_at: 2011-10-12 08:22:05.595793 Z
+  evaluation_id: 53338
+  id: 82052
+  item_belong_id: 1457
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.595793 Z
+scores_82053: 
+  created_at: 2011-10-12 08:22:05.598102 Z
+  evaluation_id: 53338
+  id: 82053
+  item_belong_id: 1458
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.598102 Z
+scores_82054: 
+  created_at: 2011-10-12 08:22:05.600498 Z
+  evaluation_id: 53338
+  id: 82054
+  item_belong_id: 1459
+  point_id: 4
+  updated_at: 2011-10-12 08:22:05.600498 Z
+scores_82055: 
+  created_at: 2011-10-12 08:22:05.602775 Z
+  evaluation_id: 53338
+  id: 82055
+  item_belong_id: 1460
+  point_id: 4
+  updated_at: 2011-10-12 08:22:05.602775 Z
+scores_82056: 
+  created_at: 2011-10-12 08:22:05.605824 Z
+  evaluation_id: 53338
+  id: 82056
+  item_belong_id: 1461
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.605824 Z
+scores_82057: 
+  created_at: 2011-10-12 08:22:05.608151 Z
+  evaluation_id: 53338
+  id: 82057
+  item_belong_id: 1462
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.608151 Z
+scores_82058: 
+  created_at: 2011-10-12 08:22:05.610506 Z
+  evaluation_id: 53338
+  id: 82058
+  item_belong_id: 1463
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.610506 Z
+scores_82059: 
+  created_at: 2011-10-12 08:22:05.613023 Z
+  evaluation_id: 53338
+  id: 82059
+  item_belong_id: 1464
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.613023 Z
+scores_82060: 
+  created_at: 2011-10-12 08:22:05.615710 Z
+  evaluation_id: 53338
+  id: 82060
+  item_belong_id: 1465
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.615710 Z
+scores_82061: 
+  created_at: 2011-10-12 08:22:05.617950 Z
+  evaluation_id: 53338
+  id: 82061
+  item_belong_id: 1466
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.617950 Z
+scores_82062: 
+  created_at: 2011-10-12 08:22:05.620157 Z
+  evaluation_id: 53338
+  id: 82062
+  item_belong_id: 1467
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.620157 Z
+scores_82063: 
+  created_at: 2011-10-12 08:22:05.627374 Z
+  evaluation_id: 53339
+  id: 82063
+  item_belong_id: 1416
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.627374 Z
+scores_82064: 
+  created_at: 2011-10-12 08:22:05.629737 Z
+  evaluation_id: 53339
+  id: 82064
+  item_belong_id: 1417
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.629737 Z
+scores_82065: 
+  created_at: 2011-10-12 08:22:05.632233 Z
+  evaluation_id: 53339
+  id: 82065
+  item_belong_id: 1418
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.632233 Z
+scores_82066: 
+  created_at: 2011-10-12 08:22:05.634531 Z
+  evaluation_id: 53339
+  id: 82066
+  item_belong_id: 1419
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.634531 Z
+scores_82067: 
+  created_at: 2011-10-12 08:22:05.636985 Z
+  evaluation_id: 53339
+  id: 82067
+  item_belong_id: 1420
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.636985 Z
+scores_82068: 
+  created_at: 2011-10-12 08:22:05.639182 Z
+  evaluation_id: 53339
+  id: 82068
+  item_belong_id: 1421
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.639182 Z
+scores_82069: 
+  created_at: 2011-10-12 08:22:05.642060 Z
+  evaluation_id: 53339
+  id: 82069
+  item_belong_id: 1422
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.642060 Z
+scores_82070: 
+  created_at: 2011-10-12 08:22:05.644592 Z
+  evaluation_id: 53339
+  id: 82070
+  item_belong_id: 1423
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.644592 Z
+scores_82071: 
+  created_at: 2011-10-12 08:22:05.647062 Z
+  evaluation_id: 53339
+  id: 82071
+  item_belong_id: 1424
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.647062 Z
+scores_82072: 
+  created_at: 2011-10-12 08:22:05.649238 Z
+  evaluation_id: 53339
+  id: 82072
+  item_belong_id: 1425
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.649238 Z
+scores_82073: 
+  created_at: 2011-10-12 08:22:05.651574 Z
+  evaluation_id: 53339
+  id: 82073
+  item_belong_id: 1426
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.651574 Z
+scores_82074: 
+  created_at: 2011-10-12 08:22:05.657990 Z
+  evaluation_id: 53339
+  id: 82074
+  item_belong_id: 1427
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.657990 Z
+scores_82075: 
+  created_at: 2011-10-12 08:22:05.660416 Z
+  evaluation_id: 53339
+  id: 82075
+  item_belong_id: 1428
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.660416 Z
+scores_82076: 
+  created_at: 2011-10-12 08:22:05.667176 Z
+  evaluation_id: 53340
+  id: 82076
+  item_belong_id: 1416
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.667176 Z
+scores_82077: 
+  created_at: 2011-10-12 08:22:05.669731 Z
+  evaluation_id: 53340
+  id: 82077
+  item_belong_id: 1417
+  point_id: 4
+  updated_at: 2011-10-12 08:22:05.669731 Z
+scores_82078: 
+  created_at: 2011-10-12 08:22:05.671998 Z
+  evaluation_id: 53340
+  id: 82078
+  item_belong_id: 1418
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.671998 Z
+scores_82079: 
+  created_at: 2011-10-12 08:22:05.674164 Z
+  evaluation_id: 53340
+  id: 82079
+  item_belong_id: 1419
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.674164 Z
+scores_82080: 
+  created_at: 2011-10-12 08:22:05.676717 Z
+  evaluation_id: 53340
+  id: 82080
+  item_belong_id: 1420
+  point_id: 4
+  updated_at: 2011-10-12 08:22:05.676717 Z
+scores_82081: 
+  created_at: 2011-10-12 08:22:05.679368 Z
+  evaluation_id: 53340
+  id: 82081
+  item_belong_id: 1421
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.679368 Z
+scores_82082: 
+  created_at: 2011-10-12 08:22:05.681740 Z
+  evaluation_id: 53340
+  id: 82082
+  item_belong_id: 1422
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.681740 Z
+scores_82083: 
+  created_at: 2011-10-12 08:22:05.683988 Z
+  evaluation_id: 53340
+  id: 82083
+  item_belong_id: 1423
+  point_id: 4
+  updated_at: 2011-10-12 08:22:05.683988 Z
+scores_82084: 
+  created_at: 2011-10-12 08:22:05.686357 Z
+  evaluation_id: 53340
+  id: 82084
+  item_belong_id: 1424
+  point_id: 4
+  updated_at: 2011-10-12 08:22:05.686357 Z
+scores_82085: 
+  created_at: 2011-10-12 08:22:05.689038 Z
+  evaluation_id: 53340
+  id: 82085
+  item_belong_id: 1425
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.689038 Z
+scores_82086: 
+  created_at: 2011-10-12 08:22:05.691342 Z
+  evaluation_id: 53340
+  id: 82086
+  item_belong_id: 1426
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.691342 Z
+scores_82087: 
+  created_at: 2011-10-12 08:22:05.693903 Z
+  evaluation_id: 53340
+  id: 82087
+  item_belong_id: 1427
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.693903 Z
+scores_82088: 
+  created_at: 2011-10-12 08:22:05.696533 Z
+  evaluation_id: 53340
+  id: 82088
+  item_belong_id: 1428
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.696533 Z
+scores_82089: 
+  created_at: 2011-10-12 08:22:05.703289 Z
+  evaluation_id: 53341
+  id: 82089
+  item_belong_id: 1416
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.703289 Z
+scores_82090: 
+  created_at: 2011-10-12 08:22:05.705907 Z
+  evaluation_id: 53341
+  id: 82090
+  item_belong_id: 1417
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.705907 Z
+scores_82091: 
+  created_at: 2011-10-12 08:22:05.708347 Z
+  evaluation_id: 53341
+  id: 82091
+  item_belong_id: 1418
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.708347 Z
+scores_82092: 
+  created_at: 2011-10-12 08:22:05.710775 Z
+  evaluation_id: 53341
+  id: 82092
+  item_belong_id: 1419
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.710775 Z
+scores_82093: 
+  created_at: 2011-10-12 08:22:05.713057 Z
+  evaluation_id: 53341
+  id: 82093
+  item_belong_id: 1420
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.713057 Z
+scores_82094: 
+  created_at: 2011-10-12 08:22:05.722039 Z
+  evaluation_id: 53341
+  id: 82094
+  item_belong_id: 1421
+  point_id: 4
+  updated_at: 2011-10-12 08:22:05.722039 Z
+scores_82095: 
+  created_at: 2011-10-12 08:22:05.724775 Z
+  evaluation_id: 53341
+  id: 82095
+  item_belong_id: 1422
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.724775 Z
+scores_82096: 
+  created_at: 2011-10-12 08:22:05.727306 Z
+  evaluation_id: 53341
+  id: 82096
+  item_belong_id: 1423
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.727306 Z
+scores_82097: 
+  created_at: 2011-10-12 08:22:05.729600 Z
+  evaluation_id: 53341
+  id: 82097
+  item_belong_id: 1424
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.729600 Z
+scores_82098: 
+  created_at: 2011-10-12 08:22:05.733866 Z
+  evaluation_id: 53341
+  id: 82098
+  item_belong_id: 1425
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.733866 Z
+scores_82099: 
+  created_at: 2011-10-12 08:22:05.737174 Z
+  evaluation_id: 53341
+  id: 82099
+  item_belong_id: 1426
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.737174 Z
+scores_82100: 
+  created_at: 2011-10-12 08:22:05.739699 Z
+  evaluation_id: 53341
+  id: 82100
+  item_belong_id: 1427
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.739699 Z
+scores_82101: 
+  created_at: 2011-10-12 08:22:05.742185 Z
+  evaluation_id: 53341
+  id: 82101
+  item_belong_id: 1428
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.742185 Z
+scores_82102: 
+  created_at: 2011-10-12 08:22:05.748831 Z
+  evaluation_id: 53342
+  id: 82102
+  item_belong_id: 1416
+  point_id: 4
+  updated_at: 2011-10-12 08:22:05.748831 Z
+scores_82103: 
+  created_at: 2011-10-12 08:22:05.792050 Z
+  evaluation_id: 53342
+  id: 82103
+  item_belong_id: 1417
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.792050 Z
+scores_82104: 
+  created_at: 2011-10-12 08:22:05.797418 Z
+  evaluation_id: 53342
+  id: 82104
+  item_belong_id: 1418
+  point_id: 4
+  updated_at: 2011-10-12 08:22:05.797418 Z
+scores_82105: 
+  created_at: 2011-10-12 08:22:05.800983 Z
+  evaluation_id: 53342
+  id: 82105
+  item_belong_id: 1419
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.800983 Z
+scores_82106: 
+  created_at: 2011-10-12 08:22:05.807373 Z
+  evaluation_id: 53342
+  id: 82106
+  item_belong_id: 1420
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.807373 Z
+scores_82107: 
+  created_at: 2011-10-12 08:22:05.809893 Z
+  evaluation_id: 53342
+  id: 82107
+  item_belong_id: 1421
+  point_id: 4
+  updated_at: 2011-10-12 08:22:05.809893 Z
+scores_82108: 
+  created_at: 2011-10-12 08:22:05.812475 Z
+  evaluation_id: 53342
+  id: 82108
+  item_belong_id: 1422
+  point_id: 4
+  updated_at: 2011-10-12 08:22:05.812475 Z
+scores_82109: 
+  created_at: 2011-10-12 08:22:05.814821 Z
+  evaluation_id: 53342
+  id: 82109
+  item_belong_id: 1423
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.814821 Z
+scores_82110: 
+  created_at: 2011-10-12 08:22:05.817590 Z
+  evaluation_id: 53342
+  id: 82110
+  item_belong_id: 1424
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.817590 Z
+scores_82111: 
+  created_at: 2011-10-12 08:22:05.820253 Z
+  evaluation_id: 53342
+  id: 82111
+  item_belong_id: 1425
+  point_id: 4
+  updated_at: 2011-10-12 08:22:05.820253 Z
+scores_82112: 
+  created_at: 2011-10-12 08:22:05.822744 Z
+  evaluation_id: 53342
+  id: 82112
+  item_belong_id: 1426
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.822744 Z
+scores_82113: 
+  created_at: 2011-10-12 08:22:05.825397 Z
+  evaluation_id: 53342
+  id: 82113
+  item_belong_id: 1427
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.825397 Z
+scores_82114: 
+  created_at: 2011-10-12 08:22:05.827958 Z
+  evaluation_id: 53342
+  id: 82114
+  item_belong_id: 1428
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.827958 Z
+scores_82115: 
+  created_at: 2011-10-12 08:22:05.835029 Z
+  evaluation_id: 53343
+  id: 82115
+  item_belong_id: 1416
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.835029 Z
+scores_82116: 
+  created_at: 2011-10-12 08:22:05.837611 Z
+  evaluation_id: 53343
+  id: 82116
+  item_belong_id: 1417
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.837611 Z
+scores_82117: 
+  created_at: 2011-10-12 08:22:05.840259 Z
+  evaluation_id: 53343
+  id: 82117
+  item_belong_id: 1418
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.840259 Z
+scores_82118: 
+  created_at: 2011-10-12 08:22:05.843014 Z
+  evaluation_id: 53343
+  id: 82118
+  item_belong_id: 1419
+  point_id: 4
+  updated_at: 2011-10-12 08:22:05.843014 Z
+scores_82119: 
+  created_at: 2011-10-12 08:22:05.845463 Z
+  evaluation_id: 53343
+  id: 82119
+  item_belong_id: 1420
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.845463 Z
+scores_82120: 
+  created_at: 2011-10-12 08:22:05.847905 Z
+  evaluation_id: 53343
+  id: 82120
+  item_belong_id: 1421
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.847905 Z
+scores_82121: 
+  created_at: 2011-10-12 08:22:05.850280 Z
+  evaluation_id: 53343
+  id: 82121
+  item_belong_id: 1422
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.850280 Z
+scores_82122: 
+  created_at: 2011-10-12 08:22:05.852992 Z
+  evaluation_id: 53343
+  id: 82122
+  item_belong_id: 1423
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.852992 Z
+scores_82123: 
+  created_at: 2011-10-12 08:22:05.855607 Z
+  evaluation_id: 53343
+  id: 82123
+  item_belong_id: 1424
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.855607 Z
+scores_82124: 
+  created_at: 2011-10-12 08:22:05.858080 Z
+  evaluation_id: 53343
+  id: 82124
+  item_belong_id: 1425
+  point_id: 4
+  updated_at: 2011-10-12 08:22:05.858080 Z
+scores_82125: 
+  created_at: 2011-10-12 08:22:05.860525 Z
+  evaluation_id: 53343
+  id: 82125
+  item_belong_id: 1426
+  point_id: 4
+  updated_at: 2011-10-12 08:22:05.860525 Z
+scores_82126: 
+  created_at: 2011-10-12 08:22:05.862905 Z
+  evaluation_id: 53343
+  id: 82126
+  item_belong_id: 1427
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.862905 Z
+scores_82127: 
+  created_at: 2011-10-12 08:22:05.865309 Z
+  evaluation_id: 53343
+  id: 82127
+  item_belong_id: 1428
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.865309 Z
+scores_82128: 
+  created_at: 2011-10-12 08:22:05.872274 Z
+  evaluation_id: 53344
+  id: 82128
+  item_belong_id: 1416
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.872274 Z
+scores_82129: 
+  created_at: 2011-10-12 08:22:05.874805 Z
+  evaluation_id: 53344
+  id: 82129
+  item_belong_id: 1417
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.874805 Z
+scores_82130: 
+  created_at: 2011-10-12 08:22:05.877351 Z
+  evaluation_id: 53344
+  id: 82130
+  item_belong_id: 1418
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.877351 Z
+scores_82131: 
+  created_at: 2011-10-12 08:22:05.879957 Z
+  evaluation_id: 53344
+  id: 82131
+  item_belong_id: 1419
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.879957 Z
+scores_82132: 
+  created_at: 2011-10-12 08:22:05.882216 Z
+  evaluation_id: 53344
+  id: 82132
+  item_belong_id: 1420
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.882216 Z
+scores_82133: 
+  created_at: 2011-10-12 08:22:05.885917 Z
+  evaluation_id: 53344
+  id: 82133
+  item_belong_id: 1421
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.885917 Z
+scores_82134: 
+  created_at: 2011-10-12 08:22:05.888896 Z
+  evaluation_id: 53344
+  id: 82134
+  item_belong_id: 1422
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.888896 Z
+scores_82135: 
+  created_at: 2011-10-12 08:22:05.891261 Z
+  evaluation_id: 53344
+  id: 82135
+  item_belong_id: 1423
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.891261 Z
+scores_82136: 
+  created_at: 2011-10-12 08:22:05.893519 Z
+  evaluation_id: 53344
+  id: 82136
+  item_belong_id: 1424
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.893519 Z
+scores_82137: 
+  created_at: 2011-10-12 08:22:05.895766 Z
+  evaluation_id: 53344
+  id: 82137
+  item_belong_id: 1425
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.895766 Z
+scores_82138: 
+  created_at: 2011-10-12 08:22:05.898239 Z
+  evaluation_id: 53344
+  id: 82138
+  item_belong_id: 1426
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.898239 Z
+scores_82139: 
+  created_at: 2011-10-12 08:22:05.900915 Z
+  evaluation_id: 53344
+  id: 82139
+  item_belong_id: 1427
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.900915 Z
+scores_82140: 
+  created_at: 2011-10-12 08:22:05.903271 Z
+  evaluation_id: 53344
+  id: 82140
+  item_belong_id: 1428
+  point_id: 4
+  updated_at: 2011-10-12 08:22:05.903271 Z
+scores_82141: 
+  created_at: 2011-10-12 08:22:05.909948 Z
+  evaluation_id: 53345
+  id: 82141
+  item_belong_id: 1429
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.909948 Z
+scores_82142: 
+  created_at: 2011-10-12 08:22:05.912893 Z
+  evaluation_id: 53345
+  id: 82142
+  item_belong_id: 1430
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.912893 Z
+scores_82143: 
+  created_at: 2011-10-12 08:22:05.915243 Z
+  evaluation_id: 53345
+  id: 82143
+  item_belong_id: 1431
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.915243 Z
+scores_82144: 
+  created_at: 2011-10-12 08:22:05.917675 Z
+  evaluation_id: 53345
+  id: 82144
+  item_belong_id: 1432
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.917675 Z
+scores_82145: 
+  created_at: 2011-10-12 08:22:05.920398 Z
+  evaluation_id: 53345
+  id: 82145
+  item_belong_id: 1433
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.920398 Z
+scores_82146: 
+  created_at: 2011-10-12 08:22:05.922838 Z
+  evaluation_id: 53345
+  id: 82146
+  item_belong_id: 1434
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.922838 Z
+scores_82147: 
+  created_at: 2011-10-12 08:22:05.925281 Z
+  evaluation_id: 53345
+  id: 82147
+  item_belong_id: 1435
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.925281 Z
+scores_82148: 
+  created_at: 2011-10-12 08:22:05.927621 Z
+  evaluation_id: 53345
+  id: 82148
+  item_belong_id: 1436
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.927621 Z
+scores_82149: 
+  created_at: 2011-10-12 08:22:05.929960 Z
+  evaluation_id: 53345
+  id: 82149
+  item_belong_id: 1437
+  point_id: 4
+  updated_at: 2011-10-12 08:22:05.929960 Z
+scores_82150: 
+  created_at: 2011-10-12 08:22:05.932452 Z
+  evaluation_id: 53345
+  id: 82150
+  item_belong_id: 1438
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.932452 Z
+scores_82151: 
+  created_at: 2011-10-12 08:22:05.934925 Z
+  evaluation_id: 53345
+  id: 82151
+  item_belong_id: 1439
+  point_id: 4
+  updated_at: 2011-10-12 08:22:05.934925 Z
+scores_82152: 
+  created_at: 2011-10-12 08:22:05.937368 Z
+  evaluation_id: 53345
+  id: 82152
+  item_belong_id: 1440
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.937368 Z
+scores_82153: 
+  created_at: 2011-10-12 08:22:05.939737 Z
+  evaluation_id: 53345
+  id: 82153
+  item_belong_id: 1441
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.939737 Z
+scores_82154: 
+  created_at: 2011-10-12 08:22:05.946157 Z
+  evaluation_id: 53346
+  id: 82154
+  item_belong_id: 1429
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.946157 Z
+scores_82155: 
+  created_at: 2011-10-12 08:22:05.948790 Z
+  evaluation_id: 53346
+  id: 82155
+  item_belong_id: 1430
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.948790 Z
+scores_82156: 
+  created_at: 2011-10-12 08:22:05.951122 Z
+  evaluation_id: 53346
+  id: 82156
+  item_belong_id: 1431
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.951122 Z
+scores_82157: 
+  created_at: 2011-10-12 08:22:05.959306 Z
+  evaluation_id: 53346
+  id: 82157
+  item_belong_id: 1432
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.959306 Z
+scores_82158: 
+  created_at: 2011-10-12 08:22:05.961663 Z
+  evaluation_id: 53346
+  id: 82158
+  item_belong_id: 1433
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.961663 Z
+scores_82159: 
+  created_at: 2011-10-12 08:22:05.964690 Z
+  evaluation_id: 53346
+  id: 82159
+  item_belong_id: 1434
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.964690 Z
+scores_82160: 
+  created_at: 2011-10-12 08:22:05.967989 Z
+  evaluation_id: 53346
+  id: 82160
+  item_belong_id: 1435
+  point_id: 4
+  updated_at: 2011-10-12 08:22:05.967989 Z
+scores_82161: 
+  created_at: 2011-10-12 08:22:05.970484 Z
+  evaluation_id: 53346
+  id: 82161
+  item_belong_id: 1436
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.970484 Z
+scores_82162: 
+  created_at: 2011-10-12 08:22:05.974011 Z
+  evaluation_id: 53346
+  id: 82162
+  item_belong_id: 1437
+  point_id: 4
+  updated_at: 2011-10-12 08:22:05.974011 Z
+scores_82163: 
+  created_at: 2011-10-12 08:22:05.976412 Z
+  evaluation_id: 53346
+  id: 82163
+  item_belong_id: 1438
+  point_id: 4
+  updated_at: 2011-10-12 08:22:05.976412 Z
+scores_82164: 
+  created_at: 2011-10-12 08:22:05.981335 Z
+  evaluation_id: 53346
+  id: 82164
+  item_belong_id: 1439
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.981335 Z
+scores_82165: 
+  created_at: 2011-10-12 08:22:05.983862 Z
+  evaluation_id: 53346
+  id: 82165
+  item_belong_id: 1440
+  point_id: 2
+  updated_at: 2011-10-12 08:22:05.983862 Z
+scores_82166: 
+  created_at: 2011-10-12 08:22:05.986394 Z
+  evaluation_id: 53346
+  id: 82166
+  item_belong_id: 1441
+  point_id: 4
+  updated_at: 2011-10-12 08:22:05.986394 Z
+scores_82167: 
+  created_at: 2011-10-12 08:22:05.992962 Z
+  evaluation_id: 53347
+  id: 82167
+  item_belong_id: 1416
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.992962 Z
+scores_82168: 
+  created_at: 2011-10-12 08:22:05.995420 Z
+  evaluation_id: 53347
+  id: 82168
+  item_belong_id: 1417
+  point_id: 3
+  updated_at: 2011-10-12 08:22:05.995420 Z
+scores_82169: 
+  created_at: 2011-10-12 08:22:05.997717 Z
+  evaluation_id: 53347
+  id: 82169
+  item_belong_id: 1418
+  point_id: 1
+  updated_at: 2011-10-12 08:22:05.997717 Z
+scores_82170: 
+  created_at: 2011-10-12 08:22:06.009424 Z
+  evaluation_id: 53347
+  id: 82170
+  item_belong_id: 1419
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.009424 Z
+scores_82171: 
+  created_at: 2011-10-12 08:22:06.012028 Z
+  evaluation_id: 53347
+  id: 82171
+  item_belong_id: 1420
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.012028 Z
+scores_82172: 
+  created_at: 2011-10-12 08:22:06.018588 Z
+  evaluation_id: 53347
+  id: 82172
+  item_belong_id: 1421
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.018588 Z
+scores_82173: 
+  created_at: 2011-10-12 08:22:06.021440 Z
+  evaluation_id: 53347
+  id: 82173
+  item_belong_id: 1422
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.021440 Z
+scores_82174: 
+  created_at: 2011-10-12 08:22:06.024103 Z
+  evaluation_id: 53347
+  id: 82174
+  item_belong_id: 1423
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.024103 Z
+scores_82175: 
+  created_at: 2011-10-12 08:22:06.029292 Z
+  evaluation_id: 53347
+  id: 82175
+  item_belong_id: 1424
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.029292 Z
+scores_82176: 
+  created_at: 2011-10-12 08:22:06.031811 Z
+  evaluation_id: 53347
+  id: 82176
+  item_belong_id: 1425
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.031811 Z
+scores_82177: 
+  created_at: 2011-10-12 08:22:06.034182 Z
+  evaluation_id: 53347
+  id: 82177
+  item_belong_id: 1426
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.034182 Z
+scores_82178: 
+  created_at: 2011-10-12 08:22:06.036586 Z
+  evaluation_id: 53347
+  id: 82178
+  item_belong_id: 1427
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.036586 Z
+scores_82179: 
+  created_at: 2011-10-12 08:22:06.038865 Z
+  evaluation_id: 53347
+  id: 82179
+  item_belong_id: 1428
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.038865 Z
+scores_82180: 
+  created_at: 2011-10-12 08:22:06.045359 Z
+  evaluation_id: 53348
+  id: 82180
+  item_belong_id: 1416
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.045359 Z
+scores_82181: 
+  created_at: 2011-10-12 08:22:06.047991 Z
+  evaluation_id: 53348
+  id: 82181
+  item_belong_id: 1417
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.047991 Z
+scores_82182: 
+  created_at: 2011-10-12 08:22:06.050305 Z
+  evaluation_id: 53348
+  id: 82182
+  item_belong_id: 1418
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.050305 Z
+scores_82183: 
+  created_at: 2011-10-12 08:22:06.052534 Z
+  evaluation_id: 53348
+  id: 82183
+  item_belong_id: 1419
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.052534 Z
+scores_82184: 
+  created_at: 2011-10-12 08:22:06.055027 Z
+  evaluation_id: 53348
+  id: 82184
+  item_belong_id: 1420
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.055027 Z
+scores_82185: 
+  created_at: 2011-10-12 08:22:06.057259 Z
+  evaluation_id: 53348
+  id: 82185
+  item_belong_id: 1421
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.057259 Z
+scores_82186: 
+  created_at: 2011-10-12 08:22:06.059609 Z
+  evaluation_id: 53348
+  id: 82186
+  item_belong_id: 1422
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.059609 Z
+scores_82187: 
+  created_at: 2011-10-12 08:22:06.061966 Z
+  evaluation_id: 53348
+  id: 82187
+  item_belong_id: 1423
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.061966 Z
+scores_82188: 
+  created_at: 2011-10-12 08:22:06.064477 Z
+  evaluation_id: 53348
+  id: 82188
+  item_belong_id: 1424
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.064477 Z
+scores_82189: 
+  created_at: 2011-10-12 08:22:06.067129 Z
+  evaluation_id: 53348
+  id: 82189
+  item_belong_id: 1425
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.067129 Z
+scores_82190: 
+  created_at: 2011-10-12 08:22:06.069638 Z
+  evaluation_id: 53348
+  id: 82190
+  item_belong_id: 1426
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.069638 Z
+scores_82191: 
+  created_at: 2011-10-12 08:22:06.071929 Z
+  evaluation_id: 53348
+  id: 82191
+  item_belong_id: 1427
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.071929 Z
+scores_82192: 
+  created_at: 2011-10-12 08:22:06.074605 Z
+  evaluation_id: 53348
+  id: 82192
+  item_belong_id: 1428
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.074605 Z
+scores_82193: 
+  created_at: 2011-10-12 08:22:06.082417 Z
+  evaluation_id: 53349
+  id: 82193
+  item_belong_id: 1416
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.082417 Z
+scores_82194: 
+  created_at: 2011-10-12 08:22:06.084961 Z
+  evaluation_id: 53349
+  id: 82194
+  item_belong_id: 1417
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.084961 Z
+scores_82195: 
+  created_at: 2011-10-12 08:22:06.087222 Z
+  evaluation_id: 53349
+  id: 82195
+  item_belong_id: 1418
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.087222 Z
+scores_82196: 
+  created_at: 2011-10-12 08:22:06.089674 Z
+  evaluation_id: 53349
+  id: 82196
+  item_belong_id: 1419
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.089674 Z
+scores_82197: 
+  created_at: 2011-10-12 08:22:06.092036 Z
+  evaluation_id: 53349
+  id: 82197
+  item_belong_id: 1420
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.092036 Z
+scores_82198: 
+  created_at: 2011-10-12 08:22:06.094706 Z
+  evaluation_id: 53349
+  id: 82198
+  item_belong_id: 1421
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.094706 Z
+scores_82199: 
+  created_at: 2011-10-12 08:22:06.097157 Z
+  evaluation_id: 53349
+  id: 82199
+  item_belong_id: 1422
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.097157 Z
+scores_82200: 
+  created_at: 2011-10-12 08:22:06.099747 Z
+  evaluation_id: 53349
+  id: 82200
+  item_belong_id: 1423
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.099747 Z
+scores_82201: 
+  created_at: 2011-10-12 08:22:06.106143 Z
+  evaluation_id: 53349
+  id: 82201
+  item_belong_id: 1424
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.106143 Z
+scores_82202: 
+  created_at: 2011-10-12 08:22:06.108759 Z
+  evaluation_id: 53349
+  id: 82202
+  item_belong_id: 1425
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.108759 Z
+scores_82203: 
+  created_at: 2011-10-12 08:22:06.111324 Z
+  evaluation_id: 53349
+  id: 82203
+  item_belong_id: 1426
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.111324 Z
+scores_82204: 
+  created_at: 2011-10-12 08:22:06.113559 Z
+  evaluation_id: 53349
+  id: 82204
+  item_belong_id: 1427
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.113559 Z
+scores_82205: 
+  created_at: 2011-10-12 08:22:06.115863 Z
+  evaluation_id: 53349
+  id: 82205
+  item_belong_id: 1428
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.115863 Z
+scores_82206: 
+  created_at: 2011-10-12 08:22:06.122648 Z
+  evaluation_id: 53350
+  id: 82206
+  item_belong_id: 1416
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.122648 Z
+scores_82207: 
+  created_at: 2011-10-12 08:22:06.125201 Z
+  evaluation_id: 53350
+  id: 82207
+  item_belong_id: 1417
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.125201 Z
+scores_82208: 
+  created_at: 2011-10-12 08:22:06.127476 Z
+  evaluation_id: 53350
+  id: 82208
+  item_belong_id: 1418
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.127476 Z
+scores_82209: 
+  created_at: 2011-10-12 08:22:06.130032 Z
+  evaluation_id: 53350
+  id: 82209
+  item_belong_id: 1419
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.130032 Z
+scores_82210: 
+  created_at: 2011-10-12 08:22:06.132344 Z
+  evaluation_id: 53350
+  id: 82210
+  item_belong_id: 1420
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.132344 Z
+scores_82211: 
+  created_at: 2011-10-12 08:22:06.134567 Z
+  evaluation_id: 53350
+  id: 82211
+  item_belong_id: 1421
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.134567 Z
+scores_82212: 
+  created_at: 2011-10-12 08:22:06.137023 Z
+  evaluation_id: 53350
+  id: 82212
+  item_belong_id: 1422
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.137023 Z
+scores_82213: 
+  created_at: 2011-10-12 08:22:06.139654 Z
+  evaluation_id: 53350
+  id: 82213
+  item_belong_id: 1423
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.139654 Z
+scores_82214: 
+  created_at: 2011-10-12 08:22:06.142058 Z
+  evaluation_id: 53350
+  id: 82214
+  item_belong_id: 1424
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.142058 Z
+scores_82215: 
+  created_at: 2011-10-12 08:22:06.144360 Z
+  evaluation_id: 53350
+  id: 82215
+  item_belong_id: 1425
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.144360 Z
+scores_82216: 
+  created_at: 2011-10-12 08:22:06.147039 Z
+  evaluation_id: 53350
+  id: 82216
+  item_belong_id: 1426
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.147039 Z
+scores_82217: 
+  created_at: 2011-10-12 08:22:06.149576 Z
+  evaluation_id: 53350
+  id: 82217
+  item_belong_id: 1427
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.149576 Z
+scores_82218: 
+  created_at: 2011-10-12 08:22:06.151993 Z
+  evaluation_id: 53350
+  id: 82218
+  item_belong_id: 1428
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.151993 Z
+scores_82219: 
+  created_at: 2011-10-12 08:22:06.158331 Z
+  evaluation_id: 53351
+  id: 82219
+  item_belong_id: 1442
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.158331 Z
+scores_82220: 
+  created_at: 2011-10-12 08:22:06.160995 Z
+  evaluation_id: 53351
+  id: 82220
+  item_belong_id: 1443
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.160995 Z
+scores_82221: 
+  created_at: 2011-10-12 08:22:06.163410 Z
+  evaluation_id: 53351
+  id: 82221
+  item_belong_id: 1444
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.163410 Z
+scores_82222: 
+  created_at: 2011-10-12 08:22:06.165941 Z
+  evaluation_id: 53351
+  id: 82222
+  item_belong_id: 1445
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.165941 Z
+scores_82223: 
+  created_at: 2011-10-12 08:22:06.168451 Z
+  evaluation_id: 53351
+  id: 82223
+  item_belong_id: 1446
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.168451 Z
+scores_82224: 
+  created_at: 2011-10-12 08:22:06.170881 Z
+  evaluation_id: 53351
+  id: 82224
+  item_belong_id: 1447
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.170881 Z
+scores_82225: 
+  created_at: 2011-10-12 08:22:06.214911 Z
+  evaluation_id: 53351
+  id: 82225
+  item_belong_id: 1448
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.214911 Z
+scores_82226: 
+  created_at: 2011-10-12 08:22:06.225271 Z
+  evaluation_id: 53351
+  id: 82226
+  item_belong_id: 1449
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.225271 Z
+scores_82227: 
+  created_at: 2011-10-12 08:22:06.228023 Z
+  evaluation_id: 53351
+  id: 82227
+  item_belong_id: 1450
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.228023 Z
+scores_82228: 
+  created_at: 2011-10-12 08:22:06.230689 Z
+  evaluation_id: 53351
+  id: 82228
+  item_belong_id: 1451
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.230689 Z
+scores_82229: 
+  created_at: 2011-10-12 08:22:06.233130 Z
+  evaluation_id: 53351
+  id: 82229
+  item_belong_id: 1452
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.233130 Z
+scores_82230: 
+  created_at: 2011-10-12 08:22:06.235488 Z
+  evaluation_id: 53351
+  id: 82230
+  item_belong_id: 1453
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.235488 Z
+scores_82231: 
+  created_at: 2011-10-12 08:22:06.238715 Z
+  evaluation_id: 53351
+  id: 82231
+  item_belong_id: 1454
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.238715 Z
+scores_82232: 
+  created_at: 2011-10-12 08:22:06.245434 Z
+  evaluation_id: 53352
+  id: 82232
+  item_belong_id: 1442
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.245434 Z
+scores_82233: 
+  created_at: 2011-10-12 08:22:06.248527 Z
+  evaluation_id: 53352
+  id: 82233
+  item_belong_id: 1443
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.248527 Z
+scores_82234: 
+  created_at: 2011-10-12 08:22:06.250933 Z
+  evaluation_id: 53352
+  id: 82234
+  item_belong_id: 1444
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.250933 Z
+scores_82235: 
+  created_at: 2011-10-12 08:22:06.257415 Z
+  evaluation_id: 53352
+  id: 82235
+  item_belong_id: 1445
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.257415 Z
+scores_82236: 
+  created_at: 2011-10-12 08:22:06.260002 Z
+  evaluation_id: 53352
+  id: 82236
+  item_belong_id: 1446
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.260002 Z
+scores_82237: 
+  created_at: 2011-10-12 08:22:06.262285 Z
+  evaluation_id: 53352
+  id: 82237
+  item_belong_id: 1447
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.262285 Z
+scores_82238: 
+  created_at: 2011-10-12 08:22:06.264770 Z
+  evaluation_id: 53352
+  id: 82238
+  item_belong_id: 1448
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.264770 Z
+scores_82239: 
+  created_at: 2011-10-12 08:22:06.267459 Z
+  evaluation_id: 53352
+  id: 82239
+  item_belong_id: 1449
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.267459 Z
+scores_82240: 
+  created_at: 2011-10-12 08:22:06.269923 Z
+  evaluation_id: 53352
+  id: 82240
+  item_belong_id: 1450
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.269923 Z
+scores_82241: 
+  created_at: 2011-10-12 08:22:06.272318 Z
+  evaluation_id: 53352
+  id: 82241
+  item_belong_id: 1451
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.272318 Z
+scores_82242: 
+  created_at: 2011-10-12 08:22:06.274581 Z
+  evaluation_id: 53352
+  id: 82242
+  item_belong_id: 1452
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.274581 Z
+scores_82243: 
+  created_at: 2011-10-12 08:22:06.277191 Z
+  evaluation_id: 53352
+  id: 82243
+  item_belong_id: 1453
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.277191 Z
+scores_82244: 
+  created_at: 2011-10-12 08:22:06.279891 Z
+  evaluation_id: 53352
+  id: 82244
+  item_belong_id: 1454
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.279891 Z
+scores_82245: 
+  created_at: 2011-10-12 08:22:06.288188 Z
+  evaluation_id: 53353
+  id: 82245
+  item_belong_id: 1442
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.288188 Z
+scores_82246: 
+  created_at: 2011-10-12 08:22:06.290759 Z
+  evaluation_id: 53353
+  id: 82246
+  item_belong_id: 1443
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.290759 Z
+scores_82247: 
+  created_at: 2011-10-12 08:22:06.293705 Z
+  evaluation_id: 53353
+  id: 82247
+  item_belong_id: 1444
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.293705 Z
+scores_82248: 
+  created_at: 2011-10-12 08:22:06.296204 Z
+  evaluation_id: 53353
+  id: 82248
+  item_belong_id: 1445
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.296204 Z
+scores_82249: 
+  created_at: 2011-10-12 08:22:06.298620 Z
+  evaluation_id: 53353
+  id: 82249
+  item_belong_id: 1446
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.298620 Z
+scores_82250: 
+  created_at: 2011-10-12 08:22:06.301055 Z
+  evaluation_id: 53353
+  id: 82250
+  item_belong_id: 1447
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.301055 Z
+scores_82251: 
+  created_at: 2011-10-12 08:22:06.303483 Z
+  evaluation_id: 53353
+  id: 82251
+  item_belong_id: 1448
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.303483 Z
+scores_82252: 
+  created_at: 2011-10-12 08:22:06.305712 Z
+  evaluation_id: 53353
+  id: 82252
+  item_belong_id: 1449
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.305712 Z
+scores_82253: 
+  created_at: 2011-10-12 08:22:06.308288 Z
+  evaluation_id: 53353
+  id: 82253
+  item_belong_id: 1450
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.308288 Z
+scores_82254: 
+  created_at: 2011-10-12 08:22:06.310728 Z
+  evaluation_id: 53353
+  id: 82254
+  item_belong_id: 1451
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.310728 Z
+scores_82255: 
+  created_at: 2011-10-12 08:22:06.313167 Z
+  evaluation_id: 53353
+  id: 82255
+  item_belong_id: 1452
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.313167 Z
+scores_82256: 
+  created_at: 2011-10-12 08:22:06.315443 Z
+  evaluation_id: 53353
+  id: 82256
+  item_belong_id: 1453
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.315443 Z
+scores_82257: 
+  created_at: 2011-10-12 08:22:06.317760 Z
+  evaluation_id: 53353
+  id: 82257
+  item_belong_id: 1454
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.317760 Z
+scores_82258: 
+  created_at: 2011-10-12 08:22:06.324727 Z
+  evaluation_id: 53354
+  id: 82258
+  item_belong_id: 1442
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.324727 Z
+scores_82259: 
+  created_at: 2011-10-12 08:22:06.327338 Z
+  evaluation_id: 53354
+  id: 82259
+  item_belong_id: 1443
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.327338 Z
+scores_82260: 
+  created_at: 2011-10-12 08:22:06.329695 Z
+  evaluation_id: 53354
+  id: 82260
+  item_belong_id: 1444
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.329695 Z
+scores_82261: 
+  created_at: 2011-10-12 08:22:06.332264 Z
+  evaluation_id: 53354
+  id: 82261
+  item_belong_id: 1445
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.332264 Z
+scores_82262: 
+  created_at: 2011-10-12 08:22:06.334465 Z
+  evaluation_id: 53354
+  id: 82262
+  item_belong_id: 1446
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.334465 Z
+scores_82263: 
+  created_at: 2011-10-12 08:22:06.336730 Z
+  evaluation_id: 53354
+  id: 82263
+  item_belong_id: 1447
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.336730 Z
+scores_82264: 
+  created_at: 2011-10-12 08:22:06.339163 Z
+  evaluation_id: 53354
+  id: 82264
+  item_belong_id: 1448
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.339163 Z
+scores_82265: 
+  created_at: 2011-10-12 08:22:06.341640 Z
+  evaluation_id: 53354
+  id: 82265
+  item_belong_id: 1449
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.341640 Z
+scores_82266: 
+  created_at: 2011-10-12 08:22:06.343950 Z
+  evaluation_id: 53354
+  id: 82266
+  item_belong_id: 1450
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.343950 Z
+scores_82267: 
+  created_at: 2011-10-12 08:22:06.346208 Z
+  evaluation_id: 53354
+  id: 82267
+  item_belong_id: 1451
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.346208 Z
+scores_82268: 
+  created_at: 2011-10-12 08:22:06.348699 Z
+  evaluation_id: 53354
+  id: 82268
+  item_belong_id: 1452
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.348699 Z
+scores_82269: 
+  created_at: 2011-10-12 08:22:06.351583 Z
+  evaluation_id: 53354
+  id: 82269
+  item_belong_id: 1453
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.351583 Z
+scores_82270: 
+  created_at: 2011-10-12 08:22:06.353922 Z
+  evaluation_id: 53354
+  id: 82270
+  item_belong_id: 1454
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.353922 Z
+scores_82271: 
+  created_at: 2011-10-12 08:22:06.360377 Z
+  evaluation_id: 53355
+  id: 82271
+  item_belong_id: 1442
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.360377 Z
+scores_82272: 
+  created_at: 2011-10-12 08:22:06.362893 Z
+  evaluation_id: 53355
+  id: 82272
+  item_belong_id: 1443
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.362893 Z
+scores_82273: 
+  created_at: 2011-10-12 08:22:06.365237 Z
+  evaluation_id: 53355
+  id: 82273
+  item_belong_id: 1444
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.365237 Z
+scores_82274: 
+  created_at: 2011-10-12 08:22:06.367911 Z
+  evaluation_id: 53355
+  id: 82274
+  item_belong_id: 1445
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.367911 Z
+scores_82275: 
+  created_at: 2011-10-12 08:22:06.370299 Z
+  evaluation_id: 53355
+  id: 82275
+  item_belong_id: 1446
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.370299 Z
+scores_82276: 
+  created_at: 2011-10-12 08:22:06.372669 Z
+  evaluation_id: 53355
+  id: 82276
+  item_belong_id: 1447
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.372669 Z
+scores_82277: 
+  created_at: 2011-10-12 08:22:06.374919 Z
+  evaluation_id: 53355
+  id: 82277
+  item_belong_id: 1448
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.374919 Z
+scores_82278: 
+  created_at: 2011-10-12 08:22:06.377427 Z
+  evaluation_id: 53355
+  id: 82278
+  item_belong_id: 1449
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.377427 Z
+scores_82279: 
+  created_at: 2011-10-12 08:22:06.379678 Z
+  evaluation_id: 53355
+  id: 82279
+  item_belong_id: 1450
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.379678 Z
+scores_82280: 
+  created_at: 2011-10-12 08:22:06.382075 Z
+  evaluation_id: 53355
+  id: 82280
+  item_belong_id: 1451
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.382075 Z
+scores_82281: 
+  created_at: 2011-10-12 08:22:06.384317 Z
+  evaluation_id: 53355
+  id: 82281
+  item_belong_id: 1452
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.384317 Z
+scores_82282: 
+  created_at: 2011-10-12 08:22:06.386996 Z
+  evaluation_id: 53355
+  id: 82282
+  item_belong_id: 1453
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.386996 Z
+scores_82283: 
+  created_at: 2011-10-12 08:22:06.389353 Z
+  evaluation_id: 53355
+  id: 82283
+  item_belong_id: 1454
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.389353 Z
+scores_82284: 
+  created_at: 2011-10-12 08:22:06.396313 Z
+  evaluation_id: 53356
+  id: 82284
+  item_belong_id: 1442
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.396313 Z
+scores_82285: 
+  created_at: 2011-10-12 08:22:06.398800 Z
+  evaluation_id: 53356
+  id: 82285
+  item_belong_id: 1443
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.398800 Z
+scores_82286: 
+  created_at: 2011-10-12 08:22:06.401177 Z
+  evaluation_id: 53356
+  id: 82286
+  item_belong_id: 1444
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.401177 Z
+scores_82287: 
+  created_at: 2011-10-12 08:22:06.407421 Z
+  evaluation_id: 53356
+  id: 82287
+  item_belong_id: 1445
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.407421 Z
+scores_82288: 
+  created_at: 2011-10-12 08:22:06.409916 Z
+  evaluation_id: 53356
+  id: 82288
+  item_belong_id: 1446
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.409916 Z
+scores_82289: 
+  created_at: 2011-10-12 08:22:06.412292 Z
+  evaluation_id: 53356
+  id: 82289
+  item_belong_id: 1447
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.412292 Z
+scores_82290: 
+  created_at: 2011-10-12 08:22:06.414695 Z
+  evaluation_id: 53356
+  id: 82290
+  item_belong_id: 1448
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.414695 Z
+scores_82291: 
+  created_at: 2011-10-12 08:22:06.416949 Z
+  evaluation_id: 53356
+  id: 82291
+  item_belong_id: 1449
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.416949 Z
+scores_82292: 
+  created_at: 2011-10-12 08:22:06.419383 Z
+  evaluation_id: 53356
+  id: 82292
+  item_belong_id: 1450
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.419383 Z
+scores_82293: 
+  created_at: 2011-10-12 08:22:06.422090 Z
+  evaluation_id: 53356
+  id: 82293
+  item_belong_id: 1451
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.422090 Z
+scores_82294: 
+  created_at: 2011-10-12 08:22:06.424425 Z
+  evaluation_id: 53356
+  id: 82294
+  item_belong_id: 1452
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.424425 Z
+scores_82295: 
+  created_at: 2011-10-12 08:22:06.426917 Z
+  evaluation_id: 53356
+  id: 82295
+  item_belong_id: 1453
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.426917 Z
+scores_82296: 
+  created_at: 2011-10-12 08:22:06.429580 Z
+  evaluation_id: 53356
+  id: 82296
+  item_belong_id: 1454
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.429580 Z
+scores_82297: 
+  created_at: 2011-10-12 08:22:06.435903 Z
+  evaluation_id: 53357
+  id: 82297
+  item_belong_id: 1620
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.435903 Z
+scores_82298: 
+  created_at: 2011-10-12 08:22:06.438354 Z
+  evaluation_id: 53357
+  id: 82298
+  item_belong_id: 1621
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.438354 Z
+scores_82299: 
+  created_at: 2011-10-12 08:22:06.440915 Z
+  evaluation_id: 53357
+  id: 82299
+  item_belong_id: 1622
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.440915 Z
+scores_82300: 
+  created_at: 2011-10-12 08:22:06.443213 Z
+  evaluation_id: 53357
+  id: 82300
+  item_belong_id: 1623
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.443213 Z
+scores_82301: 
+  created_at: 2011-10-12 08:22:06.445490 Z
+  evaluation_id: 53357
+  id: 82301
+  item_belong_id: 1624
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.445490 Z
+scores_82302: 
+  created_at: 2011-10-12 08:22:06.447741 Z
+  evaluation_id: 53357
+  id: 82302
+  item_belong_id: 1625
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.447741 Z
+scores_82303: 
+  created_at: 2011-10-12 08:22:06.450147 Z
+  evaluation_id: 53357
+  id: 82303
+  item_belong_id: 1626
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.450147 Z
+scores_82304: 
+  created_at: 2011-10-12 08:22:06.452586 Z
+  evaluation_id: 53357
+  id: 82304
+  item_belong_id: 1627
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.452586 Z
+scores_82305: 
+  created_at: 2011-10-12 08:22:06.454769 Z
+  evaluation_id: 53357
+  id: 82305
+  item_belong_id: 1628
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.454769 Z
+scores_82306: 
+  created_at: 2011-10-12 08:22:06.457043 Z
+  evaluation_id: 53357
+  id: 82306
+  item_belong_id: 1629
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.457043 Z
+scores_82307: 
+  created_at: 2011-10-12 08:22:06.459628 Z
+  evaluation_id: 53357
+  id: 82307
+  item_belong_id: 1630
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.459628 Z
+scores_82308: 
+  created_at: 2011-10-12 08:22:06.462089 Z
+  evaluation_id: 53357
+  id: 82308
+  item_belong_id: 1631
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.462089 Z
+scores_82309: 
+  created_at: 2011-10-12 08:22:06.464376 Z
+  evaluation_id: 53357
+  id: 82309
+  item_belong_id: 1632
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.464376 Z
+scores_82310: 
+  created_at: 2011-10-12 08:22:06.470868 Z
+  evaluation_id: 53358
+  id: 82310
+  item_belong_id: 1620
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.470868 Z
+scores_82311: 
+  created_at: 2011-10-12 08:22:06.473466 Z
+  evaluation_id: 53358
+  id: 82311
+  item_belong_id: 1621
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.473466 Z
+scores_82312: 
+  created_at: 2011-10-12 08:22:06.475822 Z
+  evaluation_id: 53358
+  id: 82312
+  item_belong_id: 1622
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.475822 Z
+scores_82313: 
+  created_at: 2011-10-12 08:22:06.478217 Z
+  evaluation_id: 53358
+  id: 82313
+  item_belong_id: 1623
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.478217 Z
+scores_82314: 
+  created_at: 2011-10-12 08:22:06.480531 Z
+  evaluation_id: 53358
+  id: 82314
+  item_belong_id: 1624
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.480531 Z
+scores_82315: 
+  created_at: 2011-10-12 08:22:06.482780 Z
+  evaluation_id: 53358
+  id: 82315
+  item_belong_id: 1625
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.482780 Z
+scores_82316: 
+  created_at: 2011-10-12 08:22:06.484992 Z
+  evaluation_id: 53358
+  id: 82316
+  item_belong_id: 1626
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.484992 Z
+scores_82317: 
+  created_at: 2011-10-12 08:22:06.487332 Z
+  evaluation_id: 53358
+  id: 82317
+  item_belong_id: 1627
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.487332 Z
+scores_82318: 
+  created_at: 2011-10-12 08:22:06.491361 Z
+  evaluation_id: 53358
+  id: 82318
+  item_belong_id: 1628
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.491361 Z
+scores_82319: 
+  created_at: 2011-10-12 08:22:06.493696 Z
+  evaluation_id: 53358
+  id: 82319
+  item_belong_id: 1629
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.493696 Z
+scores_82320: 
+  created_at: 2011-10-12 08:22:06.496454 Z
+  evaluation_id: 53358
+  id: 82320
+  item_belong_id: 1630
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.496454 Z
+scores_82321: 
+  created_at: 2011-10-12 08:22:06.498812 Z
+  evaluation_id: 53358
+  id: 82321
+  item_belong_id: 1631
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.498812 Z
+scores_82322: 
+  created_at: 2011-10-12 08:22:06.501013 Z
+  evaluation_id: 53358
+  id: 82322
+  item_belong_id: 1632
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.501013 Z
+scores_82323: 
+  created_at: 2011-10-12 08:22:06.507565 Z
+  evaluation_id: 53359
+  id: 82323
+  item_belong_id: 1620
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.507565 Z
+scores_82324: 
+  created_at: 2011-10-12 08:22:06.509999 Z
+  evaluation_id: 53359
+  id: 82324
+  item_belong_id: 1621
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.509999 Z
+scores_82325: 
+  created_at: 2011-10-12 08:22:06.512302 Z
+  evaluation_id: 53359
+  id: 82325
+  item_belong_id: 1622
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.512302 Z
+scores_82326: 
+  created_at: 2011-10-12 08:22:06.514642 Z
+  evaluation_id: 53359
+  id: 82326
+  item_belong_id: 1623
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.514642 Z
+scores_82327: 
+  created_at: 2011-10-12 08:22:06.516895 Z
+  evaluation_id: 53359
+  id: 82327
+  item_belong_id: 1624
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.516895 Z
+scores_82328: 
+  created_at: 2011-10-12 08:22:06.519158 Z
+  evaluation_id: 53359
+  id: 82328
+  item_belong_id: 1625
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.519158 Z
+scores_82329: 
+  created_at: 2011-10-12 08:22:06.521646 Z
+  evaluation_id: 53359
+  id: 82329
+  item_belong_id: 1626
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.521646 Z
+scores_82330: 
+  created_at: 2011-10-12 08:22:06.524157 Z
+  evaluation_id: 53359
+  id: 82330
+  item_belong_id: 1627
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.524157 Z
+scores_82331: 
+  created_at: 2011-10-12 08:22:06.526374 Z
+  evaluation_id: 53359
+  id: 82331
+  item_belong_id: 1628
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.526374 Z
+scores_82332: 
+  created_at: 2011-10-12 08:22:06.528603 Z
+  evaluation_id: 53359
+  id: 82332
+  item_belong_id: 1629
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.528603 Z
+scores_82333: 
+  created_at: 2011-10-12 08:22:06.530918 Z
+  evaluation_id: 53359
+  id: 82333
+  item_belong_id: 1630
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.530918 Z
+scores_82334: 
+  created_at: 2011-10-12 08:22:06.533334 Z
+  evaluation_id: 53359
+  id: 82334
+  item_belong_id: 1631
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.533334 Z
+scores_82335: 
+  created_at: 2011-10-12 08:22:06.535510 Z
+  evaluation_id: 53359
+  id: 82335
+  item_belong_id: 1632
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.535510 Z
+scores_82336: 
+  created_at: 2011-10-12 08:22:06.542059 Z
+  evaluation_id: 53364
+  id: 82336
+  item_belong_id: 1442
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.542059 Z
+scores_82337: 
+  created_at: 2011-10-12 08:22:06.544456 Z
+  evaluation_id: 53364
+  id: 82337
+  item_belong_id: 1443
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.544456 Z
+scores_82338: 
+  created_at: 2011-10-12 08:22:06.546621 Z
+  evaluation_id: 53364
+  id: 82338
+  item_belong_id: 1444
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.546621 Z
+scores_82339: 
+  created_at: 2011-10-12 08:22:06.548988 Z
+  evaluation_id: 53364
+  id: 82339
+  item_belong_id: 1445
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.548988 Z
+scores_82340: 
+  created_at: 2011-10-12 08:22:06.595251 Z
+  evaluation_id: 53364
+  id: 82340
+  item_belong_id: 1446
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.595251 Z
+scores_82341: 
+  created_at: 2011-10-12 08:22:06.603003 Z
+  evaluation_id: 53364
+  id: 82341
+  item_belong_id: 1447
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.603003 Z
+scores_82342: 
+  created_at: 2011-10-12 08:22:06.606218 Z
+  evaluation_id: 53364
+  id: 82342
+  item_belong_id: 1448
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.606218 Z
+scores_82343: 
+  created_at: 2011-10-12 08:22:06.608652 Z
+  evaluation_id: 53364
+  id: 82343
+  item_belong_id: 1449
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.608652 Z
+scores_82344: 
+  created_at: 2011-10-12 08:22:06.611038 Z
+  evaluation_id: 53364
+  id: 82344
+  item_belong_id: 1450
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.611038 Z
+scores_82345: 
+  created_at: 2011-10-12 08:22:06.613509 Z
+  evaluation_id: 53364
+  id: 82345
+  item_belong_id: 1451
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.613509 Z
+scores_82346: 
+  created_at: 2011-10-12 08:22:06.616018 Z
+  evaluation_id: 53364
+  id: 82346
+  item_belong_id: 1452
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.616018 Z
+scores_82347: 
+  created_at: 2011-10-12 08:22:06.618523 Z
+  evaluation_id: 53364
+  id: 82347
+  item_belong_id: 1453
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.618523 Z
+scores_82348: 
+  created_at: 2011-10-12 08:22:06.621102 Z
+  evaluation_id: 53364
+  id: 82348
+  item_belong_id: 1454
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.621102 Z
+scores_82349: 
+  created_at: 2011-10-12 08:22:06.627796 Z
+  evaluation_id: 53369
+  id: 82349
+  item_belong_id: 1620
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.627796 Z
+scores_82350: 
+  created_at: 2011-10-12 08:22:06.630351 Z
+  evaluation_id: 53369
+  id: 82350
+  item_belong_id: 1621
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.630351 Z
+scores_82351: 
+  created_at: 2011-10-12 08:22:06.632948 Z
+  evaluation_id: 53369
+  id: 82351
+  item_belong_id: 1622
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.632948 Z
+scores_82352: 
+  created_at: 2011-10-12 08:22:06.635270 Z
+  evaluation_id: 53369
+  id: 82352
+  item_belong_id: 1623
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.635270 Z
+scores_82353: 
+  created_at: 2011-10-12 08:22:06.637538 Z
+  evaluation_id: 53369
+  id: 82353
+  item_belong_id: 1624
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.637538 Z
+scores_82354: 
+  created_at: 2011-10-12 08:22:06.639930 Z
+  evaluation_id: 53369
+  id: 82354
+  item_belong_id: 1625
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.639930 Z
+scores_82355: 
+  created_at: 2011-10-12 08:22:06.642374 Z
+  evaluation_id: 53369
+  id: 82355
+  item_belong_id: 1626
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.642374 Z
+scores_82356: 
+  created_at: 2011-10-12 08:22:06.644829 Z
+  evaluation_id: 53369
+  id: 82356
+  item_belong_id: 1627
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.644829 Z
+scores_82357: 
+  created_at: 2011-10-12 08:22:06.647164 Z
+  evaluation_id: 53369
+  id: 82357
+  item_belong_id: 1628
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.647164 Z
+scores_82358: 
+  created_at: 2011-10-12 08:22:06.649448 Z
+  evaluation_id: 53369
+  id: 82358
+  item_belong_id: 1629
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.649448 Z
+scores_82359: 
+  created_at: 2011-10-12 08:22:06.652021 Z
+  evaluation_id: 53369
+  id: 82359
+  item_belong_id: 1630
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.652021 Z
+scores_82360: 
+  created_at: 2011-10-12 08:22:06.654427 Z
+  evaluation_id: 53369
+  id: 82360
+  item_belong_id: 1631
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.654427 Z
+scores_82361: 
+  created_at: 2011-10-12 08:22:06.656725 Z
+  evaluation_id: 53369
+  id: 82361
+  item_belong_id: 1632
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.656725 Z
+scores_82362: 
+  created_at: 2011-10-12 08:22:06.663357 Z
+  evaluation_id: 53372
+  id: 82362
+  item_belong_id: 1442
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.663357 Z
+scores_82363: 
+  created_at: 2011-10-12 08:22:06.665847 Z
+  evaluation_id: 53372
+  id: 82363
+  item_belong_id: 1443
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.665847 Z
+scores_82364: 
+  created_at: 2011-10-12 08:22:06.668407 Z
+  evaluation_id: 53372
+  id: 82364
+  item_belong_id: 1444
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.668407 Z
+scores_82365: 
+  created_at: 2011-10-12 08:22:06.671009 Z
+  evaluation_id: 53372
+  id: 82365
+  item_belong_id: 1445
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.671009 Z
+scores_82366: 
+  created_at: 2011-10-12 08:22:06.673370 Z
+  evaluation_id: 53372
+  id: 82366
+  item_belong_id: 1446
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.673370 Z
+scores_82367: 
+  created_at: 2011-10-12 08:22:06.675719 Z
+  evaluation_id: 53372
+  id: 82367
+  item_belong_id: 1447
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.675719 Z
+scores_82368: 
+  created_at: 2011-10-12 08:22:06.677933 Z
+  evaluation_id: 53372
+  id: 82368
+  item_belong_id: 1448
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.677933 Z
+scores_82369: 
+  created_at: 2011-10-12 08:22:06.680429 Z
+  evaluation_id: 53372
+  id: 82369
+  item_belong_id: 1449
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.680429 Z
+scores_82370: 
+  created_at: 2011-10-12 08:22:06.682696 Z
+  evaluation_id: 53372
+  id: 82370
+  item_belong_id: 1450
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.682696 Z
+scores_82371: 
+  created_at: 2011-10-12 08:22:06.685052 Z
+  evaluation_id: 53372
+  id: 82371
+  item_belong_id: 1451
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.685052 Z
+scores_82372: 
+  created_at: 2011-10-12 08:22:06.687642 Z
+  evaluation_id: 53372
+  id: 82372
+  item_belong_id: 1452
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.687642 Z
+scores_82373: 
+  created_at: 2011-10-12 08:22:06.689925 Z
+  evaluation_id: 53372
+  id: 82373
+  item_belong_id: 1453
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.689925 Z
+scores_82374: 
+  created_at: 2011-10-12 08:22:06.692387 Z
+  evaluation_id: 53372
+  id: 82374
+  item_belong_id: 1454
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.692387 Z
+scores_82375: 
+  created_at: 2011-10-12 08:22:06.698830 Z
+  evaluation_id: 53373
+  id: 82375
+  item_belong_id: 1442
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.698830 Z
+scores_82376: 
+  created_at: 2011-10-12 08:22:06.701386 Z
+  evaluation_id: 53373
+  id: 82376
+  item_belong_id: 1443
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.701386 Z
+scores_82377: 
+  created_at: 2011-10-12 08:22:06.707718 Z
+  evaluation_id: 53373
+  id: 82377
+  item_belong_id: 1444
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.707718 Z
+scores_82378: 
+  created_at: 2011-10-12 08:22:06.710064 Z
+  evaluation_id: 53373
+  id: 82378
+  item_belong_id: 1445
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.710064 Z
+scores_82379: 
+  created_at: 2011-10-12 08:22:06.712477 Z
+  evaluation_id: 53373
+  id: 82379
+  item_belong_id: 1446
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.712477 Z
+scores_82380: 
+  created_at: 2011-10-12 08:22:06.714933 Z
+  evaluation_id: 53373
+  id: 82380
+  item_belong_id: 1447
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.714933 Z
+scores_82381: 
+  created_at: 2011-10-12 08:22:06.717312 Z
+  evaluation_id: 53373
+  id: 82381
+  item_belong_id: 1448
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.717312 Z
+scores_82382: 
+  created_at: 2011-10-12 08:22:06.726606 Z
+  evaluation_id: 53373
+  id: 82382
+  item_belong_id: 1449
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.726606 Z
+scores_82383: 
+  created_at: 2011-10-12 08:22:06.729350 Z
+  evaluation_id: 53373
+  id: 82383
+  item_belong_id: 1450
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.729350 Z
+scores_82384: 
+  created_at: 2011-10-12 08:22:06.731750 Z
+  evaluation_id: 53373
+  id: 82384
+  item_belong_id: 1451
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.731750 Z
+scores_82385: 
+  created_at: 2011-10-12 08:22:06.734209 Z
+  evaluation_id: 53373
+  id: 82385
+  item_belong_id: 1452
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.734209 Z
+scores_82386: 
+  created_at: 2011-10-12 08:22:06.736578 Z
+  evaluation_id: 53373
+  id: 82386
+  item_belong_id: 1453
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.736578 Z
+scores_82387: 
+  created_at: 2011-10-12 08:22:06.739710 Z
+  evaluation_id: 53373
+  id: 82387
+  item_belong_id: 1454
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.739710 Z
+scores_82388: 
+  created_at: 2011-10-12 08:22:06.746432 Z
+  evaluation_id: 53374
+  id: 82388
+  item_belong_id: 1442
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.746432 Z
+scores_82389: 
+  created_at: 2011-10-12 08:22:06.748902 Z
+  evaluation_id: 53374
+  id: 82389
+  item_belong_id: 1443
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.748902 Z
+scores_82390: 
+  created_at: 2011-10-12 08:22:06.751287 Z
+  evaluation_id: 53374
+  id: 82390
+  item_belong_id: 1444
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.751287 Z
+scores_82391: 
+  created_at: 2011-10-12 08:22:06.753737 Z
+  evaluation_id: 53374
+  id: 82391
+  item_belong_id: 1445
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.753737 Z
+scores_82392: 
+  created_at: 2011-10-12 08:22:06.756127 Z
+  evaluation_id: 53374
+  id: 82392
+  item_belong_id: 1446
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.756127 Z
+scores_82393: 
+  created_at: 2011-10-12 08:22:06.758476 Z
+  evaluation_id: 53374
+  id: 82393
+  item_belong_id: 1447
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.758476 Z
+scores_82394: 
+  created_at: 2011-10-12 08:22:06.761100 Z
+  evaluation_id: 53374
+  id: 82394
+  item_belong_id: 1448
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.761100 Z
+scores_82395: 
+  created_at: 2011-10-12 08:22:06.763399 Z
+  evaluation_id: 53374
+  id: 82395
+  item_belong_id: 1449
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.763399 Z
+scores_82396: 
+  created_at: 2011-10-12 08:22:06.765686 Z
+  evaluation_id: 53374
+  id: 82396
+  item_belong_id: 1450
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.765686 Z
+scores_82397: 
+  created_at: 2011-10-12 08:22:06.768208 Z
+  evaluation_id: 53374
+  id: 82397
+  item_belong_id: 1451
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.768208 Z
+scores_82398: 
+  created_at: 2011-10-12 08:22:06.770920 Z
+  evaluation_id: 53374
+  id: 82398
+  item_belong_id: 1452
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.770920 Z
+scores_82399: 
+  created_at: 2011-10-12 08:22:06.773333 Z
+  evaluation_id: 53374
+  id: 82399
+  item_belong_id: 1453
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.773333 Z
+scores_82400: 
+  created_at: 2011-10-12 08:22:06.775701 Z
+  evaluation_id: 53374
+  id: 82400
+  item_belong_id: 1454
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.775701 Z
+scores_82401: 
+  created_at: 2011-10-12 08:22:06.782121 Z
+  evaluation_id: 53375
+  id: 82401
+  item_belong_id: 1620
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.782121 Z
+scores_82402: 
+  created_at: 2011-10-12 08:22:06.784774 Z
+  evaluation_id: 53375
+  id: 82402
+  item_belong_id: 1621
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.784774 Z
+scores_82403: 
+  created_at: 2011-10-12 08:22:06.787046 Z
+  evaluation_id: 53375
+  id: 82403
+  item_belong_id: 1622
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.787046 Z
+scores_82404: 
+  created_at: 2011-10-12 08:22:06.789620 Z
+  evaluation_id: 53375
+  id: 82404
+  item_belong_id: 1623
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.789620 Z
+scores_82405: 
+  created_at: 2011-10-12 08:22:06.792115 Z
+  evaluation_id: 53375
+  id: 82405
+  item_belong_id: 1624
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.792115 Z
+scores_82406: 
+  created_at: 2011-10-12 08:22:06.794522 Z
+  evaluation_id: 53375
+  id: 82406
+  item_belong_id: 1625
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.794522 Z
+scores_82407: 
+  created_at: 2011-10-12 08:22:06.796766 Z
+  evaluation_id: 53375
+  id: 82407
+  item_belong_id: 1626
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.796766 Z
+scores_82408: 
+  created_at: 2011-10-12 08:22:06.799245 Z
+  evaluation_id: 53375
+  id: 82408
+  item_belong_id: 1627
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.799245 Z
+scores_82409: 
+  created_at: 2011-10-12 08:22:06.801609 Z
+  evaluation_id: 53375
+  id: 82409
+  item_belong_id: 1628
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.801609 Z
+scores_82410: 
+  created_at: 2011-10-12 08:22:06.834493 Z
+  evaluation_id: 53375
+  id: 82410
+  item_belong_id: 1629
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.834493 Z
+scores_82411: 
+  created_at: 2011-10-12 08:22:06.837288 Z
+  evaluation_id: 53375
+  id: 82411
+  item_belong_id: 1630
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.837288 Z
+scores_82412: 
+  created_at: 2011-10-12 08:22:06.839624 Z
+  evaluation_id: 53375
+  id: 82412
+  item_belong_id: 1631
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.839624 Z
+scores_82413: 
+  created_at: 2011-10-12 08:22:06.842094 Z
+  evaluation_id: 53375
+  id: 82413
+  item_belong_id: 1632
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.842094 Z
+scores_82414: 
+  created_at: 2011-10-12 08:22:06.848798 Z
+  evaluation_id: 53376
+  id: 82414
+  item_belong_id: 1442
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.848798 Z
+scores_82415: 
+  created_at: 2011-10-12 08:22:06.851296 Z
+  evaluation_id: 53376
+  id: 82415
+  item_belong_id: 1443
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.851296 Z
+scores_82416: 
+  created_at: 2011-10-12 08:22:06.857918 Z
+  evaluation_id: 53376
+  id: 82416
+  item_belong_id: 1444
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.857918 Z
+scores_82417: 
+  created_at: 2011-10-12 08:22:06.860515 Z
+  evaluation_id: 53376
+  id: 82417
+  item_belong_id: 1445
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.860515 Z
+scores_82418: 
+  created_at: 2011-10-12 08:22:06.863022 Z
+  evaluation_id: 53376
+  id: 82418
+  item_belong_id: 1446
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.863022 Z
+scores_82419: 
+  created_at: 2011-10-12 08:22:06.865372 Z
+  evaluation_id: 53376
+  id: 82419
+  item_belong_id: 1447
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.865372 Z
+scores_82420: 
+  created_at: 2011-10-12 08:22:06.867744 Z
+  evaluation_id: 53376
+  id: 82420
+  item_belong_id: 1448
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.867744 Z
+scores_82421: 
+  created_at: 2011-10-12 08:22:06.870351 Z
+  evaluation_id: 53376
+  id: 82421
+  item_belong_id: 1449
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.870351 Z
+scores_82422: 
+  created_at: 2011-10-12 08:22:06.872905 Z
+  evaluation_id: 53376
+  id: 82422
+  item_belong_id: 1450
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.872905 Z
+scores_82423: 
+  created_at: 2011-10-12 08:22:06.875613 Z
+  evaluation_id: 53376
+  id: 82423
+  item_belong_id: 1451
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.875613 Z
+scores_82424: 
+  created_at: 2011-10-12 08:22:06.877899 Z
+  evaluation_id: 53376
+  id: 82424
+  item_belong_id: 1452
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.877899 Z
+scores_82425: 
+  created_at: 2011-10-12 08:22:06.880258 Z
+  evaluation_id: 53376
+  id: 82425
+  item_belong_id: 1453
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.880258 Z
+scores_82426: 
+  created_at: 2011-10-12 08:22:06.882799 Z
+  evaluation_id: 53376
+  id: 82426
+  item_belong_id: 1454
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.882799 Z
+scores_82427: 
+  created_at: 2011-10-12 08:22:06.889157 Z
+  evaluation_id: 53377
+  id: 82427
+  item_belong_id: 1442
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.889157 Z
+scores_82428: 
+  created_at: 2011-10-12 08:22:06.891984 Z
+  evaluation_id: 53377
+  id: 82428
+  item_belong_id: 1443
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.891984 Z
+scores_82429: 
+  created_at: 2011-10-12 08:22:06.894421 Z
+  evaluation_id: 53377
+  id: 82429
+  item_belong_id: 1444
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.894421 Z
+scores_82430: 
+  created_at: 2011-10-12 08:22:06.896756 Z
+  evaluation_id: 53377
+  id: 82430
+  item_belong_id: 1445
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.896756 Z
+scores_82431: 
+  created_at: 2011-10-12 08:22:06.899138 Z
+  evaluation_id: 53377
+  id: 82431
+  item_belong_id: 1446
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.899138 Z
+scores_82432: 
+  created_at: 2011-10-12 08:22:06.901398 Z
+  evaluation_id: 53377
+  id: 82432
+  item_belong_id: 1447
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.901398 Z
+scores_82433: 
+  created_at: 2011-10-12 08:22:06.903839 Z
+  evaluation_id: 53377
+  id: 82433
+  item_belong_id: 1448
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.903839 Z
+scores_82434: 
+  created_at: 2011-10-12 08:22:06.906207 Z
+  evaluation_id: 53377
+  id: 82434
+  item_belong_id: 1449
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.906207 Z
+scores_82435: 
+  created_at: 2011-10-12 08:22:06.908676 Z
+  evaluation_id: 53377
+  id: 82435
+  item_belong_id: 1450
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.908676 Z
+scores_82436: 
+  created_at: 2011-10-12 08:22:06.911002 Z
+  evaluation_id: 53377
+  id: 82436
+  item_belong_id: 1451
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.911002 Z
+scores_82437: 
+  created_at: 2011-10-12 08:22:06.913306 Z
+  evaluation_id: 53377
+  id: 82437
+  item_belong_id: 1452
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.913306 Z
+scores_82438: 
+  created_at: 2011-10-12 08:22:06.915862 Z
+  evaluation_id: 53377
+  id: 82438
+  item_belong_id: 1453
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.915862 Z
+scores_82439: 
+  created_at: 2011-10-12 08:22:06.918272 Z
+  evaluation_id: 53377
+  id: 82439
+  item_belong_id: 1454
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.918272 Z
+scores_82440: 
+  created_at: 2011-10-12 08:22:06.924915 Z
+  evaluation_id: 53378
+  id: 82440
+  item_belong_id: 1442
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.924915 Z
+scores_82441: 
+  created_at: 2011-10-12 08:22:06.927777 Z
+  evaluation_id: 53378
+  id: 82441
+  item_belong_id: 1443
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.927777 Z
+scores_82442: 
+  created_at: 2011-10-12 08:22:06.930095 Z
+  evaluation_id: 53378
+  id: 82442
+  item_belong_id: 1444
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.930095 Z
+scores_82443: 
+  created_at: 2011-10-12 08:22:06.932408 Z
+  evaluation_id: 53378
+  id: 82443
+  item_belong_id: 1445
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.932408 Z
+scores_82444: 
+  created_at: 2011-10-12 08:22:06.934864 Z
+  evaluation_id: 53378
+  id: 82444
+  item_belong_id: 1446
+  point_id: 2
+  updated_at: 2011-10-12 08:22:06.934864 Z
+scores_82445: 
+  created_at: 2011-10-12 08:22:06.937388 Z
+  evaluation_id: 53378
+  id: 82445
+  item_belong_id: 1447
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.937388 Z
+scores_82446: 
+  created_at: 2011-10-12 08:22:06.939665 Z
+  evaluation_id: 53378
+  id: 82446
+  item_belong_id: 1448
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.939665 Z
+scores_82447: 
+  created_at: 2011-10-12 08:22:06.942031 Z
+  evaluation_id: 53378
+  id: 82447
+  item_belong_id: 1449
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.942031 Z
+scores_82448: 
+  created_at: 2011-10-12 08:22:06.944582 Z
+  evaluation_id: 53378
+  id: 82448
+  item_belong_id: 1450
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.944582 Z
+scores_82449: 
+  created_at: 2011-10-12 08:22:06.947165 Z
+  evaluation_id: 53378
+  id: 82449
+  item_belong_id: 1451
+  point_id: 1
+  updated_at: 2011-10-12 08:22:06.947165 Z
+scores_82450: 
+  created_at: 2011-10-12 08:22:06.949661 Z
+  evaluation_id: 53378
+  id: 82450
+  item_belong_id: 1452
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.949661 Z
+scores_82451: 
+  created_at: 2011-10-12 08:22:06.952044 Z
+  evaluation_id: 53378
+  id: 82451
+  item_belong_id: 1453
+  point_id: 4
+  updated_at: 2011-10-12 08:22:06.952044 Z
+scores_82452: 
+  created_at: 2011-10-12 08:22:06.993431 Z
+  evaluation_id: 53378
+  id: 82452
+  item_belong_id: 1454
+  point_id: 3
+  updated_at: 2011-10-12 08:22:06.993431 Z
+scores_82453: 
+  created_at: 2011-10-12 08:22:07.009984 Z
+  evaluation_id: 53379
+  id: 82453
+  item_belong_id: 1442
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.009984 Z
+scores_82454: 
+  created_at: 2011-10-12 08:22:07.012652 Z
+  evaluation_id: 53379
+  id: 82454
+  item_belong_id: 1443
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.012652 Z
+scores_82455: 
+  created_at: 2011-10-12 08:22:07.015363 Z
+  evaluation_id: 53379
+  id: 82455
+  item_belong_id: 1444
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.015363 Z
+scores_82456: 
+  created_at: 2011-10-12 08:22:07.017777 Z
+  evaluation_id: 53379
+  id: 82456
+  item_belong_id: 1445
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.017777 Z
+scores_82457: 
+  created_at: 2011-10-12 08:22:07.020261 Z
+  evaluation_id: 53379
+  id: 82457
+  item_belong_id: 1446
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.020261 Z
+scores_82458: 
+  created_at: 2011-10-12 08:22:07.022563 Z
+  evaluation_id: 53379
+  id: 82458
+  item_belong_id: 1447
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.022563 Z
+scores_82459: 
+  created_at: 2011-10-12 08:22:07.025654 Z
+  evaluation_id: 53379
+  id: 82459
+  item_belong_id: 1448
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.025654 Z
+scores_82460: 
+  created_at: 2011-10-12 08:22:07.028301 Z
+  evaluation_id: 53379
+  id: 82460
+  item_belong_id: 1449
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.028301 Z
+scores_82461: 
+  created_at: 2011-10-12 08:22:07.030600 Z
+  evaluation_id: 53379
+  id: 82461
+  item_belong_id: 1450
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.030600 Z
+scores_82462: 
+  created_at: 2011-10-12 08:22:07.032991 Z
+  evaluation_id: 53379
+  id: 82462
+  item_belong_id: 1451
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.032991 Z
+scores_82463: 
+  created_at: 2011-10-12 08:22:07.035402 Z
+  evaluation_id: 53379
+  id: 82463
+  item_belong_id: 1452
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.035402 Z
+scores_82464: 
+  created_at: 2011-10-12 08:22:07.038112 Z
+  evaluation_id: 53379
+  id: 82464
+  item_belong_id: 1453
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.038112 Z
+scores_82465: 
+  created_at: 2011-10-12 08:22:07.040513 Z
+  evaluation_id: 53379
+  id: 82465
+  item_belong_id: 1454
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.040513 Z
+scores_82466: 
+  created_at: 2011-10-12 08:22:07.047386 Z
+  evaluation_id: 53380
+  id: 82466
+  item_belong_id: 1442
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.047386 Z
+scores_82467: 
+  created_at: 2011-10-12 08:22:07.049902 Z
+  evaluation_id: 53380
+  id: 82467
+  item_belong_id: 1443
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.049902 Z
+scores_82468: 
+  created_at: 2011-10-12 08:22:07.052217 Z
+  evaluation_id: 53380
+  id: 82468
+  item_belong_id: 1444
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.052217 Z
+scores_82469: 
+  created_at: 2011-10-12 08:22:07.054648 Z
+  evaluation_id: 53380
+  id: 82469
+  item_belong_id: 1445
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.054648 Z
+scores_82470: 
+  created_at: 2011-10-12 08:22:07.057265 Z
+  evaluation_id: 53380
+  id: 82470
+  item_belong_id: 1446
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.057265 Z
+scores_82471: 
+  created_at: 2011-10-12 08:22:07.059822 Z
+  evaluation_id: 53380
+  id: 82471
+  item_belong_id: 1447
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.059822 Z
+scores_82472: 
+  created_at: 2011-10-12 08:22:07.062226 Z
+  evaluation_id: 53380
+  id: 82472
+  item_belong_id: 1448
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.062226 Z
+scores_82473: 
+  created_at: 2011-10-12 08:22:07.064837 Z
+  evaluation_id: 53380
+  id: 82473
+  item_belong_id: 1449
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.064837 Z
+scores_82474: 
+  created_at: 2011-10-12 08:22:07.067321 Z
+  evaluation_id: 53380
+  id: 82474
+  item_belong_id: 1450
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.067321 Z
+scores_82475: 
+  created_at: 2011-10-12 08:22:07.070335 Z
+  evaluation_id: 53380
+  id: 82475
+  item_belong_id: 1451
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.070335 Z
+scores_82476: 
+  created_at: 2011-10-12 08:22:07.072778 Z
+  evaluation_id: 53380
+  id: 82476
+  item_belong_id: 1452
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.072778 Z
+scores_82477: 
+  created_at: 2011-10-12 08:22:07.075400 Z
+  evaluation_id: 53380
+  id: 82477
+  item_belong_id: 1453
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.075400 Z
+scores_82478: 
+  created_at: 2011-10-12 08:22:07.077733 Z
+  evaluation_id: 53380
+  id: 82478
+  item_belong_id: 1454
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.077733 Z
+scores_82479: 
+  created_at: 2011-10-12 08:22:07.084815 Z
+  evaluation_id: 53381
+  id: 82479
+  item_belong_id: 1620
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.084815 Z
+scores_82480: 
+  created_at: 2011-10-12 08:22:07.087370 Z
+  evaluation_id: 53381
+  id: 82480
+  item_belong_id: 1621
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.087370 Z
+scores_82481: 
+  created_at: 2011-10-12 08:22:07.089706 Z
+  evaluation_id: 53381
+  id: 82481
+  item_belong_id: 1622
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.089706 Z
+scores_82482: 
+  created_at: 2011-10-12 08:22:07.092307 Z
+  evaluation_id: 53381
+  id: 82482
+  item_belong_id: 1623
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.092307 Z
+scores_82483: 
+  created_at: 2011-10-12 08:22:07.095053 Z
+  evaluation_id: 53381
+  id: 82483
+  item_belong_id: 1624
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.095053 Z
+scores_82484: 
+  created_at: 2011-10-12 08:22:07.097414 Z
+  evaluation_id: 53381
+  id: 82484
+  item_belong_id: 1625
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.097414 Z
+scores_82485: 
+  created_at: 2011-10-12 08:22:07.099671 Z
+  evaluation_id: 53381
+  id: 82485
+  item_belong_id: 1626
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.099671 Z
+scores_82486: 
+  created_at: 2011-10-12 08:22:07.102025 Z
+  evaluation_id: 53381
+  id: 82486
+  item_belong_id: 1627
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.102025 Z
+scores_82487: 
+  created_at: 2011-10-12 08:22:07.104689 Z
+  evaluation_id: 53381
+  id: 82487
+  item_belong_id: 1628
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.104689 Z
+scores_82488: 
+  created_at: 2011-10-12 08:22:07.107410 Z
+  evaluation_id: 53381
+  id: 82488
+  item_belong_id: 1629
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.107410 Z
+scores_82489: 
+  created_at: 2011-10-12 08:22:07.109833 Z
+  evaluation_id: 53381
+  id: 82489
+  item_belong_id: 1630
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.109833 Z
+scores_82490: 
+  created_at: 2011-10-12 08:22:07.112583 Z
+  evaluation_id: 53381
+  id: 82490
+  item_belong_id: 1631
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.112583 Z
+scores_82491: 
+  created_at: 2011-10-12 08:22:07.115275 Z
+  evaluation_id: 53381
+  id: 82491
+  item_belong_id: 1632
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.115275 Z
+scores_82492: 
+  created_at: 2011-10-12 08:22:07.121648 Z
+  evaluation_id: 53403
+  id: 82492
+  item_belong_id: 1416
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.121648 Z
+scores_82493: 
+  created_at: 2011-10-12 08:22:07.124675 Z
+  evaluation_id: 53403
+  id: 82493
+  item_belong_id: 1417
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.124675 Z
+scores_82494: 
+  created_at: 2011-10-12 08:22:07.127078 Z
+  evaluation_id: 53403
+  id: 82494
+  item_belong_id: 1418
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.127078 Z
+scores_82495: 
+  created_at: 2011-10-12 08:22:07.130448 Z
+  evaluation_id: 53403
+  id: 82495
+  item_belong_id: 1419
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.130448 Z
+scores_82496: 
+  created_at: 2011-10-12 08:22:07.132919 Z
+  evaluation_id: 53403
+  id: 82496
+  item_belong_id: 1420
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.132919 Z
+scores_82497: 
+  created_at: 2011-10-12 08:22:07.135404 Z
+  evaluation_id: 53403
+  id: 82497
+  item_belong_id: 1421
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.135404 Z
+scores_82498: 
+  created_at: 2011-10-12 08:22:07.138052 Z
+  evaluation_id: 53403
+  id: 82498
+  item_belong_id: 1422
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.138052 Z
+scores_82499: 
+  created_at: 2011-10-12 08:22:07.143740 Z
+  evaluation_id: 53403
+  id: 82499
+  item_belong_id: 1423
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.143740 Z
+scores_82500: 
+  created_at: 2011-10-12 08:22:07.146108 Z
+  evaluation_id: 53403
+  id: 82500
+  item_belong_id: 1424
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.146108 Z
+scores_82501: 
+  created_at: 2011-10-12 08:22:07.148887 Z
+  evaluation_id: 53403
+  id: 82501
+  item_belong_id: 1425
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.148887 Z
+scores_82502: 
+  created_at: 2011-10-12 08:22:07.151164 Z
+  evaluation_id: 53403
+  id: 82502
+  item_belong_id: 1426
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.151164 Z
+scores_82503: 
+  created_at: 2011-10-12 08:22:07.157331 Z
+  evaluation_id: 53403
+  id: 82503
+  item_belong_id: 1427
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.157331 Z
+scores_82504: 
+  created_at: 2011-10-12 08:22:07.160106 Z
+  evaluation_id: 53403
+  id: 82504
+  item_belong_id: 1428
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.160106 Z
+scores_82505: 
+  created_at: 2011-10-12 08:22:07.166602 Z
+  evaluation_id: 53424
+  id: 82505
+  item_belong_id: 1416
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.166602 Z
+scores_82506: 
+  created_at: 2011-10-12 08:22:07.169521 Z
+  evaluation_id: 53424
+  id: 82506
+  item_belong_id: 1417
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.169521 Z
+scores_82507: 
+  created_at: 2011-10-12 08:22:07.172260 Z
+  evaluation_id: 53424
+  id: 82507
+  item_belong_id: 1418
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.172260 Z
+scores_82508: 
+  created_at: 2011-10-12 08:22:07.176815 Z
+  evaluation_id: 53424
+  id: 82508
+  item_belong_id: 1419
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.176815 Z
+scores_82509: 
+  created_at: 2011-10-12 08:22:07.179721 Z
+  evaluation_id: 53424
+  id: 82509
+  item_belong_id: 1420
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.179721 Z
+scores_82510: 
+  created_at: 2011-10-12 08:22:07.182185 Z
+  evaluation_id: 53424
+  id: 82510
+  item_belong_id: 1421
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.182185 Z
+scores_82511: 
+  created_at: 2011-10-12 08:22:07.184734 Z
+  evaluation_id: 53424
+  id: 82511
+  item_belong_id: 1422
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.184734 Z
+scores_82512: 
+  created_at: 2011-10-12 08:22:07.187094 Z
+  evaluation_id: 53424
+  id: 82512
+  item_belong_id: 1423
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.187094 Z
+scores_82513: 
+  created_at: 2011-10-12 08:22:07.189448 Z
+  evaluation_id: 53424
+  id: 82513
+  item_belong_id: 1424
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.189448 Z
+scores_82514: 
+  created_at: 2011-10-12 08:22:07.191895 Z
+  evaluation_id: 53424
+  id: 82514
+  item_belong_id: 1425
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.191895 Z
+scores_82515: 
+  created_at: 2011-10-12 08:22:07.194442 Z
+  evaluation_id: 53424
+  id: 82515
+  item_belong_id: 1426
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.194442 Z
+scores_82516: 
+  created_at: 2011-10-12 08:22:07.196758 Z
+  evaluation_id: 53424
+  id: 82516
+  item_belong_id: 1427
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.196758 Z
+scores_82517: 
+  created_at: 2011-10-12 08:22:07.200398 Z
+  evaluation_id: 53424
+  id: 82517
+  item_belong_id: 1428
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.200398 Z
+scores_82518: 
+  created_at: 2011-10-12 08:22:07.207872 Z
+  evaluation_id: 53426
+  id: 82518
+  item_belong_id: 1416
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.207872 Z
+scores_82519: 
+  created_at: 2011-10-12 08:22:07.210773 Z
+  evaluation_id: 53426
+  id: 82519
+  item_belong_id: 1417
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.210773 Z
+scores_82520: 
+  created_at: 2011-10-12 08:22:07.213150 Z
+  evaluation_id: 53426
+  id: 82520
+  item_belong_id: 1418
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.213150 Z
+scores_82521: 
+  created_at: 2011-10-12 08:22:07.217427 Z
+  evaluation_id: 53426
+  id: 82521
+  item_belong_id: 1419
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.217427 Z
+scores_82522: 
+  created_at: 2011-10-12 08:22:07.228919 Z
+  evaluation_id: 53426
+  id: 82522
+  item_belong_id: 1420
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.228919 Z
+scores_82523: 
+  created_at: 2011-10-12 08:22:07.231619 Z
+  evaluation_id: 53426
+  id: 82523
+  item_belong_id: 1421
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.231619 Z
+scores_82524: 
+  created_at: 2011-10-12 08:22:07.233892 Z
+  evaluation_id: 53426
+  id: 82524
+  item_belong_id: 1422
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.233892 Z
+scores_82525: 
+  created_at: 2011-10-12 08:22:07.236522 Z
+  evaluation_id: 53426
+  id: 82525
+  item_belong_id: 1423
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.236522 Z
+scores_82526: 
+  created_at: 2011-10-12 08:22:07.238874 Z
+  evaluation_id: 53426
+  id: 82526
+  item_belong_id: 1424
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.238874 Z
+scores_82527: 
+  created_at: 2011-10-12 08:22:07.242090 Z
+  evaluation_id: 53426
+  id: 82527
+  item_belong_id: 1425
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.242090 Z
+scores_82528: 
+  created_at: 2011-10-12 08:22:07.244599 Z
+  evaluation_id: 53426
+  id: 82528
+  item_belong_id: 1426
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.244599 Z
+scores_82529: 
+  created_at: 2011-10-12 08:22:07.247093 Z
+  evaluation_id: 53426
+  id: 82529
+  item_belong_id: 1427
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.247093 Z
+scores_82530: 
+  created_at: 2011-10-12 08:22:07.249844 Z
+  evaluation_id: 53426
+  id: 82530
+  item_belong_id: 1428
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.249844 Z
+scores_82531: 
+  created_at: 2011-10-12 08:22:07.264937 Z
+  evaluation_id: 53428
+  id: 82531
+  item_belong_id: 1416
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.264937 Z
+scores_82532: 
+  created_at: 2011-10-12 08:22:07.267883 Z
+  evaluation_id: 53428
+  id: 82532
+  item_belong_id: 1417
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.267883 Z
+scores_82533: 
+  created_at: 2011-10-12 08:22:07.270691 Z
+  evaluation_id: 53428
+  id: 82533
+  item_belong_id: 1418
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.270691 Z
+scores_82534: 
+  created_at: 2011-10-12 08:22:07.272997 Z
+  evaluation_id: 53428
+  id: 82534
+  item_belong_id: 1419
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.272997 Z
+scores_82535: 
+  created_at: 2011-10-12 08:22:07.275482 Z
+  evaluation_id: 53428
+  id: 82535
+  item_belong_id: 1420
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.275482 Z
+scores_82536: 
+  created_at: 2011-10-12 08:22:07.277923 Z
+  evaluation_id: 53428
+  id: 82536
+  item_belong_id: 1421
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.277923 Z
+scores_82537: 
+  created_at: 2011-10-12 08:22:07.280457 Z
+  evaluation_id: 53428
+  id: 82537
+  item_belong_id: 1422
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.280457 Z
+scores_82538: 
+  created_at: 2011-10-12 08:22:07.282734 Z
+  evaluation_id: 53428
+  id: 82538
+  item_belong_id: 1423
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.282734 Z
+scores_82539: 
+  created_at: 2011-10-12 08:22:07.285107 Z
+  evaluation_id: 53428
+  id: 82539
+  item_belong_id: 1424
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.285107 Z
+scores_82540: 
+  created_at: 2011-10-12 08:22:07.287650 Z
+  evaluation_id: 53428
+  id: 82540
+  item_belong_id: 1425
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.287650 Z
+scores_82541: 
+  created_at: 2011-10-12 08:22:07.289951 Z
+  evaluation_id: 53428
+  id: 82541
+  item_belong_id: 1426
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.289951 Z
+scores_82542: 
+  created_at: 2011-10-12 08:22:07.293390 Z
+  evaluation_id: 53428
+  id: 82542
+  item_belong_id: 1427
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.293390 Z
+scores_82543: 
+  created_at: 2011-10-12 08:22:07.296175 Z
+  evaluation_id: 53428
+  id: 82543
+  item_belong_id: 1428
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.296175 Z
+scores_82544: 
+  created_at: 2011-10-12 08:22:07.306604 Z
+  evaluation_id: 53431
+  id: 82544
+  item_belong_id: 1416
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.306604 Z
+scores_82545: 
+  created_at: 2011-10-12 08:22:07.309748 Z
+  evaluation_id: 53431
+  id: 82545
+  item_belong_id: 1417
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.309748 Z
+scores_82546: 
+  created_at: 2011-10-12 08:22:07.312215 Z
+  evaluation_id: 53431
+  id: 82546
+  item_belong_id: 1418
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.312215 Z
+scores_82547: 
+  created_at: 2011-10-12 08:22:07.314823 Z
+  evaluation_id: 53431
+  id: 82547
+  item_belong_id: 1419
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.314823 Z
+scores_82548: 
+  created_at: 2011-10-12 08:22:07.317334 Z
+  evaluation_id: 53431
+  id: 82548
+  item_belong_id: 1420
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.317334 Z
+scores_82549: 
+  created_at: 2011-10-12 08:22:07.320104 Z
+  evaluation_id: 53431
+  id: 82549
+  item_belong_id: 1421
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.320104 Z
+scores_82550: 
+  created_at: 2011-10-12 08:22:07.322614 Z
+  evaluation_id: 53431
+  id: 82550
+  item_belong_id: 1422
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.322614 Z
+scores_82551: 
+  created_at: 2011-10-12 08:22:07.326313 Z
+  evaluation_id: 53431
+  id: 82551
+  item_belong_id: 1423
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.326313 Z
+scores_82552: 
+  created_at: 2011-10-12 08:22:07.329234 Z
+  evaluation_id: 53431
+  id: 82552
+  item_belong_id: 1424
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.329234 Z
+scores_82553: 
+  created_at: 2011-10-12 08:22:07.331737 Z
+  evaluation_id: 53431
+  id: 82553
+  item_belong_id: 1425
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.331737 Z
+scores_82554: 
+  created_at: 2011-10-12 08:22:07.334218 Z
+  evaluation_id: 53431
+  id: 82554
+  item_belong_id: 1426
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.334218 Z
+scores_82555: 
+  created_at: 2011-10-12 08:22:07.336658 Z
+  evaluation_id: 53431
+  id: 82555
+  item_belong_id: 1427
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.336658 Z
+scores_82556: 
+  created_at: 2011-10-12 08:22:07.339145 Z
+  evaluation_id: 53431
+  id: 82556
+  item_belong_id: 1428
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.339145 Z
+scores_82557: 
+  created_at: 2011-10-12 08:22:07.392966 Z
+  evaluation_id: 53434
+  id: 82557
+  item_belong_id: 1416
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.392966 Z
+scores_82558: 
+  created_at: 2011-10-12 08:22:07.396478 Z
+  evaluation_id: 53434
+  id: 82558
+  item_belong_id: 1417
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.396478 Z
+scores_82559: 
+  created_at: 2011-10-12 08:22:07.398900 Z
+  evaluation_id: 53434
+  id: 82559
+  item_belong_id: 1418
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.398900 Z
+scores_82560: 
+  created_at: 2011-10-12 08:22:07.402300 Z
+  evaluation_id: 53434
+  id: 82560
+  item_belong_id: 1419
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.402300 Z
+scores_82561: 
+  created_at: 2011-10-12 08:22:07.404830 Z
+  evaluation_id: 53434
+  id: 82561
+  item_belong_id: 1420
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.404830 Z
+scores_82562: 
+  created_at: 2011-10-12 08:22:07.408965 Z
+  evaluation_id: 53434
+  id: 82562
+  item_belong_id: 1421
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.408965 Z
+scores_82563: 
+  created_at: 2011-10-12 08:22:07.411889 Z
+  evaluation_id: 53434
+  id: 82563
+  item_belong_id: 1422
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.411889 Z
+scores_82564: 
+  created_at: 2011-10-12 08:22:07.414471 Z
+  evaluation_id: 53434
+  id: 82564
+  item_belong_id: 1423
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.414471 Z
+scores_82565: 
+  created_at: 2011-10-12 08:22:07.417099 Z
+  evaluation_id: 53434
+  id: 82565
+  item_belong_id: 1424
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.417099 Z
+scores_82566: 
+  created_at: 2011-10-12 08:22:07.420115 Z
+  evaluation_id: 53434
+  id: 82566
+  item_belong_id: 1425
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.420115 Z
+scores_82567: 
+  created_at: 2011-10-12 08:22:07.423021 Z
+  evaluation_id: 53434
+  id: 82567
+  item_belong_id: 1426
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.423021 Z
+scores_82568: 
+  created_at: 2011-10-12 08:22:07.425690 Z
+  evaluation_id: 53434
+  id: 82568
+  item_belong_id: 1427
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.425690 Z
+scores_82569: 
+  created_at: 2011-10-12 08:22:07.428753 Z
+  evaluation_id: 53434
+  id: 82569
+  item_belong_id: 1428
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.428753 Z
+scores_82570: 
+  created_at: 2011-10-12 08:22:07.435725 Z
+  evaluation_id: 53435
+  id: 82570
+  item_belong_id: 1416
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.435725 Z
+scores_82571: 
+  created_at: 2011-10-12 08:22:07.438278 Z
+  evaluation_id: 53435
+  id: 82571
+  item_belong_id: 1417
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.438278 Z
+scores_82572: 
+  created_at: 2011-10-12 08:22:07.440644 Z
+  evaluation_id: 53435
+  id: 82572
+  item_belong_id: 1418
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.440644 Z
+scores_82573: 
+  created_at: 2011-10-12 08:22:07.443101 Z
+  evaluation_id: 53435
+  id: 82573
+  item_belong_id: 1419
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.443101 Z
+scores_82574: 
+  created_at: 2011-10-12 08:22:07.445587 Z
+  evaluation_id: 53435
+  id: 82574
+  item_belong_id: 1420
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.445587 Z
+scores_82575: 
+  created_at: 2011-10-12 08:22:07.448030 Z
+  evaluation_id: 53435
+  id: 82575
+  item_belong_id: 1421
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.448030 Z
+scores_82576: 
+  created_at: 2011-10-12 08:22:07.450714 Z
+  evaluation_id: 53435
+  id: 82576
+  item_belong_id: 1422
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.450714 Z
+scores_82577: 
+  created_at: 2011-10-12 08:22:07.461883 Z
+  evaluation_id: 53435
+  id: 82577
+  item_belong_id: 1423
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.461883 Z
+scores_82578: 
+  created_at: 2011-10-12 08:22:07.464347 Z
+  evaluation_id: 53435
+  id: 82578
+  item_belong_id: 1424
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.464347 Z
+scores_82579: 
+  created_at: 2011-10-12 08:22:07.466898 Z
+  evaluation_id: 53435
+  id: 82579
+  item_belong_id: 1425
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.466898 Z
+scores_82580: 
+  created_at: 2011-10-12 08:22:07.469620 Z
+  evaluation_id: 53435
+  id: 82580
+  item_belong_id: 1426
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.469620 Z
+scores_82581: 
+  created_at: 2011-10-12 08:22:07.472499 Z
+  evaluation_id: 53435
+  id: 82581
+  item_belong_id: 1427
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.472499 Z
+scores_82582: 
+  created_at: 2011-10-12 08:22:07.476333 Z
+  evaluation_id: 53435
+  id: 82582
+  item_belong_id: 1428
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.476333 Z
+scores_82583: 
+  created_at: 2011-10-12 08:22:07.484876 Z
+  evaluation_id: 53438
+  id: 82583
+  item_belong_id: 1416
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.484876 Z
+scores_82584: 
+  created_at: 2011-10-12 08:22:07.487822 Z
+  evaluation_id: 53438
+  id: 82584
+  item_belong_id: 1417
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.487822 Z
+scores_82585: 
+  created_at: 2011-10-12 08:22:07.490472 Z
+  evaluation_id: 53438
+  id: 82585
+  item_belong_id: 1418
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.490472 Z
+scores_82586: 
+  created_at: 2011-10-12 08:22:07.492838 Z
+  evaluation_id: 53438
+  id: 82586
+  item_belong_id: 1419
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.492838 Z
+scores_82587: 
+  created_at: 2011-10-12 08:22:07.495153 Z
+  evaluation_id: 53438
+  id: 82587
+  item_belong_id: 1420
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.495153 Z
+scores_82588: 
+  created_at: 2011-10-12 08:22:07.497627 Z
+  evaluation_id: 53438
+  id: 82588
+  item_belong_id: 1421
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.497627 Z
+scores_82589: 
+  created_at: 2011-10-12 08:22:07.500198 Z
+  evaluation_id: 53438
+  id: 82589
+  item_belong_id: 1422
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.500198 Z
+scores_82590: 
+  created_at: 2011-10-12 08:22:07.502438 Z
+  evaluation_id: 53438
+  id: 82590
+  item_belong_id: 1423
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.502438 Z
+scores_82591: 
+  created_at: 2011-10-12 08:22:07.504715 Z
+  evaluation_id: 53438
+  id: 82591
+  item_belong_id: 1424
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.504715 Z
+scores_82592: 
+  created_at: 2011-10-12 08:22:07.507237 Z
+  evaluation_id: 53438
+  id: 82592
+  item_belong_id: 1425
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.507237 Z
+scores_82593: 
+  created_at: 2011-10-12 08:22:07.509547 Z
+  evaluation_id: 53438
+  id: 82593
+  item_belong_id: 1426
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.509547 Z
+scores_82594: 
+  created_at: 2011-10-12 08:22:07.512073 Z
+  evaluation_id: 53438
+  id: 82594
+  item_belong_id: 1427
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.512073 Z
+scores_82595: 
+  created_at: 2011-10-12 08:22:07.514281 Z
+  evaluation_id: 53438
+  id: 82595
+  item_belong_id: 1428
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.514281 Z
+scores_82596: 
+  created_at: 2011-10-12 08:22:07.521028 Z
+  evaluation_id: 53439
+  id: 82596
+  item_belong_id: 1416
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.521028 Z
+scores_82597: 
+  created_at: 2011-10-12 08:22:07.523760 Z
+  evaluation_id: 53439
+  id: 82597
+  item_belong_id: 1417
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.523760 Z
+scores_82598: 
+  created_at: 2011-10-12 08:22:07.527987 Z
+  evaluation_id: 53439
+  id: 82598
+  item_belong_id: 1418
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.527987 Z
+scores_82599: 
+  created_at: 2011-10-12 08:22:07.530485 Z
+  evaluation_id: 53439
+  id: 82599
+  item_belong_id: 1419
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.530485 Z
+scores_82600: 
+  created_at: 2011-10-12 08:22:07.533583 Z
+  evaluation_id: 53439
+  id: 82600
+  item_belong_id: 1420
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.533583 Z
+scores_82601: 
+  created_at: 2011-10-12 08:22:07.535982 Z
+  evaluation_id: 53439
+  id: 82601
+  item_belong_id: 1421
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.535982 Z
+scores_82602: 
+  created_at: 2011-10-12 08:22:07.538378 Z
+  evaluation_id: 53439
+  id: 82602
+  item_belong_id: 1422
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.538378 Z
+scores_82603: 
+  created_at: 2011-10-12 08:22:07.541340 Z
+  evaluation_id: 53439
+  id: 82603
+  item_belong_id: 1423
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.541340 Z
+scores_82604: 
+  created_at: 2011-10-12 08:22:07.544194 Z
+  evaluation_id: 53439
+  id: 82604
+  item_belong_id: 1424
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.544194 Z
+scores_82605: 
+  created_at: 2011-10-12 08:22:07.546582 Z
+  evaluation_id: 53439
+  id: 82605
+  item_belong_id: 1425
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.546582 Z
+scores_82606: 
+  created_at: 2011-10-12 08:22:07.549415 Z
+  evaluation_id: 53439
+  id: 82606
+  item_belong_id: 1426
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.549415 Z
+scores_82607: 
+  created_at: 2011-10-12 08:22:07.552011 Z
+  evaluation_id: 53439
+  id: 82607
+  item_belong_id: 1427
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.552011 Z
+scores_82608: 
+  created_at: 2011-10-12 08:22:07.554483 Z
+  evaluation_id: 53439
+  id: 82608
+  item_belong_id: 1428
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.554483 Z
+scores_82609: 
+  created_at: 2011-10-12 08:22:07.561168 Z
+  evaluation_id: 53440
+  id: 82609
+  item_belong_id: 1429
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.561168 Z
+scores_82610: 
+  created_at: 2011-10-12 08:22:07.563705 Z
+  evaluation_id: 53440
+  id: 82610
+  item_belong_id: 1430
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.563705 Z
+scores_82611: 
+  created_at: 2011-10-12 08:22:07.567709 Z
+  evaluation_id: 53440
+  id: 82611
+  item_belong_id: 1431
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.567709 Z
+scores_82612: 
+  created_at: 2011-10-12 08:22:07.570681 Z
+  evaluation_id: 53440
+  id: 82612
+  item_belong_id: 1432
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.570681 Z
+scores_82613: 
+  created_at: 2011-10-12 08:22:07.579279 Z
+  evaluation_id: 53440
+  id: 82613
+  item_belong_id: 1433
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.579279 Z
+scores_82614: 
+  created_at: 2011-10-12 08:22:07.581697 Z
+  evaluation_id: 53440
+  id: 82614
+  item_belong_id: 1434
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.581697 Z
+scores_82615: 
+  created_at: 2011-10-12 08:22:07.583957 Z
+  evaluation_id: 53440
+  id: 82615
+  item_belong_id: 1435
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.583957 Z
+scores_82616: 
+  created_at: 2011-10-12 08:22:07.586243 Z
+  evaluation_id: 53440
+  id: 82616
+  item_belong_id: 1436
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.586243 Z
+scores_82617: 
+  created_at: 2011-10-12 08:22:07.588988 Z
+  evaluation_id: 53440
+  id: 82617
+  item_belong_id: 1437
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.588988 Z
+scores_82618: 
+  created_at: 2011-10-12 08:22:07.591468 Z
+  evaluation_id: 53440
+  id: 82618
+  item_belong_id: 1438
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.591468 Z
+scores_82619: 
+  created_at: 2011-10-12 08:22:07.593677 Z
+  evaluation_id: 53440
+  id: 82619
+  item_belong_id: 1439
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.593677 Z
+scores_82620: 
+  created_at: 2011-10-12 08:22:07.596274 Z
+  evaluation_id: 53440
+  id: 82620
+  item_belong_id: 1440
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.596274 Z
+scores_82621: 
+  created_at: 2011-10-12 08:22:07.599002 Z
+  evaluation_id: 53440
+  id: 82621
+  item_belong_id: 1441
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.599002 Z
+scores_82622: 
+  created_at: 2011-10-12 08:22:07.609384 Z
+  evaluation_id: 53443
+  id: 82622
+  item_belong_id: 1416
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.609384 Z
+scores_82623: 
+  created_at: 2011-10-12 08:22:07.612177 Z
+  evaluation_id: 53443
+  id: 82623
+  item_belong_id: 1417
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.612177 Z
+scores_82624: 
+  created_at: 2011-10-12 08:22:07.614603 Z
+  evaluation_id: 53443
+  id: 82624
+  item_belong_id: 1418
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.614603 Z
+scores_82625: 
+  created_at: 2011-10-12 08:22:07.617260 Z
+  evaluation_id: 53443
+  id: 82625
+  item_belong_id: 1419
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.617260 Z
+scores_82626: 
+  created_at: 2011-10-12 08:22:07.619602 Z
+  evaluation_id: 53443
+  id: 82626
+  item_belong_id: 1420
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.619602 Z
+scores_82627: 
+  created_at: 2011-10-12 08:22:07.622009 Z
+  evaluation_id: 53443
+  id: 82627
+  item_belong_id: 1421
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.622009 Z
+scores_82628: 
+  created_at: 2011-10-12 08:22:07.624471 Z
+  evaluation_id: 53443
+  id: 82628
+  item_belong_id: 1422
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.624471 Z
+scores_82629: 
+  created_at: 2011-10-12 08:22:07.627093 Z
+  evaluation_id: 53443
+  id: 82629
+  item_belong_id: 1423
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.627093 Z
+scores_82630: 
+  created_at: 2011-10-12 08:22:07.629411 Z
+  evaluation_id: 53443
+  id: 82630
+  item_belong_id: 1424
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.629411 Z
+scores_82631: 
+  created_at: 2011-10-12 08:22:07.631792 Z
+  evaluation_id: 53443
+  id: 82631
+  item_belong_id: 1425
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.631792 Z
+scores_82632: 
+  created_at: 2011-10-12 08:22:07.634347 Z
+  evaluation_id: 53443
+  id: 82632
+  item_belong_id: 1426
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.634347 Z
+scores_82633: 
+  created_at: 2011-10-12 08:22:07.636618 Z
+  evaluation_id: 53443
+  id: 82633
+  item_belong_id: 1427
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.636618 Z
+scores_82634: 
+  created_at: 2011-10-12 08:22:07.639023 Z
+  evaluation_id: 53443
+  id: 82634
+  item_belong_id: 1428
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.639023 Z
+scores_82635: 
+  created_at: 2011-10-12 08:22:07.645595 Z
+  evaluation_id: 53444
+  id: 82635
+  item_belong_id: 1416
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.645595 Z
+scores_82636: 
+  created_at: 2011-10-12 08:22:07.648093 Z
+  evaluation_id: 53444
+  id: 82636
+  item_belong_id: 1417
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.648093 Z
+scores_82637: 
+  created_at: 2011-10-12 08:22:07.650840 Z
+  evaluation_id: 53444
+  id: 82637
+  item_belong_id: 1418
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.650840 Z
+scores_82638: 
+  created_at: 2011-10-12 08:22:07.653459 Z
+  evaluation_id: 53444
+  id: 82638
+  item_belong_id: 1419
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.653459 Z
+scores_82639: 
+  created_at: 2011-10-12 08:22:07.656033 Z
+  evaluation_id: 53444
+  id: 82639
+  item_belong_id: 1420
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.656033 Z
+scores_82640: 
+  created_at: 2011-10-12 08:22:07.658303 Z
+  evaluation_id: 53444
+  id: 82640
+  item_belong_id: 1421
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.658303 Z
+scores_82641: 
+  created_at: 2011-10-12 08:22:07.660710 Z
+  evaluation_id: 53444
+  id: 82641
+  item_belong_id: 1422
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.660710 Z
+scores_82642: 
+  created_at: 2011-10-12 08:22:07.663315 Z
+  evaluation_id: 53444
+  id: 82642
+  item_belong_id: 1423
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.663315 Z
+scores_82643: 
+  created_at: 2011-10-12 08:22:07.666124 Z
+  evaluation_id: 53444
+  id: 82643
+  item_belong_id: 1424
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.666124 Z
+scores_82644: 
+  created_at: 2011-10-12 08:22:07.668600 Z
+  evaluation_id: 53444
+  id: 82644
+  item_belong_id: 1425
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.668600 Z
+scores_82645: 
+  created_at: 2011-10-12 08:22:07.671463 Z
+  evaluation_id: 53444
+  id: 82645
+  item_belong_id: 1426
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.671463 Z
+scores_82646: 
+  created_at: 2011-10-12 08:22:07.673841 Z
+  evaluation_id: 53444
+  id: 82646
+  item_belong_id: 1427
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.673841 Z
+scores_82647: 
+  created_at: 2011-10-12 08:22:07.676324 Z
+  evaluation_id: 53444
+  id: 82647
+  item_belong_id: 1428
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.676324 Z
+scores_82648: 
+  created_at: 2011-10-12 08:22:07.683015 Z
+  evaluation_id: 53445
+  id: 82648
+  item_belong_id: 1416
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.683015 Z
+scores_82649: 
+  created_at: 2011-10-12 08:22:07.685494 Z
+  evaluation_id: 53445
+  id: 82649
+  item_belong_id: 1417
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.685494 Z
+scores_82650: 
+  created_at: 2011-10-12 08:22:07.688086 Z
+  evaluation_id: 53445
+  id: 82650
+  item_belong_id: 1418
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.688086 Z
+scores_82651: 
+  created_at: 2011-10-12 08:22:07.690625 Z
+  evaluation_id: 53445
+  id: 82651
+  item_belong_id: 1419
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.690625 Z
+scores_82652: 
+  created_at: 2011-10-12 08:22:07.693018 Z
+  evaluation_id: 53445
+  id: 82652
+  item_belong_id: 1420
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.693018 Z
+scores_82653: 
+  created_at: 2011-10-12 08:22:07.695259 Z
+  evaluation_id: 53445
+  id: 82653
+  item_belong_id: 1421
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.695259 Z
+scores_82654: 
+  created_at: 2011-10-12 08:22:07.697424 Z
+  evaluation_id: 53445
+  id: 82654
+  item_belong_id: 1422
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.697424 Z
+scores_82655: 
+  created_at: 2011-10-12 08:22:07.700125 Z
+  evaluation_id: 53445
+  id: 82655
+  item_belong_id: 1423
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.700125 Z
+scores_82656: 
+  created_at: 2011-10-12 08:22:07.702556 Z
+  evaluation_id: 53445
+  id: 82656
+  item_belong_id: 1424
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.702556 Z
+scores_82657: 
+  created_at: 2011-10-12 08:22:07.704901 Z
+  evaluation_id: 53445
+  id: 82657
+  item_belong_id: 1425
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.704901 Z
+scores_82658: 
+  created_at: 2011-10-12 08:22:07.707357 Z
+  evaluation_id: 53445
+  id: 82658
+  item_belong_id: 1426
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.707357 Z
+scores_82659: 
+  created_at: 2011-10-12 08:22:07.760443 Z
+  evaluation_id: 53445
+  id: 82659
+  item_belong_id: 1427
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.760443 Z
+scores_82660: 
+  created_at: 2011-10-12 08:22:07.768069 Z
+  evaluation_id: 53445
+  id: 82660
+  item_belong_id: 1428
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.768069 Z
+scores_82661: 
+  created_at: 2011-10-12 08:22:07.775952 Z
+  evaluation_id: 53448
+  id: 82661
+  item_belong_id: 1429
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.775952 Z
+scores_82662: 
+  created_at: 2011-10-12 08:22:07.778836 Z
+  evaluation_id: 53448
+  id: 82662
+  item_belong_id: 1430
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.778836 Z
+scores_82663: 
+  created_at: 2011-10-12 08:22:07.781644 Z
+  evaluation_id: 53448
+  id: 82663
+  item_belong_id: 1431
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.781644 Z
+scores_82664: 
+  created_at: 2011-10-12 08:22:07.784103 Z
+  evaluation_id: 53448
+  id: 82664
+  item_belong_id: 1432
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.784103 Z
+scores_82665: 
+  created_at: 2011-10-12 08:22:07.786364 Z
+  evaluation_id: 53448
+  id: 82665
+  item_belong_id: 1433
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.786364 Z
+scores_82666: 
+  created_at: 2011-10-12 08:22:07.791745 Z
+  evaluation_id: 53448
+  id: 82666
+  item_belong_id: 1434
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.791745 Z
+scores_82667: 
+  created_at: 2011-10-12 08:22:07.794414 Z
+  evaluation_id: 53448
+  id: 82667
+  item_belong_id: 1435
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.794414 Z
+scores_82668: 
+  created_at: 2011-10-12 08:22:07.796763 Z
+  evaluation_id: 53448
+  id: 82668
+  item_belong_id: 1436
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.796763 Z
+scores_82669: 
+  created_at: 2011-10-12 08:22:07.799449 Z
+  evaluation_id: 53448
+  id: 82669
+  item_belong_id: 1437
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.799449 Z
+scores_82670: 
+  created_at: 2011-10-12 08:22:07.802021 Z
+  evaluation_id: 53448
+  id: 82670
+  item_belong_id: 1438
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.802021 Z
+scores_82671: 
+  created_at: 2011-10-12 08:22:07.804401 Z
+  evaluation_id: 53448
+  id: 82671
+  item_belong_id: 1439
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.804401 Z
+scores_82672: 
+  created_at: 2011-10-12 08:22:07.806624 Z
+  evaluation_id: 53448
+  id: 82672
+  item_belong_id: 1440
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.806624 Z
+scores_82673: 
+  created_at: 2011-10-12 08:22:07.809177 Z
+  evaluation_id: 53448
+  id: 82673
+  item_belong_id: 1441
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.809177 Z
+scores_82674: 
+  created_at: 2011-10-12 08:22:07.815930 Z
+  evaluation_id: 53449
+  id: 82674
+  item_belong_id: 1429
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.815930 Z
+scores_82675: 
+  created_at: 2011-10-12 08:22:07.818510 Z
+  evaluation_id: 53449
+  id: 82675
+  item_belong_id: 1430
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.818510 Z
+scores_82676: 
+  created_at: 2011-10-12 08:22:07.821160 Z
+  evaluation_id: 53449
+  id: 82676
+  item_belong_id: 1431
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.821160 Z
+scores_82677: 
+  created_at: 2011-10-12 08:22:07.823764 Z
+  evaluation_id: 53449
+  id: 82677
+  item_belong_id: 1432
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.823764 Z
+scores_82678: 
+  created_at: 2011-10-12 08:22:07.826406 Z
+  evaluation_id: 53449
+  id: 82678
+  item_belong_id: 1433
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.826406 Z
+scores_82679: 
+  created_at: 2011-10-12 08:22:07.829045 Z
+  evaluation_id: 53449
+  id: 82679
+  item_belong_id: 1434
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.829045 Z
+scores_82680: 
+  created_at: 2011-10-12 08:22:07.831669 Z
+  evaluation_id: 53449
+  id: 82680
+  item_belong_id: 1435
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.831669 Z
+scores_82681: 
+  created_at: 2011-10-12 08:22:07.834053 Z
+  evaluation_id: 53449
+  id: 82681
+  item_belong_id: 1436
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.834053 Z
+scores_82682: 
+  created_at: 2011-10-12 08:22:07.836487 Z
+  evaluation_id: 53449
+  id: 82682
+  item_belong_id: 1437
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.836487 Z
+scores_82683: 
+  created_at: 2011-10-12 08:22:07.838793 Z
+  evaluation_id: 53449
+  id: 82683
+  item_belong_id: 1438
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.838793 Z
+scores_82684: 
+  created_at: 2011-10-12 08:22:07.841117 Z
+  evaluation_id: 53449
+  id: 82684
+  item_belong_id: 1439
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.841117 Z
+scores_82685: 
+  created_at: 2011-10-12 08:22:07.843798 Z
+  evaluation_id: 53449
+  id: 82685
+  item_belong_id: 1440
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.843798 Z
+scores_82686: 
+  created_at: 2011-10-12 08:22:07.846207 Z
+  evaluation_id: 53449
+  id: 82686
+  item_belong_id: 1441
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.846207 Z
+scores_82687: 
+  created_at: 2011-10-12 08:22:07.853026 Z
+  evaluation_id: 53450
+  id: 82687
+  item_belong_id: 1429
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.853026 Z
+scores_82688: 
+  created_at: 2011-10-12 08:22:07.855974 Z
+  evaluation_id: 53450
+  id: 82688
+  item_belong_id: 1430
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.855974 Z
+scores_82689: 
+  created_at: 2011-10-12 08:22:07.858296 Z
+  evaluation_id: 53450
+  id: 82689
+  item_belong_id: 1431
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.858296 Z
+scores_82690: 
+  created_at: 2011-10-12 08:22:07.860825 Z
+  evaluation_id: 53450
+  id: 82690
+  item_belong_id: 1432
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.860825 Z
+scores_82691: 
+  created_at: 2011-10-12 08:22:07.863568 Z
+  evaluation_id: 53450
+  id: 82691
+  item_belong_id: 1433
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.863568 Z
+scores_82692: 
+  created_at: 2011-10-12 08:22:07.865879 Z
+  evaluation_id: 53450
+  id: 82692
+  item_belong_id: 1434
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.865879 Z
+scores_82693: 
+  created_at: 2011-10-12 08:22:07.868153 Z
+  evaluation_id: 53450
+  id: 82693
+  item_belong_id: 1435
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.868153 Z
+scores_82694: 
+  created_at: 2011-10-12 08:22:07.871356 Z
+  evaluation_id: 53450
+  id: 82694
+  item_belong_id: 1436
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.871356 Z
+scores_82695: 
+  created_at: 2011-10-12 08:22:07.874167 Z
+  evaluation_id: 53450
+  id: 82695
+  item_belong_id: 1437
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.874167 Z
+scores_82696: 
+  created_at: 2011-10-12 08:22:07.876552 Z
+  evaluation_id: 53450
+  id: 82696
+  item_belong_id: 1438
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.876552 Z
+scores_82697: 
+  created_at: 2011-10-12 08:22:07.878898 Z
+  evaluation_id: 53450
+  id: 82697
+  item_belong_id: 1439
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.878898 Z
+scores_82698: 
+  created_at: 2011-10-12 08:22:07.881377 Z
+  evaluation_id: 53450
+  id: 82698
+  item_belong_id: 1440
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.881377 Z
+scores_82699: 
+  created_at: 2011-10-12 08:22:07.883895 Z
+  evaluation_id: 53450
+  id: 82699
+  item_belong_id: 1441
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.883895 Z
+scores_82700: 
+  created_at: 2011-10-12 08:22:07.890907 Z
+  evaluation_id: 53451
+  id: 82700
+  item_belong_id: 1416
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.890907 Z
+scores_82701: 
+  created_at: 2011-10-12 08:22:07.893438 Z
+  evaluation_id: 53451
+  id: 82701
+  item_belong_id: 1417
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.893438 Z
+scores_82702: 
+  created_at: 2011-10-12 08:22:07.895996 Z
+  evaluation_id: 53451
+  id: 82702
+  item_belong_id: 1418
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.895996 Z
+scores_82703: 
+  created_at: 2011-10-12 08:22:07.898260 Z
+  evaluation_id: 53451
+  id: 82703
+  item_belong_id: 1419
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.898260 Z
+scores_82704: 
+  created_at: 2011-10-12 08:22:07.900779 Z
+  evaluation_id: 53451
+  id: 82704
+  item_belong_id: 1420
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.900779 Z
+scores_82705: 
+  created_at: 2011-10-12 08:22:07.906893 Z
+  evaluation_id: 53451
+  id: 82705
+  item_belong_id: 1421
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.906893 Z
+scores_82706: 
+  created_at: 2011-10-12 08:22:07.909720 Z
+  evaluation_id: 53451
+  id: 82706
+  item_belong_id: 1422
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.909720 Z
+scores_82707: 
+  created_at: 2011-10-12 08:22:07.912075 Z
+  evaluation_id: 53451
+  id: 82707
+  item_belong_id: 1423
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.912075 Z
+scores_82708: 
+  created_at: 2011-10-12 08:22:07.914428 Z
+  evaluation_id: 53451
+  id: 82708
+  item_belong_id: 1424
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.914428 Z
+scores_82709: 
+  created_at: 2011-10-12 08:22:07.916713 Z
+  evaluation_id: 53451
+  id: 82709
+  item_belong_id: 1425
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.916713 Z
+scores_82710: 
+  created_at: 2011-10-12 08:22:07.919379 Z
+  evaluation_id: 53451
+  id: 82710
+  item_belong_id: 1426
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.919379 Z
+scores_82711: 
+  created_at: 2011-10-12 08:22:07.921688 Z
+  evaluation_id: 53451
+  id: 82711
+  item_belong_id: 1427
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.921688 Z
+scores_82712: 
+  created_at: 2011-10-12 08:22:07.924080 Z
+  evaluation_id: 53451
+  id: 82712
+  item_belong_id: 1428
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.924080 Z
+scores_82713: 
+  created_at: 2011-10-12 08:22:07.930918 Z
+  evaluation_id: 53453
+  id: 82713
+  item_belong_id: 1416
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.930918 Z
+scores_82714: 
+  created_at: 2011-10-12 08:22:07.933997 Z
+  evaluation_id: 53453
+  id: 82714
+  item_belong_id: 1417
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.933997 Z
+scores_82715: 
+  created_at: 2011-10-12 08:22:07.936892 Z
+  evaluation_id: 53453
+  id: 82715
+  item_belong_id: 1418
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.936892 Z
+scores_82716: 
+  created_at: 2011-10-12 08:22:07.939318 Z
+  evaluation_id: 53453
+  id: 82716
+  item_belong_id: 1419
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.939318 Z
+scores_82717: 
+  created_at: 2011-10-12 08:22:07.941842 Z
+  evaluation_id: 53453
+  id: 82717
+  item_belong_id: 1420
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.941842 Z
+scores_82718: 
+  created_at: 2011-10-12 08:22:07.944230 Z
+  evaluation_id: 53453
+  id: 82718
+  item_belong_id: 1421
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.944230 Z
+scores_82719: 
+  created_at: 2011-10-12 08:22:07.946585 Z
+  evaluation_id: 53453
+  id: 82719
+  item_belong_id: 1422
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.946585 Z
+scores_82720: 
+  created_at: 2011-10-12 08:22:07.948877 Z
+  evaluation_id: 53453
+  id: 82720
+  item_belong_id: 1423
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.948877 Z
+scores_82721: 
+  created_at: 2011-10-12 08:22:07.951409 Z
+  evaluation_id: 53453
+  id: 82721
+  item_belong_id: 1424
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.951409 Z
+scores_82722: 
+  created_at: 2011-10-12 08:22:07.953838 Z
+  evaluation_id: 53453
+  id: 82722
+  item_belong_id: 1425
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.953838 Z
+scores_82723: 
+  created_at: 2011-10-12 08:22:07.956294 Z
+  evaluation_id: 53453
+  id: 82723
+  item_belong_id: 1426
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.956294 Z
+scores_82724: 
+  created_at: 2011-10-12 08:22:07.958506 Z
+  evaluation_id: 53453
+  id: 82724
+  item_belong_id: 1427
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.958506 Z
+scores_82725: 
+  created_at: 2011-10-12 08:22:07.960933 Z
+  evaluation_id: 53453
+  id: 82725
+  item_belong_id: 1428
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.960933 Z
+scores_82726: 
+  created_at: 2011-10-12 08:22:07.967674 Z
+  evaluation_id: 53454
+  id: 82726
+  item_belong_id: 1416
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.967674 Z
+scores_82727: 
+  created_at: 2011-10-12 08:22:07.970303 Z
+  evaluation_id: 53454
+  id: 82727
+  item_belong_id: 1417
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.970303 Z
+scores_82728: 
+  created_at: 2011-10-12 08:22:07.972913 Z
+  evaluation_id: 53454
+  id: 82728
+  item_belong_id: 1418
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.972913 Z
+scores_82729: 
+  created_at: 2011-10-12 08:22:07.975491 Z
+  evaluation_id: 53454
+  id: 82729
+  item_belong_id: 1419
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.975491 Z
+scores_82730: 
+  created_at: 2011-10-12 08:22:07.977692 Z
+  evaluation_id: 53454
+  id: 82730
+  item_belong_id: 1420
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.977692 Z
+scores_82731: 
+  created_at: 2011-10-12 08:22:07.980358 Z
+  evaluation_id: 53454
+  id: 82731
+  item_belong_id: 1421
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.980358 Z
+scores_82732: 
+  created_at: 2011-10-12 08:22:07.983071 Z
+  evaluation_id: 53454
+  id: 82732
+  item_belong_id: 1422
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.983071 Z
+scores_82733: 
+  created_at: 2011-10-12 08:22:07.985416 Z
+  evaluation_id: 53454
+  id: 82733
+  item_belong_id: 1423
+  point_id: 1
+  updated_at: 2011-10-12 08:22:07.985416 Z
+scores_82734: 
+  created_at: 2011-10-12 08:22:07.987708 Z
+  evaluation_id: 53454
+  id: 82734
+  item_belong_id: 1424
+  point_id: 4
+  updated_at: 2011-10-12 08:22:07.987708 Z
+scores_82735: 
+  created_at: 2011-10-12 08:22:07.990038 Z
+  evaluation_id: 53454
+  id: 82735
+  item_belong_id: 1425
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.990038 Z
+scores_82736: 
+  created_at: 2011-10-12 08:22:07.992535 Z
+  evaluation_id: 53454
+  id: 82736
+  item_belong_id: 1426
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.992535 Z
+scores_82737: 
+  created_at: 2011-10-12 08:22:07.994995 Z
+  evaluation_id: 53454
+  id: 82737
+  item_belong_id: 1427
+  point_id: 3
+  updated_at: 2011-10-12 08:22:07.994995 Z
+scores_82738: 
+  created_at: 2011-10-12 08:22:07.998927 Z
+  evaluation_id: 53454
+  id: 82738
+  item_belong_id: 1428
+  point_id: 2
+  updated_at: 2011-10-12 08:22:07.998927 Z
+scores_82739: 
+  created_at: 2011-10-12 08:22:08.005980 Z
+  evaluation_id: 53455
+  id: 82739
+  item_belong_id: 1416
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.005980 Z
+scores_82740: 
+  created_at: 2011-10-12 08:22:08.008833 Z
+  evaluation_id: 53455
+  id: 82740
+  item_belong_id: 1417
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.008833 Z
+scores_82741: 
+  created_at: 2011-10-12 08:22:08.012116 Z
+  evaluation_id: 53455
+  id: 82741
+  item_belong_id: 1418
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.012116 Z
+scores_82742: 
+  created_at: 2011-10-12 08:22:08.014611 Z
+  evaluation_id: 53455
+  id: 82742
+  item_belong_id: 1419
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.014611 Z
+scores_82743: 
+  created_at: 2011-10-12 08:22:08.017183 Z
+  evaluation_id: 53455
+  id: 82743
+  item_belong_id: 1420
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.017183 Z
+scores_82744: 
+  created_at: 2011-10-12 08:22:08.020080 Z
+  evaluation_id: 53455
+  id: 82744
+  item_belong_id: 1421
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.020080 Z
+scores_82745: 
+  created_at: 2011-10-12 08:22:08.022465 Z
+  evaluation_id: 53455
+  id: 82745
+  item_belong_id: 1422
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.022465 Z
+scores_82746: 
+  created_at: 2011-10-12 08:22:08.025109 Z
+  evaluation_id: 53455
+  id: 82746
+  item_belong_id: 1423
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.025109 Z
+scores_82747: 
+  created_at: 2011-10-12 08:22:08.027644 Z
+  evaluation_id: 53455
+  id: 82747
+  item_belong_id: 1424
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.027644 Z
+scores_82748: 
+  created_at: 2011-10-12 08:22:08.030187 Z
+  evaluation_id: 53455
+  id: 82748
+  item_belong_id: 1425
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.030187 Z
+scores_82749: 
+  created_at: 2011-10-12 08:22:08.032591 Z
+  evaluation_id: 53455
+  id: 82749
+  item_belong_id: 1426
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.032591 Z
+scores_82750: 
+  created_at: 2011-10-12 08:22:08.035093 Z
+  evaluation_id: 53455
+  id: 82750
+  item_belong_id: 1427
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.035093 Z
+scores_82751: 
+  created_at: 2011-10-12 08:22:08.037469 Z
+  evaluation_id: 53455
+  id: 82751
+  item_belong_id: 1428
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.037469 Z
+scores_82752: 
+  created_at: 2011-10-12 08:22:08.049966 Z
+  evaluation_id: 53456
+  id: 82752
+  item_belong_id: 1429
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.049966 Z
+scores_82753: 
+  created_at: 2011-10-12 08:22:08.056976 Z
+  evaluation_id: 53456
+  id: 82753
+  item_belong_id: 1430
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.056976 Z
+scores_82754: 
+  created_at: 2011-10-12 08:22:08.099966 Z
+  evaluation_id: 53456
+  id: 82754
+  item_belong_id: 1431
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.099966 Z
+scores_82755: 
+  created_at: 2011-10-12 08:22:08.107713 Z
+  evaluation_id: 53456
+  id: 82755
+  item_belong_id: 1432
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.107713 Z
+scores_82756: 
+  created_at: 2011-10-12 08:22:08.111133 Z
+  evaluation_id: 53456
+  id: 82756
+  item_belong_id: 1433
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.111133 Z
+scores_82757: 
+  created_at: 2011-10-12 08:22:08.113647 Z
+  evaluation_id: 53456
+  id: 82757
+  item_belong_id: 1434
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.113647 Z
+scores_82758: 
+  created_at: 2011-10-12 08:22:08.115959 Z
+  evaluation_id: 53456
+  id: 82758
+  item_belong_id: 1435
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.115959 Z
+scores_82759: 
+  created_at: 2011-10-12 08:22:08.118399 Z
+  evaluation_id: 53456
+  id: 82759
+  item_belong_id: 1436
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.118399 Z
+scores_82760: 
+  created_at: 2011-10-12 08:22:08.120946 Z
+  evaluation_id: 53456
+  id: 82760
+  item_belong_id: 1437
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.120946 Z
+scores_82761: 
+  created_at: 2011-10-12 08:22:08.123417 Z
+  evaluation_id: 53456
+  id: 82761
+  item_belong_id: 1438
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.123417 Z
+scores_82762: 
+  created_at: 2011-10-12 08:22:08.125695 Z
+  evaluation_id: 53456
+  id: 82762
+  item_belong_id: 1439
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.125695 Z
+scores_82763: 
+  created_at: 2011-10-12 08:22:08.128369 Z
+  evaluation_id: 53456
+  id: 82763
+  item_belong_id: 1440
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.128369 Z
+scores_82764: 
+  created_at: 2011-10-12 08:22:08.130871 Z
+  evaluation_id: 53456
+  id: 82764
+  item_belong_id: 1441
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.130871 Z
+scores_82765: 
+  created_at: 2011-10-12 08:22:08.139580 Z
+  evaluation_id: 53458
+  id: 82765
+  item_belong_id: 1416
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.139580 Z
+scores_82766: 
+  created_at: 2011-10-12 08:22:08.142339 Z
+  evaluation_id: 53458
+  id: 82766
+  item_belong_id: 1417
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.142339 Z
+scores_82767: 
+  created_at: 2011-10-12 08:22:08.145189 Z
+  evaluation_id: 53458
+  id: 82767
+  item_belong_id: 1418
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.145189 Z
+scores_82768: 
+  created_at: 2011-10-12 08:22:08.147927 Z
+  evaluation_id: 53458
+  id: 82768
+  item_belong_id: 1419
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.147927 Z
+scores_82769: 
+  created_at: 2011-10-12 08:22:08.150312 Z
+  evaluation_id: 53458
+  id: 82769
+  item_belong_id: 1420
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.150312 Z
+scores_82770: 
+  created_at: 2011-10-12 08:22:08.153436 Z
+  evaluation_id: 53458
+  id: 82770
+  item_belong_id: 1421
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.153436 Z
+scores_82771: 
+  created_at: 2011-10-12 08:22:08.156001 Z
+  evaluation_id: 53458
+  id: 82771
+  item_belong_id: 1422
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.156001 Z
+scores_82772: 
+  created_at: 2011-10-12 08:22:08.158588 Z
+  evaluation_id: 53458
+  id: 82772
+  item_belong_id: 1423
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.158588 Z
+scores_82773: 
+  created_at: 2011-10-12 08:22:08.161797 Z
+  evaluation_id: 53458
+  id: 82773
+  item_belong_id: 1424
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.161797 Z
+scores_82774: 
+  created_at: 2011-10-12 08:22:08.164382 Z
+  evaluation_id: 53458
+  id: 82774
+  item_belong_id: 1425
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.164382 Z
+scores_82775: 
+  created_at: 2011-10-12 08:22:08.167003 Z
+  evaluation_id: 53458
+  id: 82775
+  item_belong_id: 1426
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.167003 Z
+scores_82776: 
+  created_at: 2011-10-12 08:22:08.169381 Z
+  evaluation_id: 53458
+  id: 82776
+  item_belong_id: 1427
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.169381 Z
+scores_82777: 
+  created_at: 2011-10-12 08:22:08.172032 Z
+  evaluation_id: 53458
+  id: 82777
+  item_belong_id: 1428
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.172032 Z
+scores_82778: 
+  created_at: 2011-10-12 08:22:08.178682 Z
+  evaluation_id: 53459
+  id: 82778
+  item_belong_id: 1416
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.178682 Z
+scores_82779: 
+  created_at: 2011-10-12 08:22:08.181273 Z
+  evaluation_id: 53459
+  id: 82779
+  item_belong_id: 1417
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.181273 Z
+scores_82780: 
+  created_at: 2011-10-12 08:22:08.188444 Z
+  evaluation_id: 53459
+  id: 82780
+  item_belong_id: 1418
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.188444 Z
+scores_82781: 
+  created_at: 2011-10-12 08:22:08.191038 Z
+  evaluation_id: 53459
+  id: 82781
+  item_belong_id: 1419
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.191038 Z
+scores_82782: 
+  created_at: 2011-10-12 08:22:08.193427 Z
+  evaluation_id: 53459
+  id: 82782
+  item_belong_id: 1420
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.193427 Z
+scores_82783: 
+  created_at: 2011-10-12 08:22:08.195968 Z
+  evaluation_id: 53459
+  id: 82783
+  item_belong_id: 1421
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.195968 Z
+scores_82784: 
+  created_at: 2011-10-12 08:22:08.198422 Z
+  evaluation_id: 53459
+  id: 82784
+  item_belong_id: 1422
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.198422 Z
+scores_82785: 
+  created_at: 2011-10-12 08:22:08.200735 Z
+  evaluation_id: 53459
+  id: 82785
+  item_belong_id: 1423
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.200735 Z
+scores_82786: 
+  created_at: 2011-10-12 08:22:08.208666 Z
+  evaluation_id: 53459
+  id: 82786
+  item_belong_id: 1424
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.208666 Z
+scores_82787: 
+  created_at: 2011-10-12 08:22:08.211064 Z
+  evaluation_id: 53459
+  id: 82787
+  item_belong_id: 1425
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.211064 Z
+scores_82788: 
+  created_at: 2011-10-12 08:22:08.213514 Z
+  evaluation_id: 53459
+  id: 82788
+  item_belong_id: 1426
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.213514 Z
+scores_82789: 
+  created_at: 2011-10-12 08:22:08.216009 Z
+  evaluation_id: 53459
+  id: 82789
+  item_belong_id: 1427
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.216009 Z
+scores_82790: 
+  created_at: 2011-10-12 08:22:08.218497 Z
+  evaluation_id: 53459
+  id: 82790
+  item_belong_id: 1428
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.218497 Z
+scores_82791: 
+  created_at: 2011-10-12 08:22:08.232947 Z
+  evaluation_id: 53460
+  id: 82791
+  item_belong_id: 1416
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.232947 Z
+scores_82792: 
+  created_at: 2011-10-12 08:22:08.235494 Z
+  evaluation_id: 53460
+  id: 82792
+  item_belong_id: 1417
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.235494 Z
+scores_82793: 
+  created_at: 2011-10-12 08:22:08.238010 Z
+  evaluation_id: 53460
+  id: 82793
+  item_belong_id: 1418
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.238010 Z
+scores_82794: 
+  created_at: 2011-10-12 08:22:08.240487 Z
+  evaluation_id: 53460
+  id: 82794
+  item_belong_id: 1419
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.240487 Z
+scores_82795: 
+  created_at: 2011-10-12 08:22:08.243524 Z
+  evaluation_id: 53460
+  id: 82795
+  item_belong_id: 1420
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.243524 Z
+scores_82796: 
+  created_at: 2011-10-12 08:22:08.246034 Z
+  evaluation_id: 53460
+  id: 82796
+  item_belong_id: 1421
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.246034 Z
+scores_82797: 
+  created_at: 2011-10-12 08:22:08.250197 Z
+  evaluation_id: 53460
+  id: 82797
+  item_belong_id: 1422
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.250197 Z
+scores_82798: 
+  created_at: 2011-10-12 08:22:08.252902 Z
+  evaluation_id: 53460
+  id: 82798
+  item_belong_id: 1423
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.252902 Z
+scores_82799: 
+  created_at: 2011-10-12 08:22:08.255749 Z
+  evaluation_id: 53460
+  id: 82799
+  item_belong_id: 1424
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.255749 Z
+scores_82800: 
+  created_at: 2011-10-12 08:22:08.258433 Z
+  evaluation_id: 53460
+  id: 82800
+  item_belong_id: 1425
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.258433 Z
+scores_82801: 
+  created_at: 2011-10-12 08:22:08.261115 Z
+  evaluation_id: 53460
+  id: 82801
+  item_belong_id: 1426
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.261115 Z
+scores_82802: 
+  created_at: 2011-10-12 08:22:08.264092 Z
+  evaluation_id: 53460
+  id: 82802
+  item_belong_id: 1427
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.264092 Z
+scores_82803: 
+  created_at: 2011-10-12 08:22:08.266633 Z
+  evaluation_id: 53460
+  id: 82803
+  item_belong_id: 1428
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.266633 Z
+scores_82804: 
+  created_at: 2011-10-12 08:22:08.275144 Z
+  evaluation_id: 53461
+  id: 82804
+  item_belong_id: 1416
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.275144 Z
+scores_82805: 
+  created_at: 2011-10-12 08:22:08.277903 Z
+  evaluation_id: 53461
+  id: 82805
+  item_belong_id: 1417
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.277903 Z
+scores_82806: 
+  created_at: 2011-10-12 08:22:08.280351 Z
+  evaluation_id: 53461
+  id: 82806
+  item_belong_id: 1418
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.280351 Z
+scores_82807: 
+  created_at: 2011-10-12 08:22:08.282743 Z
+  evaluation_id: 53461
+  id: 82807
+  item_belong_id: 1419
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.282743 Z
+scores_82808: 
+  created_at: 2011-10-12 08:22:08.285009 Z
+  evaluation_id: 53461
+  id: 82808
+  item_belong_id: 1420
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.285009 Z
+scores_82809: 
+  created_at: 2011-10-12 08:22:08.287457 Z
+  evaluation_id: 53461
+  id: 82809
+  item_belong_id: 1421
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.287457 Z
+scores_82810: 
+  created_at: 2011-10-12 08:22:08.289827 Z
+  evaluation_id: 53461
+  id: 82810
+  item_belong_id: 1422
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.289827 Z
+scores_82811: 
+  created_at: 2011-10-12 08:22:08.292644 Z
+  evaluation_id: 53461
+  id: 82811
+  item_belong_id: 1423
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.292644 Z
+scores_82812: 
+  created_at: 2011-10-12 08:22:08.299510 Z
+  evaluation_id: 53461
+  id: 82812
+  item_belong_id: 1424
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.299510 Z
+scores_82813: 
+  created_at: 2011-10-12 08:22:08.302166 Z
+  evaluation_id: 53461
+  id: 82813
+  item_belong_id: 1425
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.302166 Z
+scores_82814: 
+  created_at: 2011-10-12 08:22:08.304673 Z
+  evaluation_id: 53461
+  id: 82814
+  item_belong_id: 1426
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.304673 Z
+scores_82815: 
+  created_at: 2011-10-12 08:22:08.307399 Z
+  evaluation_id: 53461
+  id: 82815
+  item_belong_id: 1427
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.307399 Z
+scores_82816: 
+  created_at: 2011-10-12 08:22:08.310140 Z
+  evaluation_id: 53461
+  id: 82816
+  item_belong_id: 1428
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.310140 Z
+scores_82817: 
+  created_at: 2011-10-12 08:22:08.318309 Z
+  evaluation_id: 53462
+  id: 82817
+  item_belong_id: 1416
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.318309 Z
+scores_82818: 
+  created_at: 2011-10-12 08:22:08.320844 Z
+  evaluation_id: 53462
+  id: 82818
+  item_belong_id: 1417
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.320844 Z
+scores_82819: 
+  created_at: 2011-10-12 08:22:08.323303 Z
+  evaluation_id: 53462
+  id: 82819
+  item_belong_id: 1418
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.323303 Z
+scores_82820: 
+  created_at: 2011-10-12 08:22:08.325724 Z
+  evaluation_id: 53462
+  id: 82820
+  item_belong_id: 1419
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.325724 Z
+scores_82821: 
+  created_at: 2011-10-12 08:22:08.328116 Z
+  evaluation_id: 53462
+  id: 82821
+  item_belong_id: 1420
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.328116 Z
+scores_82822: 
+  created_at: 2011-10-12 08:22:08.330602 Z
+  evaluation_id: 53462
+  id: 82822
+  item_belong_id: 1421
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.330602 Z
+scores_82823: 
+  created_at: 2011-10-12 08:22:08.332988 Z
+  evaluation_id: 53462
+  id: 82823
+  item_belong_id: 1422
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.332988 Z
+scores_82824: 
+  created_at: 2011-10-12 08:22:08.335477 Z
+  evaluation_id: 53462
+  id: 82824
+  item_belong_id: 1423
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.335477 Z
+scores_82825: 
+  created_at: 2011-10-12 08:22:08.337790 Z
+  evaluation_id: 53462
+  id: 82825
+  item_belong_id: 1424
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.337790 Z
+scores_82826: 
+  created_at: 2011-10-12 08:22:08.340117 Z
+  evaluation_id: 53462
+  id: 82826
+  item_belong_id: 1425
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.340117 Z
+scores_82827: 
+  created_at: 2011-10-12 08:22:08.342442 Z
+  evaluation_id: 53462
+  id: 82827
+  item_belong_id: 1426
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.342442 Z
+scores_82828: 
+  created_at: 2011-10-12 08:22:08.344905 Z
+  evaluation_id: 53462
+  id: 82828
+  item_belong_id: 1427
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.344905 Z
+scores_82829: 
+  created_at: 2011-10-12 08:22:08.347312 Z
+  evaluation_id: 53462
+  id: 82829
+  item_belong_id: 1428
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.347312 Z
+scores_82830: 
+  created_at: 2011-10-12 08:22:08.358027 Z
+  evaluation_id: 53463
+  id: 82830
+  item_belong_id: 1416
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.358027 Z
+scores_82831: 
+  created_at: 2011-10-12 08:22:08.360719 Z
+  evaluation_id: 53463
+  id: 82831
+  item_belong_id: 1417
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.360719 Z
+scores_82832: 
+  created_at: 2011-10-12 08:22:08.363424 Z
+  evaluation_id: 53463
+  id: 82832
+  item_belong_id: 1418
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.363424 Z
+scores_82833: 
+  created_at: 2011-10-12 08:22:08.365704 Z
+  evaluation_id: 53463
+  id: 82833
+  item_belong_id: 1419
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.365704 Z
+scores_82834: 
+  created_at: 2011-10-12 08:22:08.368085 Z
+  evaluation_id: 53463
+  id: 82834
+  item_belong_id: 1420
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.368085 Z
+scores_82835: 
+  created_at: 2011-10-12 08:22:08.372586 Z
+  evaluation_id: 53463
+  id: 82835
+  item_belong_id: 1421
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.372586 Z
+scores_82836: 
+  created_at: 2011-10-12 08:22:08.374901 Z
+  evaluation_id: 53463
+  id: 82836
+  item_belong_id: 1422
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.374901 Z
+scores_82837: 
+  created_at: 2011-10-12 08:22:08.377690 Z
+  evaluation_id: 53463
+  id: 82837
+  item_belong_id: 1423
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.377690 Z
+scores_82838: 
+  created_at: 2011-10-12 08:22:08.380488 Z
+  evaluation_id: 53463
+  id: 82838
+  item_belong_id: 1424
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.380488 Z
+scores_82839: 
+  created_at: 2011-10-12 08:22:08.387768 Z
+  evaluation_id: 53463
+  id: 82839
+  item_belong_id: 1425
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.387768 Z
+scores_82840: 
+  created_at: 2011-10-12 08:22:08.390721 Z
+  evaluation_id: 53463
+  id: 82840
+  item_belong_id: 1426
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.390721 Z
+scores_82841: 
+  created_at: 2011-10-12 08:22:08.394133 Z
+  evaluation_id: 53463
+  id: 82841
+  item_belong_id: 1427
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.394133 Z
+scores_82842: 
+  created_at: 2011-10-12 08:22:08.396617 Z
+  evaluation_id: 53463
+  id: 82842
+  item_belong_id: 1428
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.396617 Z
+scores_82843: 
+  created_at: 2011-10-12 08:22:08.403271 Z
+  evaluation_id: 53464
+  id: 82843
+  item_belong_id: 1416
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.403271 Z
+scores_82844: 
+  created_at: 2011-10-12 08:22:08.405723 Z
+  evaluation_id: 53464
+  id: 82844
+  item_belong_id: 1417
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.405723 Z
+scores_82845: 
+  created_at: 2011-10-12 08:22:08.409760 Z
+  evaluation_id: 53464
+  id: 82845
+  item_belong_id: 1418
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.409760 Z
+scores_82846: 
+  created_at: 2011-10-12 08:22:08.412234 Z
+  evaluation_id: 53464
+  id: 82846
+  item_belong_id: 1419
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.412234 Z
+scores_82847: 
+  created_at: 2011-10-12 08:22:08.461216 Z
+  evaluation_id: 53464
+  id: 82847
+  item_belong_id: 1420
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.461216 Z
+scores_82848: 
+  created_at: 2011-10-12 08:22:08.468474 Z
+  evaluation_id: 53464
+  id: 82848
+  item_belong_id: 1421
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.468474 Z
+scores_82849: 
+  created_at: 2011-10-12 08:22:08.473386 Z
+  evaluation_id: 53464
+  id: 82849
+  item_belong_id: 1422
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.473386 Z
+scores_82850: 
+  created_at: 2011-10-12 08:22:08.476355 Z
+  evaluation_id: 53464
+  id: 82850
+  item_belong_id: 1423
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.476355 Z
+scores_82851: 
+  created_at: 2011-10-12 08:22:08.479324 Z
+  evaluation_id: 53464
+  id: 82851
+  item_belong_id: 1424
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.479324 Z
+scores_82852: 
+  created_at: 2011-10-12 08:22:08.481943 Z
+  evaluation_id: 53464
+  id: 82852
+  item_belong_id: 1425
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.481943 Z
+scores_82853: 
+  created_at: 2011-10-12 08:22:08.484719 Z
+  evaluation_id: 53464
+  id: 82853
+  item_belong_id: 1426
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.484719 Z
+scores_82854: 
+  created_at: 2011-10-12 08:22:08.487172 Z
+  evaluation_id: 53464
+  id: 82854
+  item_belong_id: 1427
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.487172 Z
+scores_82855: 
+  created_at: 2011-10-12 08:22:08.489702 Z
+  evaluation_id: 53464
+  id: 82855
+  item_belong_id: 1428
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.489702 Z
+scores_82856: 
+  created_at: 2011-10-12 08:22:08.496393 Z
+  evaluation_id: 53465
+  id: 82856
+  item_belong_id: 1416
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.496393 Z
+scores_82857: 
+  created_at: 2011-10-12 08:22:08.498869 Z
+  evaluation_id: 53465
+  id: 82857
+  item_belong_id: 1417
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.498869 Z
+scores_82858: 
+  created_at: 2011-10-12 08:22:08.501804 Z
+  evaluation_id: 53465
+  id: 82858
+  item_belong_id: 1418
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.501804 Z
+scores_82859: 
+  created_at: 2011-10-12 08:22:08.512549 Z
+  evaluation_id: 53465
+  id: 82859
+  item_belong_id: 1419
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.512549 Z
+scores_82860: 
+  created_at: 2011-10-12 08:22:08.515325 Z
+  evaluation_id: 53465
+  id: 82860
+  item_belong_id: 1420
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.515325 Z
+scores_82861: 
+  created_at: 2011-10-12 08:22:08.517731 Z
+  evaluation_id: 53465
+  id: 82861
+  item_belong_id: 1421
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.517731 Z
+scores_82862: 
+  created_at: 2011-10-12 08:22:08.520341 Z
+  evaluation_id: 53465
+  id: 82862
+  item_belong_id: 1422
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.520341 Z
+scores_82863: 
+  created_at: 2011-10-12 08:22:08.522777 Z
+  evaluation_id: 53465
+  id: 82863
+  item_belong_id: 1423
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.522777 Z
+scores_82864: 
+  created_at: 2011-10-12 08:22:08.525277 Z
+  evaluation_id: 53465
+  id: 82864
+  item_belong_id: 1424
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.525277 Z
+scores_82865: 
+  created_at: 2011-10-12 08:22:08.527726 Z
+  evaluation_id: 53465
+  id: 82865
+  item_belong_id: 1425
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.527726 Z
+scores_82866: 
+  created_at: 2011-10-12 08:22:08.532984 Z
+  evaluation_id: 53465
+  id: 82866
+  item_belong_id: 1426
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.532984 Z
+scores_82867: 
+  created_at: 2011-10-12 08:22:08.535943 Z
+  evaluation_id: 53465
+  id: 82867
+  item_belong_id: 1427
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.535943 Z
+scores_82868: 
+  created_at: 2011-10-12 08:22:08.538468 Z
+  evaluation_id: 53465
+  id: 82868
+  item_belong_id: 1428
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.538468 Z
+scores_82869: 
+  created_at: 2011-10-12 08:22:08.551602 Z
+  evaluation_id: 53466
+  id: 82869
+  item_belong_id: 1429
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.551602 Z
+scores_82870: 
+  created_at: 2011-10-12 08:22:08.555785 Z
+  evaluation_id: 53466
+  id: 82870
+  item_belong_id: 1430
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.555785 Z
+scores_82871: 
+  created_at: 2011-10-12 08:22:08.561708 Z
+  evaluation_id: 53466
+  id: 82871
+  item_belong_id: 1431
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.561708 Z
+scores_82872: 
+  created_at: 2011-10-12 08:22:08.564796 Z
+  evaluation_id: 53466
+  id: 82872
+  item_belong_id: 1432
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.564796 Z
+scores_82873: 
+  created_at: 2011-10-12 08:22:08.567728 Z
+  evaluation_id: 53466
+  id: 82873
+  item_belong_id: 1433
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.567728 Z
+scores_82874: 
+  created_at: 2011-10-12 08:22:08.570225 Z
+  evaluation_id: 53466
+  id: 82874
+  item_belong_id: 1434
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.570225 Z
+scores_82875: 
+  created_at: 2011-10-12 08:22:08.572898 Z
+  evaluation_id: 53466
+  id: 82875
+  item_belong_id: 1435
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.572898 Z
+scores_82876: 
+  created_at: 2011-10-12 08:22:08.575489 Z
+  evaluation_id: 53466
+  id: 82876
+  item_belong_id: 1436
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.575489 Z
+scores_82877: 
+  created_at: 2011-10-12 08:22:08.577873 Z
+  evaluation_id: 53466
+  id: 82877
+  item_belong_id: 1437
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.577873 Z
+scores_82878: 
+  created_at: 2011-10-12 08:22:08.585877 Z
+  evaluation_id: 53466
+  id: 82878
+  item_belong_id: 1438
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.585877 Z
+scores_82879: 
+  created_at: 2011-10-12 08:22:08.588463 Z
+  evaluation_id: 53466
+  id: 82879
+  item_belong_id: 1439
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.588463 Z
+scores_82880: 
+  created_at: 2011-10-12 08:22:08.590735 Z
+  evaluation_id: 53466
+  id: 82880
+  item_belong_id: 1440
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.590735 Z
+scores_82881: 
+  created_at: 2011-10-12 08:22:08.593377 Z
+  evaluation_id: 53466
+  id: 82881
+  item_belong_id: 1441
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.593377 Z
+scores_82882: 
+  created_at: 2011-10-12 08:22:08.600139 Z
+  evaluation_id: 53467
+  id: 82882
+  item_belong_id: 1416
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.600139 Z
+scores_82883: 
+  created_at: 2011-10-12 08:22:08.602857 Z
+  evaluation_id: 53467
+  id: 82883
+  item_belong_id: 1417
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.602857 Z
+scores_82884: 
+  created_at: 2011-10-12 08:22:08.605454 Z
+  evaluation_id: 53467
+  id: 82884
+  item_belong_id: 1418
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.605454 Z
+scores_82885: 
+  created_at: 2011-10-12 08:22:08.607821 Z
+  evaluation_id: 53467
+  id: 82885
+  item_belong_id: 1419
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.607821 Z
+scores_82886: 
+  created_at: 2011-10-12 08:22:08.610228 Z
+  evaluation_id: 53467
+  id: 82886
+  item_belong_id: 1420
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.610228 Z
+scores_82887: 
+  created_at: 2011-10-12 08:22:08.612731 Z
+  evaluation_id: 53467
+  id: 82887
+  item_belong_id: 1421
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.612731 Z
+scores_82888: 
+  created_at: 2011-10-12 08:22:08.615218 Z
+  evaluation_id: 53467
+  id: 82888
+  item_belong_id: 1422
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.615218 Z
+scores_82889: 
+  created_at: 2011-10-12 08:22:08.617607 Z
+  evaluation_id: 53467
+  id: 82889
+  item_belong_id: 1423
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.617607 Z
+scores_82890: 
+  created_at: 2011-10-12 08:22:08.620047 Z
+  evaluation_id: 53467
+  id: 82890
+  item_belong_id: 1424
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.620047 Z
+scores_82891: 
+  created_at: 2011-10-12 08:22:08.622476 Z
+  evaluation_id: 53467
+  id: 82891
+  item_belong_id: 1425
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.622476 Z
+scores_82892: 
+  created_at: 2011-10-12 08:22:08.624838 Z
+  evaluation_id: 53467
+  id: 82892
+  item_belong_id: 1426
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.624838 Z
+scores_82893: 
+  created_at: 2011-10-12 08:22:08.627122 Z
+  evaluation_id: 53467
+  id: 82893
+  item_belong_id: 1427
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.627122 Z
+scores_82894: 
+  created_at: 2011-10-12 08:22:08.629454 Z
+  evaluation_id: 53467
+  id: 82894
+  item_belong_id: 1428
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.629454 Z
+scores_82895: 
+  created_at: 2011-10-12 08:22:08.636215 Z
+  evaluation_id: 53468
+  id: 82895
+  item_belong_id: 1416
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.636215 Z
+scores_82896: 
+  created_at: 2011-10-12 08:22:08.639080 Z
+  evaluation_id: 53468
+  id: 82896
+  item_belong_id: 1417
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.639080 Z
+scores_82897: 
+  created_at: 2011-10-12 08:22:08.641388 Z
+  evaluation_id: 53468
+  id: 82897
+  item_belong_id: 1418
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.641388 Z
+scores_82898: 
+  created_at: 2011-10-12 08:22:08.643852 Z
+  evaluation_id: 53468
+  id: 82898
+  item_belong_id: 1419
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.643852 Z
+scores_82899: 
+  created_at: 2011-10-12 08:22:08.646092 Z
+  evaluation_id: 53468
+  id: 82899
+  item_belong_id: 1420
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.646092 Z
+scores_82900: 
+  created_at: 2011-10-12 08:22:08.648715 Z
+  evaluation_id: 53468
+  id: 82900
+  item_belong_id: 1421
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.648715 Z
+scores_82901: 
+  created_at: 2011-10-12 08:22:08.650938 Z
+  evaluation_id: 53468
+  id: 82901
+  item_belong_id: 1422
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.650938 Z
+scores_82902: 
+  created_at: 2011-10-12 08:22:08.657012 Z
+  evaluation_id: 53468
+  id: 82902
+  item_belong_id: 1423
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.657012 Z
+scores_82903: 
+  created_at: 2011-10-12 08:22:08.659563 Z
+  evaluation_id: 53468
+  id: 82903
+  item_belong_id: 1424
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.659563 Z
+scores_82904: 
+  created_at: 2011-10-12 08:22:08.661877 Z
+  evaluation_id: 53468
+  id: 82904
+  item_belong_id: 1425
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.661877 Z
+scores_82905: 
+  created_at: 2011-10-12 08:22:08.664306 Z
+  evaluation_id: 53468
+  id: 82905
+  item_belong_id: 1426
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.664306 Z
+scores_82906: 
+  created_at: 2011-10-12 08:22:08.666804 Z
+  evaluation_id: 53468
+  id: 82906
+  item_belong_id: 1427
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.666804 Z
+scores_82907: 
+  created_at: 2011-10-12 08:22:08.670461 Z
+  evaluation_id: 53468
+  id: 82907
+  item_belong_id: 1428
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.670461 Z
+scores_82908: 
+  created_at: 2011-10-12 08:22:08.677492 Z
+  evaluation_id: 53469
+  id: 82908
+  item_belong_id: 1416
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.677492 Z
+scores_82909: 
+  created_at: 2011-10-12 08:22:08.680214 Z
+  evaluation_id: 53469
+  id: 82909
+  item_belong_id: 1417
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.680214 Z
+scores_82910: 
+  created_at: 2011-10-12 08:22:08.682867 Z
+  evaluation_id: 53469
+  id: 82910
+  item_belong_id: 1418
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.682867 Z
+scores_82911: 
+  created_at: 2011-10-12 08:22:08.685377 Z
+  evaluation_id: 53469
+  id: 82911
+  item_belong_id: 1419
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.685377 Z
+scores_82912: 
+  created_at: 2011-10-12 08:22:08.687738 Z
+  evaluation_id: 53469
+  id: 82912
+  item_belong_id: 1420
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.687738 Z
+scores_82913: 
+  created_at: 2011-10-12 08:22:08.689923 Z
+  evaluation_id: 53469
+  id: 82913
+  item_belong_id: 1421
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.689923 Z
+scores_82914: 
+  created_at: 2011-10-12 08:22:08.692294 Z
+  evaluation_id: 53469
+  id: 82914
+  item_belong_id: 1422
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.692294 Z
+scores_82915: 
+  created_at: 2011-10-12 08:22:08.694664 Z
+  evaluation_id: 53469
+  id: 82915
+  item_belong_id: 1423
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.694664 Z
+scores_82916: 
+  created_at: 2011-10-12 08:22:08.697002 Z
+  evaluation_id: 53469
+  id: 82916
+  item_belong_id: 1424
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.697002 Z
+scores_82917: 
+  created_at: 2011-10-12 08:22:08.699565 Z
+  evaluation_id: 53469
+  id: 82917
+  item_belong_id: 1425
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.699565 Z
+scores_82918: 
+  created_at: 2011-10-12 08:22:08.702061 Z
+  evaluation_id: 53469
+  id: 82918
+  item_belong_id: 1426
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.702061 Z
+scores_82919: 
+  created_at: 2011-10-12 08:22:08.704489 Z
+  evaluation_id: 53469
+  id: 82919
+  item_belong_id: 1427
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.704489 Z
+scores_82920: 
+  created_at: 2011-10-12 08:22:08.706817 Z
+  evaluation_id: 53469
+  id: 82920
+  item_belong_id: 1428
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.706817 Z
+scores_82921: 
+  created_at: 2011-10-12 08:22:08.713420 Z
+  evaluation_id: 53470
+  id: 82921
+  item_belong_id: 1416
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.713420 Z
+scores_82922: 
+  created_at: 2011-10-12 08:22:08.715929 Z
+  evaluation_id: 53470
+  id: 82922
+  item_belong_id: 1417
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.715929 Z
+scores_82923: 
+  created_at: 2011-10-12 08:22:08.718249 Z
+  evaluation_id: 53470
+  id: 82923
+  item_belong_id: 1418
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.718249 Z
+scores_82924: 
+  created_at: 2011-10-12 08:22:08.720759 Z
+  evaluation_id: 53470
+  id: 82924
+  item_belong_id: 1419
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.720759 Z
+scores_82925: 
+  created_at: 2011-10-12 08:22:08.723212 Z
+  evaluation_id: 53470
+  id: 82925
+  item_belong_id: 1420
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.723212 Z
+scores_82926: 
+  created_at: 2011-10-12 08:22:08.733528 Z
+  evaluation_id: 53470
+  id: 82926
+  item_belong_id: 1421
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.733528 Z
+scores_82927: 
+  created_at: 2011-10-12 08:22:08.736088 Z
+  evaluation_id: 53470
+  id: 82927
+  item_belong_id: 1422
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.736088 Z
+scores_82928: 
+  created_at: 2011-10-12 08:22:08.738358 Z
+  evaluation_id: 53470
+  id: 82928
+  item_belong_id: 1423
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.738358 Z
+scores_82929: 
+  created_at: 2011-10-12 08:22:08.740873 Z
+  evaluation_id: 53470
+  id: 82929
+  item_belong_id: 1424
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.740873 Z
+scores_82930: 
+  created_at: 2011-10-12 08:22:08.743354 Z
+  evaluation_id: 53470
+  id: 82930
+  item_belong_id: 1425
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.743354 Z
+scores_82931: 
+  created_at: 2011-10-12 08:22:08.746485 Z
+  evaluation_id: 53470
+  id: 82931
+  item_belong_id: 1426
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.746485 Z
+scores_82932: 
+  created_at: 2011-10-12 08:22:08.749168 Z
+  evaluation_id: 53470
+  id: 82932
+  item_belong_id: 1427
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.749168 Z
+scores_82933: 
+  created_at: 2011-10-12 08:22:08.751580 Z
+  evaluation_id: 53470
+  id: 82933
+  item_belong_id: 1428
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.751580 Z
+scores_82934: 
+  created_at: 2011-10-12 08:22:08.758493 Z
+  evaluation_id: 53471
+  id: 82934
+  item_belong_id: 1416
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.758493 Z
+scores_82935: 
+  created_at: 2011-10-12 08:22:08.809915 Z
+  evaluation_id: 53471
+  id: 82935
+  item_belong_id: 1417
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.809915 Z
+scores_82936: 
+  created_at: 2011-10-12 08:22:08.813320 Z
+  evaluation_id: 53471
+  id: 82936
+  item_belong_id: 1418
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.813320 Z
+scores_82937: 
+  created_at: 2011-10-12 08:22:08.815975 Z
+  evaluation_id: 53471
+  id: 82937
+  item_belong_id: 1419
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.815975 Z
+scores_82938: 
+  created_at: 2011-10-12 08:22:08.818478 Z
+  evaluation_id: 53471
+  id: 82938
+  item_belong_id: 1420
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.818478 Z
+scores_82939: 
+  created_at: 2011-10-12 08:22:08.820843 Z
+  evaluation_id: 53471
+  id: 82939
+  item_belong_id: 1421
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.820843 Z
+scores_82940: 
+  created_at: 2011-10-12 08:22:08.824995 Z
+  evaluation_id: 53471
+  id: 82940
+  item_belong_id: 1422
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.824995 Z
+scores_82941: 
+  created_at: 2011-10-12 08:22:08.827583 Z
+  evaluation_id: 53471
+  id: 82941
+  item_belong_id: 1423
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.827583 Z
+scores_82942: 
+  created_at: 2011-10-12 08:22:08.829940 Z
+  evaluation_id: 53471
+  id: 82942
+  item_belong_id: 1424
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.829940 Z
+scores_82943: 
+  created_at: 2011-10-12 08:22:08.832938 Z
+  evaluation_id: 53471
+  id: 82943
+  item_belong_id: 1425
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.832938 Z
+scores_82944: 
+  created_at: 2011-10-12 08:22:08.835499 Z
+  evaluation_id: 53471
+  id: 82944
+  item_belong_id: 1426
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.835499 Z
+scores_82945: 
+  created_at: 2011-10-12 08:22:08.837891 Z
+  evaluation_id: 53471
+  id: 82945
+  item_belong_id: 1427
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.837891 Z
+scores_82946: 
+  created_at: 2011-10-12 08:22:08.840438 Z
+  evaluation_id: 53471
+  id: 82946
+  item_belong_id: 1428
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.840438 Z
+scores_82947: 
+  created_at: 2011-10-12 08:22:08.847202 Z
+  evaluation_id: 53472
+  id: 82947
+  item_belong_id: 1416
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.847202 Z
+scores_82948: 
+  created_at: 2011-10-12 08:22:08.849851 Z
+  evaluation_id: 53472
+  id: 82948
+  item_belong_id: 1417
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.849851 Z
+scores_82949: 
+  created_at: 2011-10-12 08:22:08.852266 Z
+  evaluation_id: 53472
+  id: 82949
+  item_belong_id: 1418
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.852266 Z
+scores_82950: 
+  created_at: 2011-10-12 08:22:08.856508 Z
+  evaluation_id: 53472
+  id: 82950
+  item_belong_id: 1419
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.856508 Z
+scores_82951: 
+  created_at: 2011-10-12 08:22:08.859500 Z
+  evaluation_id: 53472
+  id: 82951
+  item_belong_id: 1420
+  point_id: 3
+  updated_at: 2011-10-12 08:22:08.859500 Z
+scores_82952: 
+  created_at: 2011-10-12 08:22:08.861939 Z
+  evaluation_id: 53472
+  id: 82952
+  item_belong_id: 1421
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.861939 Z
+scores_82953: 
+  created_at: 2011-10-12 08:22:08.864824 Z
+  evaluation_id: 53472
+  id: 82953
+  item_belong_id: 1422
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.864824 Z
+scores_82954: 
+  created_at: 2011-10-12 08:22:08.867606 Z
+  evaluation_id: 53472
+  id: 82954
+  item_belong_id: 1423
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.867606 Z
+scores_82955: 
+  created_at: 2011-10-12 08:22:08.870323 Z
+  evaluation_id: 53472
+  id: 82955
+  item_belong_id: 1424
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.870323 Z
+scores_82956: 
+  created_at: 2011-10-12 08:22:08.873308 Z
+  evaluation_id: 53472
+  id: 82956
+  item_belong_id: 1425
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.873308 Z
+scores_82957: 
+  created_at: 2011-10-12 08:22:08.876464 Z
+  evaluation_id: 53472
+  id: 82957
+  item_belong_id: 1426
+  point_id: 2
+  updated_at: 2011-10-12 08:22:08.876464 Z
+scores_82958: 
+  created_at: 2011-10-12 08:22:08.879059 Z
+  evaluation_id: 53472
+  id: 82958
+  item_belong_id: 1427
+  point_id: 4
+  updated_at: 2011-10-12 08:22:08.879059 Z
+scores_82959: 
+  created_at: 2011-10-12 08:22:08.881553 Z
+  evaluation_id: 53472
+  id: 82959
+  item_belong_id: 1428
+  point_id: 1
+  updated_at: 2011-10-12 08:22:08.881553 Z
