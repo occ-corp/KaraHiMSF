@@ -50,7 +50,7 @@ class User < ActiveRecord::Base
   has_many :evaluation_trees, :dependent => :destroy
   accepts_nested_attributes_for :evaluation_trees, :allow_destroy => true
 
-  attr_accessible :evaluations_attributes, :qualification_id, :qualification, :item_group_id, :email, :name, :kana, :code, :note, :excluded
+  attr_accessible :evaluations_attributes, :qualification_id, :qualification, :item_group_id, :item_group, :email, :name, :kana, :code, :note, :excluded
 
   has_one :adjustment
 

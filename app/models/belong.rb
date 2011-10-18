@@ -8,7 +8,7 @@ class Belong < ActiveRecord::Base
   validates_presence_of :user, :division
   validates_uniqueness_of :user_id, :scope => 'division_id'
 
-  attr_accessible :job_title, :work_assignment, :user, :division
+  attr_accessible :job_title, :work_assignment, :user, :division, :primary_flag
 
   scope :order_by_job_title, lambda {
     {

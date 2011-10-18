@@ -635,10 +635,11 @@ class EvaluationTreesController < ApplicationController
             # end
           },
         }
-        JSON.parse(params[:evaluation_trees] || "[]").each do |evaluation_tree|
+
+        JSON.parse(params[:evaluation_trees].to_s.empty? ? "[]" : params[:evaluation_trees]).each do |evaluation_tree|
           @klass.tranverse evaluation_tree, callbacks
         end
-        EvaluationTree.find(:all, :conditions => [<<-EOS, JSON.parse(params[:deleted_evaluation_trees] || "[]")]).each do |evaluation_tree|
+        EvaluationTree.find(:all, :conditions => [<<-EOS, JSON.parse(params[:deleted_evaluation_trees].to_s.empty? || "[]")]).each do |evaluation_tree|
           evaluation_trees.id in(?)
         EOS
           @klass.remove evaluation_tree, callbacks
@@ -714,7 +715,7 @@ class EvaluationTreesController < ApplicationController
         head_skipped = true
         next
       end
-      row[8 .. (row.length - 1)].each do |userlogin|
+      row[10 .. (row.length - 1)].each do |userlogin|
         userlogin = userlogin.to_s
         unless userlogin.empty?
           if /^group/ =~ userlogin
@@ -750,7 +751,7 @@ class EvaluationTreesController < ApplicationController
       evaluation_tree_id = row.first
       id_or_name = nil
       nestlevel = 0
-      row[9 .. (row.length - 1)].each do |userlogin|
+      row[10 .. (row.length - 1)].each do |userlogin|
         userlogin = userlogin.to_s
         unless userlogin.empty?
           if /^group/ =~ userlogin
@@ -764,11 +765,10 @@ class EvaluationTreesController < ApplicationController
             if name_id_map[userlogin]
               id_or_name = name_id_map[userlogin]
             else
-              node = klass.find(:first, :include => :user, :conditions => ["users.login = ?", userlogin])
-              if node
+              if (node = klass.find(:first, :include => :user, :conditions => ["users.login = ?", userlogin]))
                 id_or_name = node.id
               else
-                raise "Cound not find EvaluationTree matchs users.login = #{userlogin}"
+                id_or_name = klass.create!(:user => User.find_by_login(userlogin), :selected => false).id
               end
             end
           end

@@ -82,7 +82,7 @@
     <tr>
       <td><%= I18n.t('affiliation') %></td>
       <td>
-        <%= @user.division_name_paths.collect {|name| h(name)}.join('<br />') %>
+        <%= @user.division_name_paths.collect {|name| h(name)}.join('<br />').html_safe %>
       </td>
     </tr>
     <tr>

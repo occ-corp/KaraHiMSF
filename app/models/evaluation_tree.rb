@@ -210,9 +210,9 @@ class EvaluationTree < ActiveRecord::Base
   def self.to_csv(field, with_note=false, *options)
     CSV.generate do |csv|
       if with_note
-        csv << [I18n.t('eval_group_id'), I18n.t('eval_flag'), I18n.t('excluded_flag'), I18n.t('employee_id2'), I18n.t('employee_name'), I18n.t('department'), I18n.t('job_title'), I18n.t('job'), I18n.t('note'), I18n.t('login')]
+        csv << [I18n.t('eval_group_id'), I18n.t('eval_flag'), I18n.t('excluded_flag'), I18n.t('employee_id2'), I18n.t('employee_name'), I18n.t('department'), I18n.t('job_title'), I18n.t('job'), I18n.t('division_lft'), I18n.t('note'), I18n.t('login')]
       else
-        csv << [I18n.t('eval_group_id'), I18n.t('eval_flag'), I18n.t('excluded_flag'), I18n.t('employee_id2'), I18n.t('employee_name'), I18n.t('department'), I18n.t('job_title'), I18n.t('job'), I18n.t('login')]
+        csv << [I18n.t('eval_group_id'), I18n.t('eval_flag'), I18n.t('excluded_flag'), I18n.t('employee_id2'), I18n.t('employee_name'), I18n.t('department'), I18n.t('job_title'), I18n.t('job'), I18n.t('division_lft'), I18n.t('login')]
       end
       self.order_by_lft.all(*options).each do |e|
         a = [e.id, (!e.selected ? "FALSE" : nil), (e.excluded ? "TRUE" : nil)]
@@ -220,8 +220,8 @@ class EvaluationTree < ActiveRecord::Base
           user = e.user
           a.concat([user.code, user.name])
           belong = e.user.belongs.first
-          if belong and belong.division
-            a << belong.division.name
+          if belong and (d = belong.division)
+            a << ('  ' * d.level + d.name)
           else
             a << nil
           end
@@ -236,14 +236,19 @@ class EvaluationTree < ActiveRecord::Base
           else
             a << nil
           end
+          if belong and belong.division
+            a << belong.division.lft
+          else
+            a << nil
+          end
           if with_note
             a.concat([e.note])
           end
         else
           if with_note
-            a.concat([nil, I18n.t('multifaceted_eval_group'), nil, nil, nil, nil])
+            a.concat([nil, I18n.t('multifaceted_eval_group'), nil, nil, nil, nil, nil])
           else
-            a.concat([nil, I18n.t('multifaceted_eval_group'), nil, nil, nil])
+            a.concat([nil, I18n.t('multifaceted_eval_group'), nil, nil, nil, nil])
           end
         end
         e.level.times do
